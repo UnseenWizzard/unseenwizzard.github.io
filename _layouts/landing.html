@@ -1,0 +1,35 @@
+---
+layout: default
+title: Nicolá M. H. Riedmann
+---
+
+<div class="column col-9 centered">
+    <!-- ABOUT section -->
+    <div class="card m-2">
+        <div class="card-header">
+            <div class="card-title h2">ABOUT</div>
+        </div>
+        <div class="card-body">
+                {% include about.html %}
+        </div>
+    </div>
+    <!-- POSTS section -->
+    <div class="card m-2">
+        <div class="card-header">
+            <div class="card-title h2">POSTS</div>
+        </div>
+    </div>
+    {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            <div class="card m-2">
+                <div class="card-header">
+                    <div class="card-title h5">{{ post.title }}</div>
+                    <div class="card-subtitle text-gray">{{ post.date }}</div>
+                </div>
+                <div class="card-body">
+                    {{post.blurb}}
+                </div>
+            </div>
+        </a>  
+    {% endfor %}
+</div>
