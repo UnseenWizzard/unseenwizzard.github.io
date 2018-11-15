@@ -73,6 +73,17 @@
             color: $brand-color;
         }
 
+        a.button{
+            margin: 1em;
+            color: $brand-color;
+        }
+
+        .header-badge:hover{        
+            transition: $anim-speed;   
+            opacity: 0.7;
+            color: $grey-color;
+        }
+
         p.description{            
             font-size: 2rem;
             text-align: left;
