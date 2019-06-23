@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #fed136;
+    color: #EF6C00;
     /* color: #219ab3; */
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -55,7 +55,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #fec503;
+    color: #EF6C00;
     /* color: #11505d; */
 }
 
@@ -356,7 +356,7 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     color: #222;
-    background-color: #fec503;
+    background-color: #EF6C00;
 }
 
 footer {

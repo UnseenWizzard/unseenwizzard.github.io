@@ -1,8 +1,8 @@
 ---
 layout: null
 title: January 2011 - July 2013
-subtitle:
-image: "img/timeline/1.jpg"
+subtitle: Teaching Studies
+image: "img/timeline/work.jpg"
 ---
 I fulfilled my mandatory civil service in a home for children from troubled families. Here I learned how much I enjoy sharing knowledge and helping someone learn new things, which made me decide to study to become a teacher of Computer Science and English. 
 

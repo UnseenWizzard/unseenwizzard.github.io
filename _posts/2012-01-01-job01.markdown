@@ -1,9 +1,0 @@
----
-layout: null
-title: October 2013 - July 2016
-subtitle:
-image: "img/timeline/2.jpg"
----
-Moving from Tyrol to Graz in 2013, I earned my Bachelor's Degree in Computer Science at Technical University Graz. 
-
-You can find my thesis on extending a Long-Term Autonomy project with semantic map information [here](/assets/Semantic_Map_Bachelorthesis_N_Riedmann_2016.pdf) and the accompanying source code on my gitlab at [https://gitlab.com/UnseenWizzard/lta_semantic_map/](https://gitlab.com/UnseenWizzard/lta_semantic_map/)
