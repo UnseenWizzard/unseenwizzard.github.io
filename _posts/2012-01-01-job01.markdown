@@ -1,7 +1,9 @@
 ---
 layout: null
-title: May 2012 - January 2013
+title: October 2013 - July 2016
 subtitle:
 image: "img/timeline/2.jpg"
 ---
-Ex mei electram eloquentiam. An torquatos intellegebat pro, solum liber saepe et eos. Postea essent meliore ne mei, brute referrentur et eum, cum ei oblique tincidunt definitiones.
+Moving from Tyrol to Graz in 2013, I earned my Bachelor's Degree in Computer Science at Technical University Graz. 
+
+You can find my thesis on extending a Long-Term Autonomy project with semantic map information [here](/assets/Semantic_Map_Bachelorthesis_N_Riedmann_2016.pdf) and the accompanying source code on my gitlab at [https://gitlab.com/UnseenWizzard/lta_semantic_map/](https://gitlab.com/UnseenWizzard/lta_semantic_map/)

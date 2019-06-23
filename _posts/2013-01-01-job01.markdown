@@ -1,7 +1,7 @@
 ---
 layout: null
-title: January 2013 - June 2014
+title: July 2016 - October 2018
 subtitle:
 image: "img/timeline/3.jpg"
 ---
-Populo tritani usu ea, justo commodo ea usu. Oblique feugiat accumsan cu mel, eos te altera fierent legendos. Paulo tacimates ei quo. Ea est alia nonumy salutatus, tamquam luptatum ex mea, ne mundi populo alterum eam. In solet populo ius, ad eum fugit facilisi.
+After earning my Bachelor's degree, I started working at [incubedIT](http://www.incubedit.com) while also pursuing a Master's degree in Computer Science, with a focus on Robotics and AI. 
