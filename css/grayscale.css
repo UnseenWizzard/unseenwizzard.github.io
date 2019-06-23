@@ -45,8 +45,7 @@ p {
 }
 
 a {
-    color: #EF6C00;
-    /* color: #219ab3; */
+    color: rgb(219, 127, 52);
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -55,8 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #EF6C00;
-    /* color: #11505d; */
+    color: rgb(219, 127, 52);
 }
 
 .light {
@@ -140,7 +138,10 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgb(0, 0, 0) 80%), url(../img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -356,7 +357,7 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     color: #222;
-    background-color: #EF6C00;
+    background-color: rgb(219, 127, 52);
 }
 
 footer {
