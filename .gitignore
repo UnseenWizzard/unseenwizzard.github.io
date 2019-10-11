@@ -2,3 +2,4 @@ _site/*
 _deploy/*
 Rakefile
 .jekyll-metadata
+.jekyll-cache
