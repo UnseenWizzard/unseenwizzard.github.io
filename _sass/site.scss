@@ -15,7 +15,7 @@ body {
 	@extend %extend1;
 	font-family: $font1;
 	@include font-rem($doc-font-size);
-	color: $color_tuatara;
+	color: $color_alabaster;
 	background-color: $bodycolor;
 	background-position: center center;
 	background-attachment: fixed;
@@ -75,7 +75,7 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $white;
+	background-color: $color_shark;
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
