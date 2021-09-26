@@ -5,7 +5,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="/">
                     <i class="fas fa-code"></i>  {{ site.title }}
                 </a>
             </div>
@@ -18,10 +18,18 @@
                         <a href="#page-top"></a>
                     </li>
 
-                    {% for page in site.pages | sort: "title" %}
-                    {% unless page.url == "/index.html" or page.url == "/" %}
+                    {% for sitePage in site.pages | sort: "title" %}
+                    {% unless sitePage.url == "/index.html" or sitePage.url == "/" %} 
                     <li>
-                        <a class="page-scroll" href="#{{ page.title }}">{{ page.title }}</a>
+                        {% if sitePage.section-type != null %}
+                            {% if page.url == "/index.html" or page.url == "/" %}
+                                <a class="page-scroll" href="#{{ sitePage.title }}">{{ sitePage.title }}</a>
+                            {% else %}
+                                <a href="/#{{ sitePage.title }}">{{ sitePage.title }}</a>
+                            {% endif %}
+                        {% else %}
+                        <a href="{{ sitePage.url }}">{{ sitePage.title }}</a>
+                        {% endif %}
                     </li>
                     {% endunless %}
                     {% endfor %}

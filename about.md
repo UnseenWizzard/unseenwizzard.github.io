@@ -5,9 +5,11 @@ title: About
 ---
 ## About
 
+<img src="img/me_bw.png" class="img-circle" width="40%" alt="Photograph of Nico Riedmann"/> 
+
 This page is here to tell you a bit about me and what I do. 
 
-You can also [dowload my CV](assets/cv_nriedmann.pdf)!
+You can also find [my CV](/cv) here!
 
 #### <i class="fas fa-globe-europe"></i> Aside from Software
 

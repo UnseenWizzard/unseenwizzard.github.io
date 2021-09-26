@@ -54,11 +54,16 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: rgb(219, 127, 52);
+    color: rgb(147, 183, 190);
 }
 
 .light {
     font-weight: 400;
+}
+
+.subtle {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .navbar-custom {
@@ -392,4 +397,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+@media(max-width:1000px) {
+    .post-nav {
+        visibility: hidden;
+        display: none;
+    }
+
 }

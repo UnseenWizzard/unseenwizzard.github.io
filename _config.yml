@@ -4,13 +4,20 @@ baseurl: ""
 # Site Settings
 title: Nico Riedmann
 email: nico@riedmann.dev
-description:  "I'm a software architect at a company developing software for autonomous logistics vehicles. 
-I'm interested in Robotics, AI, ML, Software Architecture, Clean Code, Agile, Leadership and many more things.
-This page is to collect things I find interesting as well as links to private projects."
-keywords: "riedmann, software, cv, portfolio"
+author: Nico Riedmann
+description:  "I'm a Software Engineer interested in smart systems and the interactions between smart people needed to create them. This page is to collect my thoughts and things I find interesting."
+keywords: "riedmann, software, cv, blog"
 
-# Career Settings
-# Default career thumbnail image.
+# custom settings
 career-img: "img/timeline/default.jpg"
+cv-path: "/assets/cv_nriedmann.pdf"
+cv-style: davewhipp
 
-exclude: ["Rakefile", "LICENSE", "readme.markdown"]
+# markdown settings
+markdown: kramdown
+highligher: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "dockerServer.sh"]

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+{% include head.html %}
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    {% include navigation.html %}
+
+    <header class="intro">
+      <div class="intro-body">
+          <div class="container text-center">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                      <h1 class="brand-heading">&nbsp;</h1>
+                      <h1 class="intro-text">{{ page.title }}</h1>
+                      <p class="intro-text">{{ page.subtitle }}</p>
+                      <p class="subtle">{{ page.date | date: "%Y-%m-%d" }} | {{ content | strip_html | number_of_words | divided_by: 180 | plus: 1}} min read</p>
+                  </div>
+              </div>
+              <div class="row">
+                    <div class="col-md-2 col-md-offset-3 post-nav">
+                      {% if page.next.url %}
+                      <a href="{{ page.next.url }}" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-left animated"></i>
+                      </a>
+                      {% endif %}
+                      </div>
+                      <div class="col-md-2">
+                      <a href="#content" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                      </div>
+                      <div class="col-md-2 post-nav">
+                      {% if page.previous.url %}
+                      <a href="{{ page.previous.url }}" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-right animated"></i>
+                      </a>
+                      {% endif %}
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+
+    <section id="content" class="container content-section">
+        {{ content }}
+    </section>
+
+    {% include footer.html %}
+    {% include js.html %}
+
+  </body>
+</html>
