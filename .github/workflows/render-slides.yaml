@@ -18,5 +18,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           COMMIT_MSG: "Add rendered slides"
+          NO_FORCE_PUSH: true
           PUBLISH_TO_BRANCH: master
           BASE_URL: https://riedmann.dev
