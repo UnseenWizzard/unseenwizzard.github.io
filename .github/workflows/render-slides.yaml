@@ -1,0 +1,22 @@
+name: render-slides-with-marp
+
+on:
+  push:
+    branches: [ master ]
+    paths: 
+      - "_slides/**"
+
+jobs:
+  render-slides:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: marp-action
+        uses: UnseenWizzard/marp-action@master
+        env: 
+          MARP_ARGS: "-I _slides/ --output slides/"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          COMMIT_MSG: "Add rendered slides"
+          PUBLISH_TO_BRANCH: master
+          BASE_URL: https://riedmann.dev
