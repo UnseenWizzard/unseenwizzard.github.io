@@ -1,0 +1,18 @@
+name: post-to-dev-to
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - "_posts/**"
+
+jobs:
+  post-to-dev:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: post
+        run: .github/workflows/dev-post.sh ${{ github.event.before}} ${{github.event.after}}
+        env:
+          URL: https://dev.to/api/articles
+          API_KEY: ${{ secrets.DEV_TO_KEY }}
