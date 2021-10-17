@@ -10,9 +10,9 @@ new_files=`git diff --name-status $1 $2 | sed -n -e 's/A\s*\(_posts\/.*.md\)/\1/
 for f in $new_files; do
     echo "Creating dev.to article for $f..."
 
-    echo '{"article": { "published": false, "body_markdown": "' > api_payload
-    sed -e ':a;N;$!ba;s/\n/\\n/g' $f >> api_payload
-    echo '" }}' >> api_payload
+    echo -n '{"article": { "published": false, "body_markdown": "' > api_payload
+    sed -e ':a;N;$!ba;s/\(["\\]\)/\\\1/g;s/\n/\\n/g;s/\t/  /g' $f >> api_payload
+    echo -n '" }}' >> api_payload
 
     curl $url \
         -H 'Content-Type: application/json' \

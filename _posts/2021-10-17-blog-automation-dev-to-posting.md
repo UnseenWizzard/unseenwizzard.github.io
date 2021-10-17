@@ -227,15 +227,24 @@ for f in $new_files; do
 The body of the HTTP POST is placed in a temporary `api_payload` file - but could also be built in place, or one long command piping into `curl`.
 
 ```sh
-echo '{"article": { "published": false, "body_markdown": "' > api_payload
-sed -e ':a;N;$!ba;s/\n/\\n/g' $f >> api_payload
-echo '" }}' >> api_payload
+echo -n '{"article": { "published": false, "body_markdown": "' > api_payload
+sed -e ':a;N;$!ba;s/\(["\\]\)/\\\1/g;s/\n/\\n/g;s/\t/  /g' $f >> api_payload
+echo -n '" }}' >> api_payload
 ```
 
-The only really interesting part of creating the payload is `sed -e ':a;N;$!ba;s/\n/\\n/g' $f >> api_payload`.
+The only really interesting part of creating the payload is:
 
-`sed` is used here to replace any newline in the markdown file with an escpaded newline `\\n`, so that the payload will actually contain `\n` characters for each line break.
-Without this the API call would swallow all newlines and the blog post on dev.to would miss all linebreaks.
+```sh
+sed -e ':a;N;$!ba;s/\(["\\]\)/\\\1/g;s/\n/\\n/g;s/\t/  /g' $f >> api_payload`
+```
+
+`sed` is used here to escape or replace special characters in the JSON payload.
+
+Double quotes and backslashes will be escaped with a backslash by the first substitition.
+
+The second substitution will replace newline in the markdown file with an escpaded newline `\\n`, so that the payload will actually contain `\n` characters for each line break. Without this the API call would swallow all newlines and the blog post on dev.to would miss all linebreaks.
+
+The third substitution replaces tabs with two spaces rather than escaping them.
 
 How exactly that `sed` expression replaces characters in the whole file is nicely described in [this stakeoverflow post](https://stackoverflow.com/a/1252191), so I will not repeat it here.
 
