@@ -75,15 +75,15 @@ Simple right? Let's quickly run through that line:
 The `p` at the end of our commands tells it to print when the pattern was matched.
 
 
-`-e` simply tells `sed` explicitly that the next part is a command. We could ommit this.
+`-e` simply tells `sed` explicitly that the next part is a command. We could omit this.
 
-The **s**ubstitution command that follows is the intersting part. It follows this format:
+The **s**ubstitution command that follows is the interesting part. It follows this format:
 
 ```sh
 s/[pattern to replace]/[what to replace it with]/[options]
 ```
 
-Let's disect how ours turns the input into just outputting the paths to any added files:
+Let's dissect how ours turns the input into just outputting the paths to any added files:
 
 ```
 s/A\s*\(_posts\/.*.md\)/\1/p`
@@ -107,7 +107,7 @@ Simply references the content of the first capture group - the content of the br
 
 > /p
 
-Print the output of the substition command.
+Print the output of the substitution command.
 ```
 
 Putting `git` and `sed` together with a pipe (`|`), we get what we need:
@@ -160,7 +160,7 @@ curl localhost:8080/__admin/mappings/new -d\
 
 Now `localhost:8080/api/articles` will accept POST requests and always return a HTTP 200 response.
 
-Not really realistic, but a good start for testing, and seeing what payload arrives at the API, thanks to wiremock priting all calls it receives in verbose mode.
+Not really realistic, but a good start for testing, and seeing what payload arrives at the API, thanks to wiremock printing all calls it receives in verbose mode.
 
 ## POSTing Blog Posts
 
@@ -240,9 +240,9 @@ sed -e ':a;N;$!ba;s/\(["\\]\)/\\\1/g;s/\n/\\n/g;s/\t/  /g' $f >> api_payload`
 
 `sed` is used here to escape or replace special characters in the JSON payload.
 
-Double quotes and backslashes will be escaped with a backslash by the first substitition.
+Double quotes and backslashes will be escaped with a backslash by the first substitution.
 
-The second substitution will replace newline in the markdown file with an escpaded newline `\\n`, so that the payload will actually contain `\n` characters for each line break. Without this the API call would swallow all newlines and the blog post on dev.to would miss all linebreaks.
+The second substitution will replace newline in the markdown file with an escaped newline `\\n`, so that the payload will actually contain `\n` characters for each line break. Without this the API call would swallow all newlines and the blog post on dev.to would miss all linebreaks.
 
 The third substitution replaces tabs with two spaces rather than escaping them.
 
@@ -295,7 +295,7 @@ on:
       - "_posts/**"
 ```
 
-Then the Action excutes one job on an ubuntu container, in which it first makes sure the repo is checked out, and then executes our script from above.
+Then the Action executes one job on an Ubuntu container, in which it first makes sure the repo is checked out, and then executes our script from above.
 
 ```yaml
 jobs:
@@ -316,6 +316,6 @@ To execute the script is uses information from the `github.event` that triggered
 
 You're hopefully reading this on dev.to, proving this first part of blog automation has worked.
 
-If this is actually interesting to anyone I'll continue the series with a writeup on how I use markdown and GitHub actions to also create and publish slide-decks.
+If this is actually interesting to anyone I'll continue the series with a write-up on how I use markdown and GitHub actions to also create and publish slide-decks.
 
-Else I'll just continue my personal mission of only ever having to write markdown and wasting time on automation quitely and go back to writing about other things.
+Else I'll just continue my personal mission of only ever having to write markdown and wasting time on automation quietly and go back to writing about other things.
