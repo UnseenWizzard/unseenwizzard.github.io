@@ -192,6 +192,10 @@ And they're just ideas that worked for someone in the past, we may have better i
 
 ---
 
+![bg](/img/agile-retro-patterns//retromat.png)
+
+---
+
 # Patterns to Retrospectives
 
 <!--
@@ -277,6 +281,11 @@ As I'm sure you heard enough of me by now, let's get to the intersting part, let
 
 > A long runnnig team that get's along well had an unusually successful sprint
 
+<br/>
+
+**15 min to prepare**
+5 min to present
+choose a speaker
 <!--
 For teams of 4(?) and spend 10min on designing a retro for this situation. 
 
@@ -285,6 +294,7 @@ discussion after all presentations
 who knows, maybe we find some common patterns
 
 -->
+
 ---
 
 Hallway Images (left to right):
