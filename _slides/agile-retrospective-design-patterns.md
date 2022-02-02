@@ -276,6 +276,8 @@ As I'm sure you heard enough of me by now, let's get to the intersting part, let
 
 --- 
 
+<!-- ![bg left](img/../../img/agile-retro-patterns/task.png) -->
+
 > A new team just formed from members of exisiting teams, most don't know each other, some have bad opinions of other teams from the past
 <br/>
 
@@ -283,9 +285,12 @@ As I'm sure you heard enough of me by now, let's get to the intersting part, let
 
 <br/>
 
-**15 min to prepare**
-5 min to present
-choose a speaker
+⏲️
+
+**15min** to prepare
+**5min** to present
+*choose: 1 situation, 1 presenter*
+
 <!--
 For teams of 4(?) and spend 10min on designing a retro for this situation. 
 
