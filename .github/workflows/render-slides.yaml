@@ -11,13 +11,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: marp-action
-        uses: UnseenWizzard/marp-action@master
-        env: 
-          MARP_ARGS: "-I _slides/ --output slides/"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          COMMIT_MSG: "Add rendered slides"
-          NO_FORCE_PUSH: true
-          PUBLISH_TO_BRANCH: master
-          BASE_URL: https://riedmann.dev
+      - name: Build Slides
+        uses: docker://marpteam/marp-cli:v2.0.4
+        with:
+          args: -I _slides/ --output slides/
+        env:
+          MARP_USER: root:root
+      - name: Push to Branch
+        run: |
+          git config user.name 'marp slides build'
+          git config user.email 'unseenwizzard@users.noreply.github.com'
+          git checkout -b "slides-${{github.run_id}}"
+          git commit -am "feat: Add rendered slides"
+          git push --set-upstream origin "slides-${{github.run_id}}"
+      - name: Open PR
+        run: | 
+          curl   -X POST \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/repos/unseenwizzard/unseenwizzard.github.io/pulls \
+          -d '{"title":"Add rendered slides","body":"Adding rendered slides","head":"slides-${{github.run_id}}","base":"master"}'
