@@ -142,7 +142,7 @@ The `Bad` test also asserts that an Executor that is currently assigned a Task i
 
 Those are reasonable tests. And they both test rather specific cases well worth testing on their own in a small, readable and easy to comprehend test. 
 
-```Java
+```java
 @Test
 public void executorWithoutGroupGetsFirstAvailableTask() { ... }
 
