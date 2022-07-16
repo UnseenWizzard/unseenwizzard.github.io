@@ -21,29 +21,35 @@ between smart people needed to create them
 
 ## Passionate About
 
-<i class="fas fa-lightbulb"></i>  __Smart Systems__
-* I’m deeply interested in classical and modern AI methods, and systems behaving intelligently in general.
-* _Robotics @ incubedIT & university, game ideas to explore AI techniques_
+<i class="fas fa-people-group"></i> Supporting People as a Lead and a Developer
+* **I aim to have a positive impact**, on ...
+* ... people figuring out what they want to achieve
+* ... people and teams achieving their goals
+* ... building environments enabling people to motivate themselves/supporting intrinsic motivation
+* ... building innovative software that helps people in some way
 
 <i class="fas fa-laptop-code"></i> __Agile Software Development__
 * Getting to be a part of adopting and figuring out Agile at incubedIT and seeing it at scale at Dynatrace,
 * both general Agile principles and the practices of creating software that allows for being agile fascinate me.
+* _Since 2021 I co-organize [Agile International Graz](https://www.meetup.com/agile-international-graz/) - an English language Agile Meetup in Graz._
 
 <i class="fas fa-graduation-cap"></i> __Education__
 * Sharing knowledge has been a common theme from my civilian service, through my studies to my work and personal projects.
-* _Mentoring, Tech Articles, RoboCup Junior Referee_
+* _Mentoring, Tech Articles, RoboCup Junior Head Referee/Referee Trainer_
 
 
 ## Experience
 
 `05.2020-now`
 __Team Lead__ _Dynatrace_
-* Leading a growing development team focused on microservice platform and core services. 
+* `-07.2022` Leading a growing development team focused on our k8s microservice platform and core services. 
+* `07.2022-` Turning a side-project into a new dev team as lead of a new 'Monitoring as Code' team.
 * Additionally focused on Agile development practices and company culture across teams.
 
 `10.2019-now`
 __(Senior) Software Engineer__ _Dynatrace_
-* Java software development in Dynatrace’s new Digital Business Lab in Graz.
+* Java development on core microservices handling authN/Z, encryption and messaging
+* Go development on dev tooling and 'configuration as code' for Dynatrace
 
 `07.2016-10.2019`
 __Software Engineer Robotics__ _incubedIT_
@@ -66,14 +72,14 @@ __Bachelor's Degree in Computer Science & unfinished Master's__ TU Graz
 ## Skills
 * Agile practices, Communication
 * Software Architecture, Clean Code
-* Java, Python, Go, C++
+* Java, Go, Python, C++
 * Kubernetes, Docker
 * Gradle, Maven
 * Git
-* Jenkins, Gitlab (CI)
+* Jenkins, Github Actions CI/CD
 
 ## Languages
 
 * German (native)
-* English (profcient)
+* English (proficient)
 * French (basics)
