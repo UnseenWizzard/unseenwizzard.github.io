@@ -10,14 +10,33 @@ jobs:
   render-slides:
     runs-on: ubuntu-latest
     steps:
+      - name: intro
+        run: echo 'doin stuff'
       - uses: actions/checkout@v2
-      - name: marp-action
-        uses: UnseenWizzard/marp-action@master
-        env: 
-          MARP_ARGS: "-I _slides/ --output slides/"
+      - name: Build Slides
+        uses: docker://marpteam/marp-cli:v2.0.4
+        with:
+          args: -I _slides/ --output slides/
+        env:
+          MARP_USER: root:root
+      - name: Push to Branch
+        run: |
+          git config user.name 'marp slides build'
+          git config user.email 'unseenwizzard@users.noreply.github.com'
+          git checkout -b "slides-${{github.run_id}}"
+          git commit -am "feat: Add rendered slides"
+          git push --set-upstream origin "slides-${{github.run_id}}"
+      - name: Open PR
+        uses: octokit/request-action@v2.x
+        id: open-pr
+        with:
+          route: POST /repos/{owner}/{repo}/pulls
+          body: ${{ toJSON(env.REQUEST_BODY) }}
+          owner: UnseenWizzard
+          repo: unseenwizzard.github.io
+        env:
+          REQUEST_BODY: '{"title":"Add rendered slides","head":"slides-${{github.run_id}}","base":"master"}'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          COMMIT_MSG: "Add rendered slides"
-          NO_FORCE_PUSH: true
-          PUBLISH_TO_BRANCH: master
-          BASE_URL: https://riedmann.dev
+      - run: "Opened PR: ${{ steps.open-pr.outputs.data }}"
+      - run: "Unable to open PR. Request failed with status ${{ steps.open-pr.outputs.status }}"
+        if: ${{ failure() }}
