@@ -42,9 +42,9 @@ between smart people needed to create them
 
 `05.2020-now`
 __Team Lead__ _Dynatrace_
-* `-07.2022` Leading a growing development team focused on our k8s microservice platform and core services. 
 * `07.2022-` Turning a side-project into a new dev team as lead of a new 'Monitoring as Code' team.
-* Additionally focused on Agile development practices and company culture across teams.
+* `-07.2022` Leading a growing development team focused on our k8s microservice platform and core services. 
+* Additionally focused on Agile development practices and culture across teams.
 
 `10.2019-now`
 __(Senior) Software Engineer__ _Dynatrace_
