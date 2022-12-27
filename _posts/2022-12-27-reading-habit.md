@@ -13,7 +13,7 @@ In recent years that has only gotten worse with an ever-extending list of techni
 
 In the past, I've tried things like moving the "to read" stack visibly onto my coffee table - until it got precariously unstable instead of any smaller - but never managed to read them faster than adding more.
 
-In early summer 2022, I decided to take a page (pun very much intended) from one of the best books I read this year, and try "Making Work Visible".
+In spring 2022, I decided to take a page (pun very much intended) from one of the best books I read this year, and try "Making Work Visible".
 
 # Making the Reading List visible
 
