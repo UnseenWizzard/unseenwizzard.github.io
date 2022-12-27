@@ -2,6 +2,7 @@
 layout: null
 section-type: blog
 title: Blog
+order: 1
 ---
 ## Blog
 

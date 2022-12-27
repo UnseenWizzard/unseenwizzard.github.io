@@ -18,7 +18,8 @@
                         <a href="#page-top"></a>
                     </li>
 
-                    {% for sitePage in site.pages | sort: "title" %}
+                    {% assign sorted_pages = site.pages | sort:"order" %}
+                    {% for sitePage in sorted_pages %}
                     {% unless sitePage.url == "/index.html" or sitePage.url == "/" %} 
                     <li>
                         {% if sitePage.section-type != null %}
@@ -28,7 +29,7 @@
                                 <a href="/#{{ sitePage.title }}">{{ sitePage.title }}</a>
                             {% endif %}
                         {% else %}
-                        <a href="{{ sitePage.url }}">{{ sitePage.title }}</a>
+                        <a href="{{ sitePage.url }}"  target="_blank">{{ sitePage.title }}</a>
                         {% endif %}
                     </li>
                     {% endunless %}

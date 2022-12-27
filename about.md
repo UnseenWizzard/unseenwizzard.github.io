@@ -2,6 +2,7 @@
 layout: null
 section-type: default
 title: About
+order: 0
 ---
 ## About
 
@@ -13,9 +14,8 @@ You can also find [my CV](/cv) here!
 
 #### <i class="fas fa-globe-europe"></i> Aside from Software
 
-I ike to spend my spare time reading, hiking with [my dog](assets/turron.jpg), eating and occasionally managing to cook good food, 
-riding motorcycles and driving old cars 
-and recently writing tech articles. 
+I like to spend my spare time reading, hiking with [my dog](assets/turron.jpg), eating and occasionally managing to cook good food, 
+riding motorcycles and driving old cars and occasionally writing or speaking about things I care about. 
 
 #### <i class="fas fa-people-group"></i> Supporting People as a Lead and a Developer
 
@@ -30,7 +30,7 @@ and recently writing tech articles.
 
 Since taking part in adopting and figuring out Agile at a small startup, both general Agile principles and the practices of creating software that allows for being agile fascinate me.
 
-Since 2021 I co-organize [Agile International Graz](https://www.meetup.com/agile-international-graz/) - an English language Agile Meetup in Graz.
+Since 2021 I co-organize [Agile International Graz](https://www.meetup.com/agile-international-graz/) - an English-language Agile Meetup in Graz.
 
 #### <i class="fas fa-graduation-cap"></i> Learning and Education
 

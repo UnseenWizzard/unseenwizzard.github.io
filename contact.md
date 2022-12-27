@@ -2,6 +2,7 @@
 layout: null
 section-type: contact
 title: Contact
+order: 3
 email: nico@riedmann.dev
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
