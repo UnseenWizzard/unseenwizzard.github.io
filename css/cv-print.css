@@ -190,6 +190,10 @@ strong {
 	visibility: hidden;
 }
 
+.navbar {
+	display: none;
+}
+
 .no-print {
 	display: none;
 	visibility: hidden;
