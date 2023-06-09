@@ -14,4 +14,4 @@ Slides for talks I've given - hopefully this list will keep growing
 
 ### Other things
 
-<i class="fas fa-people-group"></i> I got to moderate a [panel discussion on how Scrum teams and UX designers best cooperate](https://www.meetup.com/agile-international-graz/events/289734444/).
+<i class="fas fa-people-group"></i> I somewhat frequently moderate panel discussions as part of the Agile International Graz and New Leadership meetup groups.
