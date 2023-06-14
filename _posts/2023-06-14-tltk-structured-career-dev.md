@@ -18,7 +18,7 @@ To put this into practice you only need to do three things:
 2) Update it every time something new comes up - a reached milestone, relevant notes of a 1:1, a growth opportunity you just heard of, or that showerthought on how to help Alice become a great public speaker.
 3) Set aside half an hour every month to reflect on the overview - is there someone you didn't think about in a while, some actions you should follow up on, or some great achievement to keep in mind when it's time for promotions?
 
-![](https://riedmann.dev/img/tltk/personal_dev_overview.excalidraw.svg)
+![](https://riedmann.dev/img/tltk/personal_dev_overview.excalidraw.svg){:width="80%"}
 
 ---
 
