@@ -198,3 +198,8 @@ strong {
 	display: none;
 	visibility: hidden;
 }
+
+.pagebreak {
+	clear: both;
+	page-break-after: always;
+}

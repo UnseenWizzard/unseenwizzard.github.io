@@ -31,7 +31,7 @@ between smart people needed to create them
 <i class="fas fa-laptop-code"></i> __Agile Software Development__<br/>
 Getting to be a part of adopting and figuring out Agile at incubedIT and seeing it at scale at Dynatrace,<br/>
 both general Agile principles and the practices of creating software that allows for being agile fascinate me.<br/>
-Since 2021 I co-organize [Agile International Graz](https://www.meetup.com/agile-international-graz/) - an English-language Agile Meetup in Graz.
+Since 2021 I co-organize *[Agile International Graz](https://www.meetup.com/agile-international-graz/)* - an English-language Agile Meetup in Graz.
 
 <i class="fas fa-graduation-cap"></i> __Education__<br/>
 Sharing knowledge has been a common theme from my civilian service, through my studies to my work and personal projects.<br/>
@@ -44,17 +44,18 @@ _Mentoring, Tech Articles, RoboCup Junior Head Referee/Referee Trainer_
 __Team Lead__ _Dynatrace_
 * `07.2022-` Turning a side-project into a product as the lead of a new ['Configuration as Code'](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code) team.<br/>
   *Helped to form a new distributed team around a project I started with a colleague in 2019.*<br/>
-  *Acting as people lead to three developers while driving technical direction as a developer and working closely*<br/>
-  *with department and product leadership on the vision of turning the project into a product.*<br/>
+  *Providing people leadership to three developers as well as engineering leadership.*<br/>
+  *Driving technical direction and working closely with department and product leadership on the vision of turning the project into a product.*<br/>
 * `-07.2022` Lead a growing development team focused on our k8s microservice platform and core services.<br/>
-  *Supported a hybrid team growing from two to seven developers during the pandemic as a people lead and developer.*<br/>
-  *Worked with department and architectural leadership to transition a software development-focused team*<br/>
-  *into a cross-functional platform team to fill a gap in developer experience.*<br/>
+  *Supported a hybrid team's growth from two to seven developers during the pandemic as a people lead, developer and "team PO" scoping work packages and roadmaps with product management and architects.*<br/>
+  *Worked with department and architectural leadership to transition a software development-focused team into a cross-functional platform team to fill a gap in developer experience.*<br/>
   *Achieved a notable reduction in onboarding new services and maintenance by introducing template solutions to development teams.*<br/>
 * Additionally focused on knowledge-sharing, Agile development practices and culture across teams.<br/>
   *Part of several location-wide improvement initiatives over the years - for example, introduced a local 'culture onboarding'.*<br/>
   *Introduced local versions of public speaking training and knowledge-sharing spaces.*<br/>
   *Acting as a mentor to several local Team Leads and 'sparring partner' in a company-wide leadership training program.*<br/>
+
+<div class="pagebreak"></div>
 
 `10.2019-now`
 __(Senior) Software Engineer__ _Dynatrace_
@@ -79,7 +80,7 @@ __Meetup co-organizer__ _Agile International Graz & New Leadership meetups_
 
 `01.2016-now`
 __Referee/Referee Trainer/League Chair__  _RoboCupJunior Austrian Open_
-* I started volunteering as a referee and am currently a head referee/league chair and train other referees at RoboCup Junior Austria, a yearly educational robotics competition for students up through age 19.
+* I started volunteering as a referee and am currently a head referee/league chair and referee trainer at RoboCup Junior Austria, a yearly educational robotics competition for students up through age 19.
 
 ## Education
 
