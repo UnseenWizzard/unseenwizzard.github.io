@@ -51,7 +51,7 @@ We'll need that in a moment but for now, let's collect some data about **the sta
 With that, you should already be able to answer the question "How likely is it that something will go wrong?".
 If your team owns more than one thing, each will of course have a different likelihood of something going wrong - when thinking of the risk for your team, look at the most risky thing you own.
 
- ## Impact: Just how bad will everyone's day be if things go wrong?
+## Impact: Just how bad will everyone's day be if things go wrong?
 
 The next part needs a bit more thinking, and is a great exercise to do as the whole team: 
 
@@ -83,7 +83,7 @@ You know what things you actually need to focus your attention on and take steps
 
 And if "I want my whole team to go on vacation without worrying." is not a convincing enough argument to get improvements and knowledge-sharing time on your roadmap, "I want a consistent, high-quality experience for our customers with minimal issues and service interruptions." most certainly is.
 
-![](https://riedmann.dev/img/tltk/risk.png){:width="100%"}
+![](https://riedmann.dev/img/tltk/risk-darkmode.png){:width="100%"}
 
 ## What's next
 
