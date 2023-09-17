@@ -57,7 +57,7 @@ The next part needs a bit more thinking and is a great exercise to do as the who
 
 * **What's the impact if your thing fails?** Do other things that depend on it fail as well? Are customers impacted? Are internal processes impacted? How important are those? Are there fallbacks or workarounds?
 
-## Remidiation: What do you do when things go wrong?
+## Remediation: What do you do when things go wrong?
 
 Still as a team, ask yourselves two more questions:
 
