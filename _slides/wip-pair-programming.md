@@ -90,13 +90,22 @@ Pairing can be difficult...
 
 ---
 
+<!-- _class: invert -->
+![bg opacity:.8](./img/fabian-gieske-cbIKeuURaq8-unsplash.jpg)
+
 # Trust
 
 ---
 
+<!-- _class: invert -->
+![bg opacity:.4](./img/torsten-dederichs-XRcEsQKTWGk-unsplash.jpg)
+
 # Shared vision
 
 ---
+
+<!-- _class: invert -->
+![bg opacity:.4](./img/jen-theodore-CiMITAJtb6I-unsplash.jpg)
 
 # Shared ownership
 
