@@ -235,7 +235,7 @@ Pairing can be difficult...
 
 ---
 
-![bg opacity:1.0](/img/peer-programming/palps.jpg)
+![bg opacity:1.0](/img/peer-programming/do-it.png)
 
 ---
 
