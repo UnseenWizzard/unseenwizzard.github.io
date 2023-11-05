@@ -8,30 +8,26 @@ style: |
 ---
 
 <!-- _class: invert -->
-![bg](/img/peer-programming/intro_slide_bg.png)
+![bg left:10%](/img/peer-programming/intro_slide_small_bg.png)
 
-# Peer Programming to increase "Team Quality"
+## Peer Programming to increase "Team Quality"
+#### &
+## How to get started in practice
 
 <!-- 
 I want to tell you a bit about peer programming
-and specifically what it can do for what I call "team quality"
-
+and specifically what it can do for what I call "team quality".
 Don't worry we'll define both in a moment.
+
+After that, Stefan will tell us more about how to actually get started in practice.
 -->
 
 ---
 
-# About me
+<!-- # About us -->
 
-![bg left:50% 80%](https://riedmann.dev/img/me_bw.png)
-
-**Nico Riedmann**
-something @ somewhere
-
-:computer: [riedmann.dev](https://riedmann.dev)
-:email: [nico@riedmann.dev](mailto:nico@riedmann.dev)
-
-<!-- First a little bit about myself... -->
+![bg 80%](/img/peer-programming/me_bw.png)
+![bg 80%](/img/peer-programming/wirecube_stefan_kern.png)
 
 ---
 <!-- _class: invert -->
@@ -41,9 +37,9 @@ something @ somewhere
 
 ---
 
-**Pair Programming**
+##### Pair Programming
 
-**Mob Programming**
+##### Mob Programming
 
 ## Collaborative development work!
 
@@ -333,25 +329,5 @@ All of these agreements can emerge organically from discusson and can be reviewe
 
 # Where do I start?
 
-<!-- Cool, so if I now convinced you, that you want to start improving your team quality with some peer programming, where do you actually start? -->
+<!-- Cool, so if I now convinced you, that you want to start improving your team quality with some peer programming, where do you actually start? For that, I'll hand over to Stefan... -->
 
----
-
-<!-- _footer: 'High-quality screenshot by me' -->
-![bg opacity:1.0](/img/peer-programming/do-it.png)
-
----
-
-## Look into techniques! 
-
----
-
-## Pair promiscuously
-
----
-
-## Start short, take breaks
-
----
-
-## Keep going!
