@@ -12,7 +12,7 @@ style: |
 
 ## Peer Programming to increase "Team Quality"
 #### &
-## How to get started in practice
+## Pair Programming in practice
 
 <!-- 
 I want to tell you a bit about peer programming
