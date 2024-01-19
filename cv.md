@@ -40,9 +40,13 @@ _Mentoring, Tech Articles, RoboCup Junior Head Referee/Referee Trainer_
 
 ## Experience
 
-`05.2020-now`
+`01.2024-`
+__Manager Software Development__ _Dynatrace_
+* Working with two teams building Dynatrace's internal cloud platform
+
+`05.2020-01.2024`
 __Team Lead__ _Dynatrace_
-* `07.2022-` Turning a side-project into a product as the lead of a new ['Configuration as Code'](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code) team.<br/>
+* `07.2022-01.2024` Turning a side-project into a product as the lead of a new ['Configuration as Code'](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code) team.<br/>
   *Helped to form a new distributed team around a project I started with a colleague in 2019.*<br/>
   *Providing people leadership to three developers as well as engineering leadership.*<br/>
   *Driving technical direction and working closely with department and product leadership on the vision of turning the project into a product.*<br/>
@@ -57,7 +61,7 @@ __Team Lead__ _Dynatrace_
 
 <div class="pagebreak"></div>
 
-`10.2019-now`
+`10.2019-01.2024`
 __(Senior) Software Engineer__ _Dynatrace_
 * Java development on core microservices handling authN/Z, encryption and messaging.
 * Go development on dev tooling and 'configuration as code' for Dynatrace.

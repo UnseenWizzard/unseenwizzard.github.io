@@ -14,7 +14,7 @@ You can also find [my CV](/cv) here!
 
 #### <i class="fas fa-globe-europe"></i> Aside from Software
 
-I like to spend my spare time reading, hiking with [my dog](assets/turron.jpg), eating and occasionally managing to cook good food, 
+I like to spend my spare time reading, hiking, eating and occasionally managing to cook good food,
 riding motorcycles and driving old cars and occasionally writing or speaking about things I care about. 
 
 #### <i class="fas fa-people-group"></i> Supporting People as a Lead and a Developer
