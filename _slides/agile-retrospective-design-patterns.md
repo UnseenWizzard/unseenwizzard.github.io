@@ -1,7 +1,13 @@
 ---
 marp: true
-theme: uncover 
-class: invert
+theme: uncover
+style: |
+  a {
+    color: rgb(219, 127, 52);
+  }
+  footer a {
+      color: var(--color-header);
+  }
 ---
 
 <!--
@@ -19,35 +25,32 @@ What?
    - really successful sprint
 -->
  
+<!-- _class: invert -->
+<!-- _footer: 'Photo by __Lorenzo Herrera__ on __[Unsplash](https://unsplash.com/photos/vintage-gray-game-console-and-joystick-p0j-mE6mGo4)__' -->
+![bg opacity:.4](/img/agile-retro-patterns/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg)
+
 # Agile Retrospective 
 # Design Patterns
-
+  
 ---
 
 # About me
 
-![bg left:50% 80%](/img/agile-retro-patterns//me-circle.png)
+![bg left:50% 80%](https://riedmann.dev/img/me_bw.png)
 
-Nico Riedmann
+**Nico Riedmann**
+something @ somewhere
 
 :computer: [riedmann.dev](https://riedmann.dev)
 :email: [nico@riedmann.dev](mailto:nico@riedmann.dev)
 
-<!-- 
-# About me
-
-Started studying Teaching in Innsbruck, ended with Computer Science in Graz
-
-5 years in IT
-Team Captain @ Dynatrace
-
-<br/>
-
-*Best introduction I've heard so far:*
-> Nico is... Nico has worked on *many* things. What are you working on right now?
--->
+<!-- First a little bit about myself... -->
 
 ---
+
+<!-- _class: invert -->
+<!-- _footer: 'Photo by __Ricardo Gomez Angel__ on __[Unsplash](https://unsplash.com/photos/a-curved-facade-covered-in-white-latticework-5YM26lUicfU)__' -->
+![bg opacity:.3](/img/agile-retro-patterns/ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg)
 
 # Design Patterns
 
@@ -56,8 +59,9 @@ Let's start with the basic concepts. Design Patterns.
 
 Most of you can probably think of some design patterns right? (audience engagement - expect Software Desgin patterns)
 -->
-
 ---
+
+<!-- _footer: Left to right, alex, Pallazo Poggi, Myotus (CC BY-SA 4.0), Ethan2039 (CC BY-SA 3.0) via Wikimedia Commons' -->
 
 ![bg](/img/agile-retro-patterns//hall0.bmp)
 ![bg](/img/agile-retro-patterns//hall1.bmp)
@@ -72,7 +76,7 @@ The concept was originally coined in architecture
 
 --- 
 
-#### Reusable solutions to common problems
+#### reusable solutions to common problems
 
 <!--
 defining reusable solutions to common problems. 
@@ -82,6 +86,10 @@ Which is exactly how we apply them in software, and I'd argue agile retrospectiv
 
 ---
 
+<!-- _class: invert -->
+<!-- _footer: 'Photo by __İrfan Simsar__ on __[Unsplash](https://unsplash.com/photos/a-curved-facade-covered-in-white-latticework-5YM26lUicfU)__' -->
+![bg opacity:.25](/img/agile-retro-patterns/irfan-simsar-wxWulfjN-G0-unsplash.jpg)
+  
 # Retrospectives
 
 <!--
@@ -101,29 +109,9 @@ Which is how Derbe and Larsen define it in their "Agile Retrospectives" book, wh
 
 ---
 
-# A Retro format pattern...
-1. _Set the stage_
-
----
+<!-- _class: invert -->
 
 # A Retro format pattern...
-1. _Set the stage_
-2. Gather Data
-
----
-
-# A Retro format pattern...
-1. _Set the stage_
-2. Gather Data
-3. Generate Insight
-
----
-
-# A Retro format pattern...
-1. _Set the stage_
-2. Gather Data
-3. Generate Insight
-4. Decide what to do
 
 ---
 
@@ -152,7 +140,9 @@ I'm not a huge fan of this exact "retro pattern", because
 
 ---
 
-Reusable solution to
+<!-- _class: invert -->
+
+reusable solution to
 
 # structure
 
@@ -162,11 +152,7 @@ It is a reusable solution to the structure of a retro
 
 ---
 
-
-Reusable solution to
-
-# structure
-NOT
+**not** to
 # content
 
 <!--
@@ -175,13 +161,11 @@ but we often use it as reusable content as well.
 
 ---
 
+<!-- _class: invert -->
+<!-- _footer: 'Photo by __Alice Butenko__ on __[Unsplash](https://unsplash.com/photos/yellow-and-white-floral-textile-zstWUZFj77w)__' -->
+![bg opacity:.3](/img/agile-retro-patterns/alice-butenko-zstWUZFj77w-unsplash.jpg)
+
 # Patterns to Content
-
-There's loads of them! 
-
-Great books and tools like retromat.org
-
-Just ideas that worked for others
 
 <!--
 In terms of content or activities, there's load of them, 
@@ -196,13 +180,18 @@ And they're just ideas that worked for someone in the past, we may have better i
 
 ---
 
+<!-- _class: invert -->
+<!-- _footer: 'Photo by __Alice Butenko__ on __[Unsplash](https://unsplash.com/photos/a-blue-and-white-tile-with-circles-on-it-RIgxEe1HjeY)__' -->
+![bg opacity:.25](/img/agile-retro-patterns/alice-butenko-RIgxEe1HjeY-unsplash.jpg)
+
 # Patterns to Retrospectives
 
 <!--
-So, we have a pattern to structure and lots of sources for activities, we're set right? 
+So, we have a pattern to structure and lots of sources for activities, we're set, right? 
 -->
 
 ---
+<!-- _class: invert -->
 
 ![bg 55%](/img/agile-retro-patterns//content.jpg)
 
@@ -236,9 +225,7 @@ conisder the team
 
 _"common problem"_
 
-## team
-
-## situation
+## team + situation
 
 <!--
 and the situation they are facing at that moment. 
@@ -246,8 +233,9 @@ and the situation they are facing at that moment.
 
 ---
 
-## No reusable solutions 
-## to uncommon problems :unamused: 
+## no reusable solutions
+## to uncommon problems
+## :unamused: 
 
 <!--
 And as these are very much individual to the moment and people, 
@@ -256,7 +244,7 @@ we have a hard time finding reusable solutions, if there are no common problems.
 
 ---
 
-## But sometimes teams are in common situations
+## But sometimes teams are in common situations!
 
 <!--
 Luckily often times they are still "common problems" - it may be a need to foster collaboration in a 'storming' team or sprint goals that are never achieved. 
@@ -266,47 +254,33 @@ Knowing the problem we can look at all the options out there and choose the righ
 
 ---
 
-# Activity! 
+<!-- _class: invert -->
 
-Let's come up with Retros for these situations
+# Let's take a look at some! 
 
 <!--
-As I'm sure you heard enough of me by now, let's get to the intersting part, let's come with retrospectives for some sample situations I've 100% made up and did not experience at some point or another... 
+<Interactive if there's time, else present>
+So let's take a look at two teams and situations that I made up and did not experience at some point or another... 
 -->
 
 --- 
 
-<!-- ![bg left](img/../../img/agile-retro-patterns/task.png) -->
+> A large new team just formed from members of exisiting teams, most don't know each other, some have bad opinions of other teams from the past
 
-> A new team just formed from members of exisiting teams, most don't know each other, some have bad opinions of other teams from the past
-<br/>
-
-> A long runnnig team that get's along well had an unusually successful sprint
-
-<br/>
-
-⏲️
-
-**15min** to prepare
-**5min** to present
-*choose: 1 situation, 1 presenter*
-
-<!--
-For teams of 4(?) and spend 10min on designing a retro for this situation. 
-
-then chose one person to present
-discussion after all presentations
-who knows, maybe we find some common patterns
-
+<!-- 
+haven't worked together
+low trust
+we're starting something new
 -->
 
 ---
 
-Hallway Images (left to right):
-* alex, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
-* Palazzo Poggi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
-* Myotus, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
-* Ethan2039, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
+1. check-in - set the mood for open discussion
+2. sailboat -  look forward, with room to address risks
+3. 5 whys in pairs - dig into why things could go well/wrong, and build 1:1 connection
+4. share 
+5. appreciations - room to share something you appreciated about a team member in the retro or iteration, 
+
 
 <!--
 What I would do: 
@@ -318,8 +292,19 @@ What I would do:
 - Appreciations: Give room for telling other team members something you appreciated them do in the retro or iteration, no one has to speak. 
 Why? New team, with some previous bad opions, I'd want to focus the retro on conversation giving room for people voicing their thoughts and opinions. Sailboat helps discuss the outlook for the future and possible worries, then allows discussion of how to overcome the bad, or make sure the good happens. 
 End on positive personal closing activity. 
-Likley takes 1.5h!
+Likley takes 1.5h! -->
 
+---
+
+>A long runnnig team that get's along well had an unusually successful sprint
+
+---
+
+2. reflect on the stories and happenings in the last iteration
+3. "If we had ruined the last sprint what would we have done?" - collect and compare to what went well
+4. decide on one thing to keep doing to keep having great sprints
+
+<!-- 
 2.
 - likely doesn't need a check in, maybe just a quick "Describe your current mood in one word"
 - Reflect on every story in the sprint - did it go well or not, Why? 
