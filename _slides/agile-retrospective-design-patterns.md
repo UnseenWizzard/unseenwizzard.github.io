@@ -34,10 +34,6 @@ What?
   
 ---
 
-<style scoped>
-  border-radius: 50%;
-</style>
-
 # About me
 
 ![bg left:50% 90%](/img/me_bw-circle.png)
