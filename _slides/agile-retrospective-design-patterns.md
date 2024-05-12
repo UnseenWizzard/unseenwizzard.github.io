@@ -115,7 +115,27 @@ Which is how Derbe and Larsen define it in their "Agile Retrospectives" book, wh
 
 ---
 
-# A Retro format pattern...
+## Set the stage
+
+---
+
+## Gather Data
+
+---
+
+## Generate Insight
+
+---
+
+### Decide what to do
+
+---
+
+### Close
+
+---
+
+# A basic pattern...
 1. _Set the stage_
 2. Gather Data
 3. Generate Insight
@@ -275,12 +295,61 @@ we're starting something new
 
 ---
 
-1. check-in - set the mood for open discussion
-2. sailboat -  look forward, with room to address risks
-3. 5 whys in pairs - dig into why things could go well/wrong, and build 1:1 connection
-4. share 
-5. appreciations - room to share something you appreciated about a team member in the retro or iteration, 
+## Problem
 
+no personal connection
+
+low trust
+
+starting something new
+
+---
+
+## Desired Impact
+
+communicate openly and build trust
+
+focus on a positive shared future
+
+---
+
+## Set the stage
+
+Do a check-in to set the mood for open discussion
+
+_one word/picture about how you're feeling_
+
+---
+
+## Gather Data
+
+'Futurespective' - look forward with room to address risks
+
+_Sailboat_
+
+![bg left width:100%](https://learnwith.weareopen.coop/wp-content/uploads/2022/03/sailboat-example-1024x574.png)
+
+---
+
+## Generate Insight
+
+Dig into why things could go wrong or well, and build personal connections
+
+_5 Whys in pairs_
+
+---
+
+## Decide what to do
+
+Share & discuss the reasons and decide what to do to avoid risks
+
+---
+
+## Closing
+
+Close on a positive note 
+
+_appreciations - room to share something you appreciated about a team member in the retro or iteration_
 
 <!--
 What I would do: 
@@ -298,12 +367,6 @@ Likley takes 1.5h! -->
 
 >A long runnnig team that get's along well had an unusually successful sprint
 
----
-
-2. reflect on the stories and happenings in the last iteration
-3. "If we had ruined the last sprint what would we have done?" - collect and compare to what went well
-4. decide on one thing to keep doing to keep having great sprints
-
 <!-- 
 2.
 - likely doesn't need a check in, maybe just a quick "Describe your current mood in one word"
@@ -314,3 +377,25 @@ Likley takes 1.5h! -->
 
 Why? Team is mature and performing, so focus on 'how we can we keep doing great' without too much format 
 -->
+
+---
+
+# Recap
+
+---
+
+design patterns are reusable solutions to common problems - but our problems aren't always common
+
+---
+
+please don't do a 'standard retro' every two weeks - proactively think about what your team needs
+
+---
+
+use resources and patterns to pick and choose the right formats to help your team in their current situation
+
+---
+
+# What's next?
+
+<!-- PUT LINKS -->
