@@ -20,4 +20,25 @@ highligher: rouge
 kramdown:
   syntax_highlighter: rouge
 
+collections:
+  talks:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "dockerServer.sh"]

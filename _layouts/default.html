@@ -76,8 +76,27 @@
         </div>
         {% endif %}
       </section>
+    {% elsif page.section-type == "talks" %}
+      <section id="{{ page.title }}" class="container content-section text-center">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Talks</h2>
+            {% for talk in site.talks %}
+              <p>
+                <i class="fas fa-comment"></i> <a href="{{talk.url}}">{{talk.title}}</a> {{talk.short}}.
+              </p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              {{ page.content | markdownify }}
+            </div>
+        </div>
+      </section>
     {% endif %}
   {% endfor %}
+
 
 	{% include footer.html %}
 	{% include js.html %}

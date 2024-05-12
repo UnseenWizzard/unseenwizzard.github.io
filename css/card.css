@@ -119,3 +119,13 @@
     border-bottom-right-radius: calc(0.25rem - 1px);
     border-bottom-left-radius: calc(0.25rem - 1px);
   }
+
+
+  .list-group-item {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  a.list-group-item {
+    color: white;
+  }
