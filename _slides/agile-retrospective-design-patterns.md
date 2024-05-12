@@ -34,15 +34,18 @@ What?
   
 ---
 
+<style scoped>
+  border-radius: 50%;
+</style>
+
 # About me
 
-![bg left:50% 80%](https://riedmann.dev/img/me_bw.png)
+![bg left:50% 90%](/img/me_bw-circle.png)
 
 **Nico Riedmann**
 something @ somewhere
 
 :computer: [riedmann.dev](https://riedmann.dev)
-:email: [nico@riedmann.dev](mailto:nico@riedmann.dev)
 
 <!-- First a little bit about myself... -->
 
@@ -232,17 +235,6 @@ consider which common problem you're actually solving.
 
 ---
 
-
-_"common problem"_
-
-## team
-
-<!--
-conisder the team
--->
-
----
-
 _"common problem"_
 
 ## team + situation
@@ -327,7 +319,7 @@ _one word/picture about how you're feeling_
 
 _Sailboat_
 
-![bg left width:100%](https://learnwith.weareopen.coop/wp-content/uploads/2022/03/sailboat-example-1024x574.png)
+![bg left width:95%](/img/agile-retro-patterns/sailboat.png)
 
 ---
 
@@ -378,24 +370,30 @@ Likley takes 1.5h! -->
 Why? Team is mature and performing, so focus on 'how we can we keep doing great' without too much format 
 -->
 
----
+---  
+
+<!-- _class: invert -->
+<!-- _footer: 'Photo by __Lindsay  Henwood__ on __[Unsplash](https://unsplash.com/photos/person-stepping-on-blue-stairs-7_kRuX1hSXM)__' -->
+![bg opacity:.3](/img/agile-retro-patterns/lindsay-henwood-7_kRuX1hSXM-unsplash.jpg)
 
 # Recap
 
 ---
 
-design patterns are reusable solutions to common problems - but our problems aren't always common
+design patterns are reusable solutions to common problems - but **our problems aren't always common**
 
 ---
 
-please don't do a 'standard retro' every two weeks - proactively think about what your team needs
+please **don't do a 'standard retro'** every two weeks - proactively think about what your team needs
 
 ---
 
-use resources and patterns to pick and choose the right formats to help your team in their current situation
+make use resources and patterns to pick and **choose what fits your team's situation**
 
 ---
 
-# What's next?
+<!-- _class: invert -->
 
-<!-- PUT LINKS -->
+# Not enough?
+
+![bg right width:80%](/img/agile-retro-patterns/links-qr.png)

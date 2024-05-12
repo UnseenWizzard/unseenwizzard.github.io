@@ -3,3 +3,5 @@ _deploy/*
 Rakefile
 .jekyll-metadata
 .jekyll-cache
+Gemfile.lock
+**/.DS_Store
