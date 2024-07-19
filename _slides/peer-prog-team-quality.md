@@ -11,7 +11,7 @@ style: |
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Randy Fath__ on __[Unsplash](https://unsplash.com/photos/people-building-structure-during-daytime-ymf4_9Y9S_A)__' -->
+<!-- _footer: '[Photo by __Randy Fath__ on Unsplash](https://unsplash.com/photos/people-building-structure-during-daytime-ymf4_9Y9S_A)' -->
 ![bg opacity:.4](/img/peer-programming/randy-fath-ymf4_9Y9S_A-unsplash.jpg)
 
 # Peer Programming to increase "Team Quality"
@@ -55,7 +55,7 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 
 ---
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Parshant Saini__ on [Unsplash](https://unsplash.com/photos/two-gray-pigeons-on-brown-galvanized-roofs-5RiMmxSeM4k)' -->
+<!-- _footer: '[Photo by __Parshant Saini__ on Unsplash](https://unsplash.com/photos/two-gray-pigeons-on-brown-galvanized-roofs-5RiMmxSeM4k)' -->
 ### Have you done _pair programming_?
 
 ![bg opacity:.3](/img/peer-programming/prashant-saini-5RiMmxSeM4k-unsplash.jpg)
@@ -63,7 +63,7 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Rafael Garcin__ on [Unsplash](https://unsplash.com/photos/a-group-of-people-standing-on-a-street-holding-flarers-a0R2-WdAmzc)' -->
+<!-- _footer: '[Photo by __Rafael Garcin__ on Unsplash](https://unsplash.com/photos/a-group-of-people-standing-on-a-street-holding-flarers-a0R2-WdAmzc)' -->
 ### Have you done _mob programming_?
 
 ![bg opacity:.3](/img/peer-programming/rafael-garcin-a0R2-WdAmzc-unsplash.jpg)
@@ -71,7 +71,7 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Gshightfotos__ on [Unsplash](https://unsplash.com/photos/black-and-white-audio-mixer-huz1Wf1Q8ic)' -->
+<!-- _footer: '[Photo by __Gshightfotos__ on Unsplash](https://unsplash.com/photos/black-and-white-audio-mixer-huz1Wf1Q8ic)' -->
 ### Is your team _frequently doing it_?
 
 ![bg opacity:.3](/img/peer-programming/gsightfotos-huz1Wf1Q8ic-unsplash.jpg)
