@@ -27,7 +27,7 @@ What?
  
 <!-- _class: invert -->
 <!-- _footer: 'Photo by __Lorenzo Herrera__ on __[Unsplash](https://unsplash.com/photos/vintage-gray-game-console-and-joystick-p0j-mE6mGo4)__' -->
-![bg opacity:.4](/img/agile-retro-patterns/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg)
+![bg opacity:.4](../img/agile-retro-patterns/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg)
 
 # Agile Retrospective 
 # Design Patterns
@@ -36,7 +36,7 @@ What?
 
 # About me
 
-![bg left:50% 90%](/img/me_bw-circle.png)
+![bg left:50% 90%](../img/me_bw-circle.png)
 
 **Nico Riedmann**
 something @ somewhere
@@ -49,7 +49,7 @@ something @ somewhere
 
 <!-- _class: invert -->
 <!-- _footer: 'Photo by __Ricardo Gomez Angel__ on __[Unsplash](https://unsplash.com/photos/a-curved-facade-covered-in-white-latticework-5YM26lUicfU)__' -->
-![bg opacity:.3](/img/agile-retro-patterns/ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg)
+![bg opacity:.3](../img/agile-retro-patterns/ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg)
 
 # Design Patterns
 
@@ -62,10 +62,10 @@ Most of you can probably think of some design patterns right? (audience engageme
 
 <!-- _footer: Left to right, alex, Pallazo Poggi, Myotus (CC BY-SA 4.0), Ethan2039 (CC BY-SA 3.0) via Wikimedia Commons' -->
 
-![bg](/img/agile-retro-patterns//hall0.bmp)
-![bg](/img/agile-retro-patterns//hall1.bmp)
-![bg](/img/agile-retro-patterns//hall2.bmp)
-![bg](/img/agile-retro-patterns//hall3.bmp)
+![bg](../img/agile-retro-patterns//hall0.bmp)
+![bg](../img/agile-retro-patterns//hall1.bmp)
+![bg](../img/agile-retro-patterns//hall2.bmp)
+![bg](../img/agile-retro-patterns//hall3.bmp)
 
 <!--
 I was thinking more along the line of these Design Patterns. 
@@ -87,7 +87,7 @@ Which is exactly how we apply them in software, and I'd argue agile retrospectiv
 
 <!-- _class: invert -->
 <!-- _footer: 'Photo by __İrfan Simsar__ on __[Unsplash](https://unsplash.com/photos/a-curved-facade-covered-in-white-latticework-5YM26lUicfU)__' -->
-![bg opacity:.25](/img/agile-retro-patterns/irfan-simsar-wxWulfjN-G0-unsplash.jpg)
+![bg opacity:.25](../img/agile-retro-patterns/irfan-simsar-wxWulfjN-G0-unsplash.jpg)
   
 # Retrospectives
 
@@ -182,7 +182,7 @@ but we often use it as reusable content as well.
 
 <!-- _class: invert -->
 <!-- _footer: 'Photo by __Alice Butenko__ on __[Unsplash](https://unsplash.com/photos/yellow-and-white-floral-textile-zstWUZFj77w)__' -->
-![bg opacity:.3](/img/agile-retro-patterns/alice-butenko-zstWUZFj77w-unsplash.jpg)
+![bg opacity:.3](../img/agile-retro-patterns/alice-butenko-zstWUZFj77w-unsplash.jpg)
 
 # Patterns to Content
 
@@ -195,13 +195,13 @@ And they're just ideas that worked for someone in the past, we may have better i
 
 ---
 
-![bg](/img/agile-retro-patterns//retromat.png)
+![bg](../img/agile-retro-patterns//retromat.png)
 
 ---
 
 <!-- _class: invert -->
 <!-- _footer: 'Photo by __Alice Butenko__ on __[Unsplash](https://unsplash.com/photos/a-blue-and-white-tile-with-circles-on-it-RIgxEe1HjeY)__' -->
-![bg opacity:.25](/img/agile-retro-patterns/alice-butenko-RIgxEe1HjeY-unsplash.jpg)
+![bg opacity:.25](../img/agile-retro-patterns/alice-butenko-RIgxEe1HjeY-unsplash.jpg)
 
 # Patterns to Retrospectives
 
@@ -212,7 +212,7 @@ So, we have a pattern to structure and lots of sources for activities, we're set
 ---
 <!-- _class: invert -->
 
-![bg 55%](/img/agile-retro-patterns//content.jpg)
+![bg 55%](../img/agile-retro-patterns//content.jpg)
 
 <!--
 Nope. 
@@ -315,7 +315,7 @@ _one word/picture about how you're feeling_
 
 _Sailboat_
 
-![bg left width:95%](/img/agile-retro-patterns/sailboat.png)
+![bg left width:95%](../img/agile-retro-patterns/sailboat.png)
 
 ---
 
@@ -370,7 +370,7 @@ Why? Team is mature and performing, so focus on 'how we can we keep doing great'
 
 <!-- _class: invert -->
 <!-- _footer: 'Photo by __Lindsay  Henwood__ on __[Unsplash](https://unsplash.com/photos/person-stepping-on-blue-stairs-7_kRuX1hSXM)__' -->
-![bg opacity:.3](/img/agile-retro-patterns/lindsay-henwood-7_kRuX1hSXM-unsplash.jpg)
+![bg opacity:.3](../img/agile-retro-patterns/lindsay-henwood-7_kRuX1hSXM-unsplash.jpg)
 
 # Recap
 
@@ -392,4 +392,4 @@ make use resources and patterns to pick and **choose what fits your team's situa
 
 # Not enough?
 
-![bg right width:80%](/img/agile-retro-patterns/links-qr.png)
+![bg right width:80%](../img/agile-retro-patterns/links-qr.png)

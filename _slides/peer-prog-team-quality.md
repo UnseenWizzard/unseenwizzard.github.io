@@ -5,10 +5,14 @@ style: |
   a {
     color: rgb(219, 127, 52);
   }
+  footer a {
+      color: var(--color-header);
+  }
 ---
 
 <!-- _class: invert -->
-![bg](/img/peer-programming/intro_slide_bg.png)
+<!-- _footer: 'Photo by __Randy Fath__ on __[Unsplash](https://unsplash.com/photos/people-building-structure-during-daytime-ymf4_9Y9S_A)__' -->
+![bg opacity:.4](/img/peer-programming/randy-fath-ymf4_9Y9S_A-unsplash.jpg)
 
 # Peer Programming to increase "Team Quality"
 
@@ -23,13 +27,12 @@ Don't worry we'll define both in a moment.
 
 # About me
 
-![bg left:50% 80%](https://riedmann.dev/img/me_bw.png)
+![bg left:50% 90%](/img/me_bw-circle.png)
 
 **Nico Riedmann**
 something @ somewhere
 
 :computer: [riedmann.dev](https://riedmann.dev)
-:email: [nico@riedmann.dev](mailto:nico@riedmann.dev)
 
 <!-- First a little bit about myself... -->
 
@@ -52,7 +55,7 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 
 ---
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Parshant Saini__ on Unsplash' -->
+<!-- _footer: 'Photo by __Parshant Saini__ on [Unsplash](https://unsplash.com/photos/two-gray-pigeons-on-brown-galvanized-roofs-5RiMmxSeM4k)' -->
 ### Have you done _pair programming_?
 
 ![bg opacity:.3](/img/peer-programming/prashant-saini-5RiMmxSeM4k-unsplash.jpg)
@@ -60,7 +63,7 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Rafael Garcin__ on Unsplash' -->
+<!-- _footer: 'Photo by __Rafael Garcin__ on [Unsplash](https://unsplash.com/photos/a-group-of-people-standing-on-a-street-holding-flarers-a0R2-WdAmzc)' -->
 ### Have you done _mob programming_?
 
 ![bg opacity:.3](/img/peer-programming/rafael-garcin-a0R2-WdAmzc-unsplash.jpg)
@@ -68,7 +71,7 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Gshightfotos__ on Unsplash' -->
+<!-- _footer: 'Photo by __Gshightfotos__ on [Unsplash](https://unsplash.com/photos/black-and-white-audio-mixer-huz1Wf1Q8ic)' -->
 ### Is your team _frequently doing it_?
 
 ![bg opacity:.3](/img/peer-programming/gsightfotos-huz1Wf1Q8ic-unsplash.jpg)
@@ -149,7 +152,7 @@ Pairing can be difficult...
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Fabian Gieske__ on Unsplash' -->
+<!-- _footer: '[Photo by __Fabian Gieske__ on Unsplash](https://unsplash.com/photos/grayscale-photo-of-person-and-dog-holding-hands-cbIKeuURaq8)' -->
 ![bg opacity:.3](/img/peer-programming/fabian-gieske-cbIKeuURaq8-unsplash.jpg)
 
 # Trust
@@ -159,7 +162,7 @@ Pairing can be difficult...
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Torsten Dederichs__ on Unsplash' -->
+<!-- _footer: '[Photo by __Torsten Dederichs__ on Unsplash](https://unsplash.com/photos/two-children-standing-near-cliff-watching-on-ocean-at-daytime-XRcEsQKTWGk)' -->
 ![bg opacity:.3](/img/peer-programming/torsten-dederichs-XRcEsQKTWGk-unsplash.jpg)
 
 # Shared vision
@@ -169,7 +172,7 @@ Pairing can be difficult...
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Jen Theodore__ on Unsplash' -->
+<!-- _footer: '[Photo by __Jen Theodore__ on Unsplash](https://unsplash.com/photos/four-brass-skeleton-keys-CiMITAJtb6I)' -->
 ![bg opacity:.3](/img/peer-programming/jen-theodore-CiMITAJtb6I-unsplash.jpg)
 
 # Shared ownership
@@ -188,7 +191,7 @@ These three things are for me, team quality, or what makes a great a team. -->
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Gary Bending__ on Unsplash' -->
+<!-- _footer: '[Photo by __Gary Bending__ on Unsplash](https://unsplash.com/photos/selective-focus-photography-of-yellow-and-black-lovebirds-lpzcjbzsUmI)' -->
 ![bg opacity:.3](/img/peer-programming/gary-bendig-lpzcjbzsUmI-unsplash.jpg)
 
 # We share...
@@ -225,7 +228,7 @@ So vulnerability fosters trust, and vice versa we're more open to being vulnerab
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Tapish__ on Unsplash' -->
+<!-- _footer: '[Photo by __Tapish__ on Unsplash](https://unsplash.com/photos/a-pigeon-sitting-on-top-of-a-rusted-piece-of-metal-4zJkt-4ft00)' -->
 
 # Feedback given at the best moment to hear it
 ![bg opacity:.3](/img/peer-programming/tapish-4zJkt-4ft00-unsplash.jpg)
@@ -268,7 +271,7 @@ This point is the worst possible moment to receive feedback. You're 'done' and n
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Jeffrey F Lin__ on Unsplash' -->
+<!-- _footer: '[Photo by __Jeffrey F Lin__ on Unsplash](https://unsplash.com/photos/soccer-player-yZTnl9sAtXk)' -->
 ![bg opacity:.3](/img/peer-programming/jeffrey-f-lin-yZTnl9sAtXk-unsplash.jpg)
 
 # Creates "collisions" between people
@@ -290,7 +293,7 @@ This point is the worst possible moment to receive feedback. You're 'done' and n
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Nareeta Martin__ on Unsplash' -->
+<!-- _footer: '[Photo by __Nareeta Martin__ on Unsplash](https://unsplash.com/photos/white-sheep-on-green-grass-field-during-daytime-85KdEoXE7mc)' -->
 ![bg opacity:.3](/img/peer-programming/nareeta-martin-85KdEoXE7mc-unsplash.jpg)
 
 # Mobbing your shared vision
@@ -328,7 +331,7 @@ All of these agreements can emerge organically from discusson and can be reviewe
 ---
 
 <!-- _class: invert -->
-<!-- _footer: 'Photo by __Braden Collum__ on Unsplash' -->
+<!-- _footer: '[Photo by __Braden Collum__ on Unsplash](https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA)' -->
 ![bg opacity:.3](/img/peer-programming/braden-collum-9HI8UJMSdZA-unsplash.jpg)
 
 # Where do I start?
@@ -342,16 +345,64 @@ All of these agreements can emerge organically from discusson and can be reviewe
 
 ---
 
-## Look into techniques! 
+<!-- _class: invert -->
 
----
-
-## Pair promiscuously
+# Don't over-do it
 
 ---
 
 ## Start short, take breaks
 
 ---
+
+## Collaborate when there's uncertainty
+
+---
+
+## Split when all is clear
+
+---
+
+<!-- _class: invert -->
+
+# Look into techniques!
+
+---
+
+## not just staring at the same IDE
+
+---
+
+<!-- _footer: 'generated by Dall-E 3' -->
+![bg 90% opacity:1.0](/img/peer-programming/pair-programming-patterns.png)
+
+---
+
+## be clear on roles
+
+---
+
+## and switch them
+
+---
+
+## only drop structure
+## once you've got a feeling
+
+---
+
+<!-- _class: invert -->
+
+## Pair promiscuously
+
+---
+
+<!-- _class: invert -->
+
+## Drop your async code review
+
+---
+
+<!-- _class: invert -->
 
 ## Keep going!
