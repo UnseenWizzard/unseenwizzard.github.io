@@ -41,6 +41,7 @@ _Mentoring, Leadership Training sparing partner, public speaking and communicati
 ## Experience
 `06.2025-`
 __Senior Manager Software Engineering__ _Dynatrace_
+
 `01.2024-06.2025`
 __Manager Software Engineering__ _Dynatrace_
 * As an engineering manager, I work with platform engineering teams building our platform's Cloud and Kubernetes foundations, as well as delivery and orchestration workflows and tooling.
