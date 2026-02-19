@@ -274,7 +274,7 @@ This point is the worst possible moment to receive feedback. You're 'done' and n
 
 # Not opposition
 
-## ciritquing your peers work
+## critiquing your peer's work
 
 <!-- rather than a situation of opposition, where you're critiquing your peers work after the fact. -->
 
@@ -397,7 +397,7 @@ All of these agreements can emerge organically from discusson and can be reviewe
 ---
 
 ## only drop structure
-## once you've got a feeling
+## once you know it
 
 ---
 
@@ -414,5 +414,7 @@ All of these agreements can emerge organically from discusson and can be reviewe
 ---
 
 <!-- _class: invert -->
-
+<!-- _footer: '[Photo by __Bill Jelen__ on Unsplash](https://unsplash.com/photos/space-rocket-with-flames-NVWyN8GamCk)' -->
 ## Keep going!
+
+![bg opacity:.4](/img/peer-programming/bill-jelen-NVWyN8GamCk-unsplash.jpg)
