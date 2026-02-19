@@ -71,6 +71,15 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 ---
 
 <!-- _class: invert -->
+<!-- _footer: '[Photo by __Surface__ on Unsplash](ttps://unsplash.com/photos/a-person-sitting-on-a-couch-with-a-laptop-X1GZqv-F7Tw)' -->
+### Have you _enjoyed it_?
+
+![bg opacity:.3](/img/peer-programming/surface-X1GZqv-F7Tw-unsplash.jpg)
+
+
+---
+
+<!-- _class: invert -->
 <!-- _footer: '[Photo by __Gshightfotos__ on Unsplash](https://unsplash.com/photos/black-and-white-audio-mixer-huz1Wf1Q8ic)' -->
 ### Is your team _frequently doing it_?
 
@@ -78,6 +87,7 @@ might not want to call 'mob' 'mob' anymore - but I like the pitchforks visual --
 
 
 ---
+
 <!-- _class: invert -->
 # Why are we doing this?
 
