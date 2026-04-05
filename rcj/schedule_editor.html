@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RCJ Schedule Editor</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f0f2f5;
+  --surface: #ffffff;
+  --primary: #4f46e5;
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --radius: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+header {
+  background: #1e1b4b;
+  color: white;
+  padding: 13px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+header h1 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
+#download-btn {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4ade80;
+  color: #14532d;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: none;
+  transition: background 0.15s;
+}
+#download-btn:hover { background: #22c55e; }
+
+/* ── Loader screen ── */
+#loader-screen {
+  min-height: calc(100vh - 47px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+#dropzone {
+  border: 2px dashed #c7d2fe;
+  border-radius: 16px;
+  padding: 60px 48px;
+  text-align: center;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  max-width: 460px;
+  width: 100%;
+}
+#dropzone:hover, #dropzone.drag-over { border-color: var(--primary); background: #eef2ff; }
+.drop-icon { font-size: 2.8rem; margin-bottom: 14px; }
+#dropzone h2 { font-size: 1.15rem; margin-bottom: 8px; color: #374151; font-weight: 600; }
+#dropzone p { color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
+
+#load-error {
+  margin-top: 12px;
+  color: #dc2626;
+  font-size: 0.88rem;
+  display: none;
+}
+
+/* ── App ── */
+#app { display: none; }
+
+.app-body { padding: 20px 24px 40px; }
+
+/* ── Tabs ── */
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0;
+}
+.tab-btn {
+  padding: 8px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.tab-btn.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+.tab-btn:hover:not(.active) { color: var(--text); }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── Day tabs ── */
+.day-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.day-tab {
+  padding: 5px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--muted);
+  transition: all 0.15s;
+}
+.day-tab.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+.day-tab:hover:not(.active) { border-color: var(--primary); color: var(--primary); }
+
+/* ── Schedule grid ── */
+.grid-wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.schedule-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.83rem;
+}
+
+.schedule-table th {
+  background: #f9fafb;
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 700;
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--border);
+  border-right: 1px solid var(--border);
+  white-space: nowrap;
+  min-width: 120px;
+}
+.schedule-table th:last-child { border-right: none; }
+.schedule-table th.time-header { min-width: 90px; }
+
+.schedule-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  vertical-align: middle;
+}
+.schedule-table td:last-child { border-right: none; }
+.schedule-table tr:last-child td { border-bottom: none; }
+
+.slot-cell {
+  min-width: 120px;
+  height: 38px;
+}
+.slot-cell.empty { background: #fafafa; }
+.slot-cell.occupied { background: white; }
+
+.team-tag {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 5px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: #e0e7ff;
+  color: #3730a3;
+  margin: 1px 2px;
+  cursor: grab;
+  user-select: none;
+  border: 1.5px solid transparent;
+  transition: border-color 0.12s, background 0.12s;
+}
+.team-tag:active { cursor: grabbing; }
+.team-tag.interview { background: #f0fdf4; color: #166534; border-color: #bbf7d0; }
+
+/* ── Selection states ── */
+.slot-cell.selected-source { background: #eef2ff !important; outline: 2px solid var(--primary); outline-offset: -2px; }
+.slot-cell.valid-target { background: #dcfce7 !important; outline: 2px dashed #16a34a; outline-offset: -2px; cursor: pointer; }
+.slot-cell.valid-target:hover { background: #bbf7d0 !important; }
+
+.resource-kind {
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.time-cell {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.empty-state {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* ── Changes placeholder ── */
+.placeholder-panel {
+  background: white;
+  border-radius: var(--radius);
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.placeholder-panel p { margin-top: 8px; font-size: 0.83rem; }
+
+/* ── Changes tab content ── */
+.changes-section {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
+.changes-section h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+.changes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.changes-header h3 { margin-bottom: 0; }
+.change-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.change-item {
+  font-size: 0.84rem;
+  padding: 8px 12px;
+  background: #f9fafb;
+  border-radius: 6px;
+  border-left: 3px solid var(--primary);
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+}
+.change-item.swap-item { border-left-color: #f59e0b; }
+#undo-btn {
+  padding: 5px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: white;
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+#undo-btn:hover:not(:disabled) { border-color: #dc2626; color: #dc2626; background: #fef2f2; }
+#undo-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* ── Diff view ── */
+#diff-view {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, monospace;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  max-height: 500px;
+  overflow: auto;
+}
+.diff-line {
+  display: flex;
+  padding: 0;
+  white-space: pre;
+  min-width: max-content;
+}
+.diff-line.diff-same    { background: white; color: #374151; }
+.diff-line.diff-add     { background: #f0fdf4; color: #166534; }
+.diff-line.diff-remove  { background: #fef2f2; color: #991b1b; }
+.diff-sign {
+  width: 18px;
+  min-width: 18px;
+  text-align: center;
+  font-weight: 700;
+  user-select: none;
+}
+.diff-same .diff-sign   { color: #d1d5db; }
+.diff-add .diff-sign    { color: #16a34a; }
+.diff-remove .diff-sign { color: #dc2626; }
+.diff-content { padding: 0 8px; flex: 1; }
+
+/* ── Toast ── */
+#toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: #1e1b4b;
+  color: white;
+  padding: 9px 20px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 200;
+  white-space: nowrap;
+  max-width: 90vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ── Validation banner ── */
+#validation-banner {
+  background: #fef9c3;
+  border: 1px solid #fde047;
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  display: none;
+}
+#validation-banner summary {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #854d0e;
+  cursor: pointer;
+  user-select: none;
+}
+#validation-banner ul {
+  margin-top: 8px;
+  padding-left: 18px;
+  font-size: 0.82rem;
+  color: #713f12;
+  line-height: 1.7;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>RCJ Schedule Editor</h1>
+  <button id="download-btn">&#8615; Download Edited Schedule</button>
+</header>
+<div id="toast"></div>
+
+<div id="loader-screen">
+  <div id="dropzone">
+    <input type="file" id="file-input" accept=".json" style="display:none">
+    <div class="drop-icon">✏️</div>
+    <h2>Load Schedule</h2>
+    <p>Drag &amp; drop a <strong>schedule.json</strong> file here<br>or click to select</p>
+  </div>
+  <div id="load-error"></div>
+</div>
+
+<div id="app">
+  <div class="app-body">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="editor">Editor</button>
+      <button class="tab-btn" data-tab="changes">Changes &amp; Diff</button>
+    </div>
+
+    <div id="tab-editor" class="tab-panel active">
+      <details id="validation-banner">
+        <summary id="validation-summary"></summary>
+        <ul id="validation-list"></ul>
+      </details>
+      <div class="day-tabs" id="day-tabs"></div>
+      <div class="grid-wrapper">
+        <table class="schedule-table" id="schedule-table">
+          <thead id="schedule-thead"></thead>
+          <tbody id="assignment-rows"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-changes" class="tab-panel">
+      <div id="changes-empty" class="placeholder-panel">
+        <strong>No changes yet</strong>
+        <p>Make edits in the Editor tab — changes will appear here.</p>
+      </div>
+      <div id="changes-content" style="display:none">
+        <div class="changes-section">
+          <div class="changes-header">
+            <h3>Change Summary</h3>
+            <button id="undo-btn">Undo last change</button>
+          </div>
+          <ul class="change-list" id="change-list"></ul>
+        </div>
+        <div class="changes-section">
+          <h3>JSON Diff</h3>
+          <div id="diff-view"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─────────────────────────────────────────────
+//  State
+// ─────────────────────────────────────────────
+let originalSchedule = null;   // parsed JSON, never mutated
+let editedSchedule   = null;   // deep clone, all edits go here
+const changeLog      = [];     // { team, from, to } entries
+
+const state = {
+  selectedDay: null,
+  selected: null,   // { idx, start, end, resource_name, teams }
+};
+
+// ─────────────────────────────────────────────
+//  File loading
+// ─────────────────────────────────────────────
+function loadScheduleFile(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (!Array.isArray(data.assignments)) throw new Error('Missing assignments array');
+      originalSchedule = data;
+      editedSchedule   = JSON.parse(JSON.stringify(data)); // deep clone
+      showApp();
+    } catch (err) {
+      showError('Failed to parse schedule.json: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function showError(msg) {
+  const el = document.getElementById('load-error');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+// ─────────────────────────────────────────────
+//  Render
+// ─────────────────────────────────────────────
+function daysInSchedule(schedule) {
+  const s = new Set(schedule.assignments.map(a => a.day));
+  return [...s].sort();
+}
+
+function showApp() {
+  document.getElementById('loader-screen').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+
+  const days = daysInSchedule(editedSchedule);
+  state.selectedDay = days[0] || null;
+
+  renderDayTabs(days);
+  renderAssignments();
+  renderValidationBanner(validateSchedule(editedSchedule));
+}
+
+function renderDayTabs(days) {
+  const container = document.getElementById('day-tabs');
+  container.innerHTML = days.map(d =>
+    `<button class="day-tab${d === state.selectedDay ? ' active' : ''}" data-day="${d}">${d}</button>`
+  ).join('');
+  container.querySelectorAll('.day-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.selectedDay = btn.dataset.day;
+      container.querySelectorAll('.day-tab').forEach(b => b.classList.toggle('active', b === btn));
+      renderAssignments();
+    });
+  });
+}
+
+// ─────────────────────────────────────────────
+//  Grid helpers
+// ─────────────────────────────────────────────
+function buildGrid(assignments) {
+  // Collect unique resources: arenas first (sorted by name), then interviews
+  const resourceMap = new Map(); // name -> kind
+  assignments.forEach(a => {
+    if (!resourceMap.has(a.resource_name)) resourceMap.set(a.resource_name, a.resource_kind);
+  });
+  const resources = [...resourceMap.entries()]
+    .sort((a, b) => {
+      if (a[1] !== b[1]) return a[1] === 'arena' ? -1 : 1;
+      return a[0].localeCompare(b[0]);
+    })
+    .map(([name, kind]) => ({ name, kind }));
+
+  // Collect unique time slots sorted by start time
+  const slotMap = new Map(); // "start|end" -> {start, end}
+  assignments.forEach(a => {
+    const key = a.start + '|' + a.end;
+    if (!slotMap.has(key)) slotMap.set(key, { start: a.start, end: a.end });
+  });
+  const slots = [...slotMap.values()].sort((a, b) => a.start.localeCompare(b.start));
+
+  // Build lookup: "start|resource_name" -> assignment
+  const lookup = new Map();
+  assignments.forEach(a => {
+    lookup.set(a.start + '|' + a.resource_name, a);
+  });
+
+  return { resources, slots, lookup };
+}
+
+function renderAssignments() {
+  const thead = document.getElementById('schedule-thead');
+  const tbody = document.getElementById('assignment-rows');
+
+  if (!state.selectedDay) {
+    thead.innerHTML = '<tr><th class="time-header">Time</th></tr>';
+    tbody.innerHTML = '<tr><td class="empty-state">No data</td></tr>';
+    return;
+  }
+
+  const dayAssignments = editedSchedule.assignments.filter(a => a.day === state.selectedDay);
+
+  if (dayAssignments.length === 0) {
+    thead.innerHTML = '<tr><th class="time-header">Time</th></tr>';
+    tbody.innerHTML = '<tr><td class="empty-state">No assignments for this day</td></tr>';
+    return;
+  }
+
+  const { resources, slots, lookup } = buildGrid(dayAssignments);
+
+  // Header: Time + one column per resource
+  thead.innerHTML = '<tr>' +
+    '<th class="time-header">Time</th>' +
+    resources.map(r =>
+      `<th><div>${escHtml(r.name)}</div><div class="resource-kind">${escHtml(r.kind)}</div></th>`
+    ).join('') +
+    '</tr>';
+
+  // Rows: one per time slot
+  tbody.innerHTML = slots.map(slot => {
+    const cells = resources.map(r => {
+      const a = lookup.get(slot.start + '|' + r.name);
+      if (a) {
+        const aIdx = editedSchedule.assignments.indexOf(a);
+        const isInterview = r.kind === 'interview';
+        const teamTags = (a.teams || []).map(t =>
+          `<span class="team-tag${isInterview ? ' interview' : ''}">${escHtml(t)}</span>`
+        ).join('');
+        return `<td class="slot-cell occupied" data-start="${escAttr(slot.start)}" data-end="${escAttr(slot.end)}" data-resource="${escAttr(r.name)}" data-idx="${aIdx}">${teamTags}</td>`;
+      }
+      return `<td class="slot-cell empty" data-start="${escAttr(slot.start)}" data-end="${escAttr(slot.end)}" data-resource="${escAttr(r.name)}"></td>`;
+    }).join('');
+    return `<tr>
+      <td class="time-cell">${escHtml(slot.start)}&ndash;${escHtml(slot.end)}</td>
+      ${cells}
+    </tr>`;
+  }).join('');
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function escAttr(str) {
+  return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+}
+
+// ─────────────────────────────────────────────
+//  Toast
+// ─────────────────────────────────────────────
+let toastTimer = null;
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2500);
+}
+
+// ─────────────────────────────────────────────
+//  Validation
+// ─────────────────────────────────────────────
+function validateSchedule(schedule) {
+  const violations = [];
+  const assignments = schedule.assignments;
+  const buffer = (schedule.meta && schedule.meta.buffer_minutes) || 0;
+
+  // Resource double-booking
+  for (let i = 0; i < assignments.length; i++) {
+    const a = assignments[i];
+    for (let j = i + 1; j < assignments.length; j++) {
+      const b = assignments[j];
+      if (a.resource_name === b.resource_name && a.day === b.day && slotsOverlap(a.start, a.end, b.start, b.end)) {
+        violations.push(`Resource '${a.resource_name}' double-booked at ${a.start}–${a.end} and ${b.start}–${b.end} on ${a.day}`);
+      }
+    }
+  }
+
+  // Team overlap/buffer
+  const allTeams = new Set(assignments.flatMap(a => a.teams));
+  for (const team of allTeams) {
+    const teamA = assignments.filter(a => a.teams.includes(team));
+    for (let i = 0; i < teamA.length; i++) {
+      for (let j = i + 1; j < teamA.length; j++) {
+        const a = teamA[i], b = teamA[j];
+        if (a.day !== b.day) continue;
+        if (slotsOverlap(a.start, a.end, b.start, b.end)) {
+          violations.push(`Team '${team}' has overlapping slots: ${a.start}–${a.end} and ${b.start}–${b.end} on ${a.day}`);
+        } else if (hasBufferConflict(a.start, a.end, b.start, b.end, buffer)) {
+          violations.push(`Team '${team}' has insufficient buffer between ${a.start}–${a.end} and ${b.start}–${b.end} on ${a.day}`);
+        }
+      }
+    }
+  }
+  return violations;
+}
+
+function renderValidationBanner(violations) {
+  const banner = document.getElementById('validation-banner');
+  const summary = document.getElementById('validation-summary');
+  const list = document.getElementById('validation-list');
+  if (violations.length === 0) {
+    banner.style.display = 'none';
+    return;
+  }
+  summary.textContent = `⚠ ${violations.length} validation issue${violations.length > 1 ? 's' : ''} found in loaded schedule`;
+  list.innerHTML = violations.map(v => `<li>${escHtml(v)}</li>`).join('');
+  banner.style.display = 'block';
+}
+
+// ─────────────────────────────────────────────
+//  Time / overlap helpers
+// ─────────────────────────────────────────────
+function timeToMinutes(t) {
+  const [h, m] = t.split(':').map(Number);
+  return h * 60 + m;
+}
+
+function slotsOverlap(s1, e1, s2, e2) {
+  return s1 < e2 && s2 < e1;  // string compare works for zero-padded HH:MM
+}
+
+function hasBufferConflict(s1, e1, s2, e2, bufferMins) {
+  if (slotsOverlap(s1, e1, s2, e2)) return true;
+  const gap = Math.min(
+    Math.abs(timeToMinutes(s1) - timeToMinutes(e2)),
+    Math.abs(timeToMinutes(e1) - timeToMinutes(s2))
+  );
+  return gap < bufferMins;
+}
+
+function getTeamOtherAssignments(team, excludeIdx, day) {
+  return editedSchedule.assignments.filter((a, idx) =>
+    idx !== excludeIdx && a.day === day && a.teams.includes(team)
+  );
+}
+
+function canMoveTo(teams, fromIdx, targetStart, targetEnd, day) {
+  const bufferMins = (editedSchedule.meta && editedSchedule.meta.buffer_minutes) || 0;
+  for (const team of teams) {
+    const others = getTeamOtherAssignments(team, fromIdx, day);
+    for (const other of others) {
+      if (hasBufferConflict(targetStart, targetEnd, other.start, other.end, bufferMins)) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+// ─────────────────────────────────────────────
+//  Selection & move
+// ─────────────────────────────────────────────
+function selectCell(cell) {
+  deselectAll();
+  const idx = parseInt(cell.dataset.idx, 10);
+  const a = editedSchedule.assignments[idx];
+  state.selected = { idx, start: a.start, end: a.end, resource_name: a.resource_name, teams: [...a.teams] };
+  cell.classList.add('selected-source');
+  highlightValidTargets();
+}
+
+function deselectAll() {
+  state.selected = null;
+  document.querySelectorAll('.slot-cell.selected-source').forEach(c => c.classList.remove('selected-source'));
+  document.querySelectorAll('.slot-cell.valid-target').forEach(c => c.classList.remove('valid-target'));
+}
+
+function highlightValidTargets() {
+  const sel = state.selected;
+  if (!sel) return;
+  const day = state.selectedDay;
+
+  document.querySelectorAll('.slot-cell').forEach(cell => {
+    if (cell.dataset.resource !== sel.resource_name) return;
+    if (cell.classList.contains('selected-source')) return;
+
+    const cStart = cell.dataset.start;
+    const cEnd   = cell.dataset.end;
+
+    if (!canMoveTo(sel.teams, sel.idx, cStart, cEnd, day)) return;
+
+    if (cell.classList.contains('occupied')) {
+      const tIdx = parseInt(cell.dataset.idx, 10);
+      const tA   = editedSchedule.assignments[tIdx];
+      if (!canMoveTo(tA.teams, tIdx, sel.start, sel.end, day)) return;
+    }
+
+    cell.classList.add('valid-target');
+  });
+}
+
+function handleCellClick(e) {
+  const cell = e.target.closest('.slot-cell');
+  if (!cell) return;
+
+  const sel = state.selected;
+
+  if (!sel) {
+    if (cell.classList.contains('occupied')) selectCell(cell);
+    return;
+  }
+
+  if (cell.classList.contains('selected-source')) { deselectAll(); return; }
+  if (cell.classList.contains('valid-target'))    { performMove(cell); return; }
+  if (cell.classList.contains('occupied'))        { selectCell(cell); return; }
+  deselectAll();
+}
+
+function performMove(targetCell) {
+  const sel  = state.selected;
+  const selA = editedSchedule.assignments[sel.idx];
+  const tStart = targetCell.dataset.start;
+  const tEnd   = targetCell.dataset.end;
+
+  if (targetCell.classList.contains('occupied')) {
+    const tIdx = parseInt(targetCell.dataset.idx, 10);
+    const tA   = editedSchedule.assignments[tIdx];
+
+    changeLog.push({
+      type: 'swap',
+      aIdx: sel.idx, aTeams: [...selA.teams],
+      bIdx: tIdx,    bTeams: [...tA.teams],
+      aFrom: { day: selA.day, start: selA.start, end: selA.end, resource: selA.resource_name },
+      aTo:   { day: selA.day, start: tA.start,   end: tA.end,   resource: selA.resource_name },
+      bFrom: { day: tA.day,   start: tA.start,   end: tA.end,   resource: tA.resource_name },
+      bTo:   { day: tA.day,   start: selA.start, end: selA.end, resource: tA.resource_name },
+    });
+
+    const tmpStart = selA.start, tmpEnd = selA.end;
+    selA.start = tA.start;  selA.end = tA.end;
+    tA.start   = tmpStart;  tA.end   = tmpEnd;
+    showToast(`Swapped ${selA.teams.join(', ')} ↔ ${tA.teams.join(', ')}`);
+  } else {
+    changeLog.push({
+      type: 'move',
+      idx: sel.idx, teams: [...selA.teams],
+      from: { day: selA.day, start: selA.start, end: selA.end, resource: selA.resource_name },
+      to:   { day: selA.day, start: tStart,     end: tEnd,     resource: selA.resource_name },
+    });
+    selA.start = tStart;
+    selA.end   = tEnd;
+    showToast(`Moved ${selA.teams.join(', ')} to ${tStart}–${tEnd}`);
+  }
+
+  deselectAll();
+  renderAssignments();
+  updateDownloadButton();
+}
+
+// ─────────────────────────────────────────────
+//  Changes & Diff tab
+// ─────────────────────────────────────────────
+function formatChangeLines(entry) {
+  // Returns an array of {text, isSwap} objects (one or two lines per entry)
+  if (entry.type === 'move') {
+    const teams = entry.teams.join(', ');
+    const text = `${teams}: ${entry.from.resource} ${entry.from.day} ${entry.from.start}–${entry.from.end} → ${entry.to.day} ${entry.to.start}–${entry.to.end}`;
+    return [{ text, isSwap: false }];
+  } else {
+    // swap
+    const aTeams = entry.aTeams.join(', ');
+    const bTeams = entry.bTeams.join(', ');
+    return [
+      { text: `${aTeams}: ${entry.aFrom.resource} ${entry.aFrom.day} ${entry.aFrom.start}–${entry.aFrom.end} → ${entry.aTo.day} ${entry.aTo.start}–${entry.aTo.end} (swap)`, isSwap: true },
+      { text: `${bTeams}: ${entry.bFrom.resource} ${entry.bFrom.day} ${entry.bFrom.start}–${entry.bFrom.end} → ${entry.bTo.day} ${entry.bTo.start}–${entry.bTo.end} (swap)`, isSwap: true },
+    ];
+  }
+}
+
+function undoLastChange() {
+  if (!changeLog.length) return;
+  const entry = changeLog.pop();
+  if (entry.type === 'move') {
+    const a = editedSchedule.assignments[entry.idx];
+    a.start = entry.from.start;
+    a.end   = entry.from.end;
+  } else {
+    const a = editedSchedule.assignments[entry.aIdx];
+    const b = editedSchedule.assignments[entry.bIdx];
+    a.start = entry.aFrom.start;  a.end = entry.aFrom.end;
+    b.start = entry.bFrom.start;  b.end = entry.bFrom.end;
+  }
+  renderAssignments();
+  renderChangesTab();
+  updateDownloadButton();
+}
+
+// Simple LCS-based line diff
+function computeDiff(aLines, bLines) {
+  const m = aLines.length, n = bLines.length;
+  // Use flat array for DP to avoid OOM on large files
+  const dp = new Int32Array((m + 1) * (n + 1));
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      dp[i * (n + 1) + j] = aLines[i - 1] === bLines[j - 1]
+        ? dp[(i - 1) * (n + 1) + (j - 1)] + 1
+        : Math.max(dp[(i - 1) * (n + 1) + j], dp[i * (n + 1) + (j - 1)]);
+    }
+  }
+  const result = [];
+  let i = m, j = n;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && aLines[i - 1] === bLines[j - 1]) {
+      result.push({ type: 'same', line: aLines[i - 1] });
+      i--; j--;
+    } else if (j > 0 && (i === 0 || dp[i * (n + 1) + (j - 1)] >= dp[(i - 1) * (n + 1) + j])) {
+      result.push({ type: 'add', line: bLines[j - 1] });
+      j--;
+    } else {
+      result.push({ type: 'remove', line: aLines[i - 1] });
+      i--;
+    }
+  }
+  return result.reverse();
+}
+
+function renderChangesTab() {
+  const hasChanges = changeLog.length > 0;
+  document.getElementById('changes-empty').style.display   = hasChanges ? 'none'  : 'block';
+  document.getElementById('changes-content').style.display = hasChanges ? 'block' : 'none';
+
+  if (!hasChanges) return;
+
+  // Change summary list
+  const listEl = document.getElementById('change-list');
+  listEl.innerHTML = changeLog.flatMap(entry => formatChangeLines(entry)).map(({ text, isSwap }) =>
+    `<li class="change-item${isSwap ? ' swap-item' : ''}">${escHtml(text)}</li>`
+  ).join('');
+
+  // Undo button
+  const undoBtn = document.getElementById('undo-btn');
+  undoBtn.disabled = changeLog.length === 0;
+
+  // JSON diff
+  const origLines   = JSON.stringify(originalSchedule, null, 2).split('\n');
+  const editedLines = JSON.stringify(editedSchedule,   null, 2).split('\n');
+  const diff = computeDiff(origLines, editedLines);
+
+  const diffEl = document.getElementById('diff-view');
+  diffEl.innerHTML = diff.map(({ type, line }) => {
+    const sign = type === 'add' ? '+' : type === 'remove' ? '−' : ' ';
+    return `<div class="diff-line diff-${type}"><span class="diff-sign">${sign}</span><span class="diff-content">${escHtml(line)}</span></div>`;
+  }).join('');
+}
+
+// ─────────────────────────────────────────────
+//  Tab switching
+// ─────────────────────────────────────────────
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const tab = btn.dataset.tab;
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b === btn));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === 'tab-' + tab));
+    if (tab === 'changes') renderChangesTab();
+  });
+});
+
+// ─────────────────────────────────────────────
+//  File input / drag-drop bootstrap
+// ─────────────────────────────────────────────
+const dropzone  = document.getElementById('dropzone');
+const fileInput = document.getElementById('file-input');
+
+dropzone.addEventListener('click', () => fileInput.click());
+fileInput.addEventListener('change', e => {
+  if (e.target.files.length) loadScheduleFile(e.target.files[0]);
+});
+
+dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.classList.add('drag-over'); });
+dropzone.addEventListener('dragleave', () => dropzone.classList.remove('drag-over'));
+dropzone.addEventListener('drop', e => {
+  e.preventDefault();
+  dropzone.classList.remove('drag-over');
+  const file = e.dataTransfer.files[0];
+  if (file) loadScheduleFile(file);
+});
+
+// Cell click delegation (event listener persists across re-renders since tbody is static)
+document.getElementById('assignment-rows').addEventListener('click', handleCellClick);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') deselectAll(); });
+
+// Undo button (rendered inside changes tab, use delegation on the tab panel)
+document.getElementById('tab-changes').addEventListener('click', e => {
+  if (e.target.id === 'undo-btn') undoLastChange();
+});
+
+// ─────────────────────────────────────────────
+//  Download
+// ─────────────────────────────────────────────
+function updateDownloadButton() {
+  document.getElementById('download-btn').style.display = changeLog.length > 0 ? 'block' : 'none';
+}
+
+function buildInfoField() {
+  const today = new Date().toISOString().slice(0, 10);
+  const lines = [`Schedule edited on ${today}`, 'Changes:'];
+  changeLog.forEach(entry => {
+    if (entry.type === 'move') {
+      const teams = entry.teams.join(', ');
+      lines.push(`- ${teams}: ${entry.from.resource} ${entry.from.day} ${entry.from.start}-${entry.from.end} -> ${entry.to.day} ${entry.to.start}-${entry.to.end}`);
+    } else {
+      const aTeams = entry.aTeams.join(', ');
+      const bTeams = entry.bTeams.join(', ');
+      lines.push(`- ${aTeams}: ${entry.aFrom.resource} ${entry.aFrom.day} ${entry.aFrom.start}-${entry.aFrom.end} -> ${entry.aTo.day} ${entry.aTo.start}-${entry.aTo.end}`);
+      lines.push(`- ${bTeams}: ${entry.bFrom.resource} ${entry.bFrom.day} ${entry.bFrom.start}-${entry.bFrom.end} -> ${entry.bTo.day} ${entry.bTo.start}-${entry.bTo.end}`);
+    }
+  });
+  return lines.join('\n');
+}
+
+function downloadEditedSchedule() {
+  const output = { info: buildInfoField(), ...editedSchedule };
+  const json = JSON.stringify(output, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'schedule_edited.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+document.getElementById('download-btn').addEventListener('click', downloadEditedSchedule);
+</script>
+</body>
+</html>

@@ -57,6 +57,8 @@ header h1 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
   .view-btn { flex: 1; padding: 6px 8px; font-size: 0.8rem; }
   /* Hide division view button on mobile — it's an organiser tool */
   .view-btn[data-view="division"] { display: none; }
+  /* Hide wallboard on mobile — it's a large-screen tool */
+  .view-btn[data-view="wallboard"] { display: none; }
   /* Day view: vertical list instead of grid */
   .grid-wrapper { display: none; }
   #mobile-day-list { display: block; }
@@ -133,93 +135,45 @@ header h1 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
 #dropzone h2 { font-size: 1.15rem; margin-bottom: 8px; color: #374151; font-weight: 600; }
 #dropzone p { color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
 
-/* ── URL loader ── */
-#url-panel {
-  max-width: 460px;
-  width: 100%;
-  margin-top: 16px;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-#url-panel .divider {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 14px;
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-#url-panel .divider::before,
-#url-panel .divider::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: var(--border);
-}
-#url-card {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px 20px;
-  text-align: left;
-}
-#url-card label {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #374151;
-  margin-bottom: 8px;
-}
-.url-row {
-  display: flex;
-  gap: 8px;
-}
-#url-input {
-  flex: 1;
-  padding: 8px 12px;
-  border: 2px solid var(--border);
-  border-radius: 6px;
-  font-size: 0.88rem;
-  outline: none;
-  transition: border-color 0.15s;
-}
-#url-input:focus { border-color: var(--primary); }
-#url-load-btn {
-  padding: 8px 16px;
-  background: var(--primary);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.88rem;
-  font-weight: 600;
-  white-space: nowrap;
-  transition: opacity 0.15s;
-}
-#url-load-btn:disabled { opacity: 0.6; cursor: not-allowed; }
-@keyframes spin { to { transform: rotate(360deg); } }
-.spinner {
-  display: inline-block;
-  width: 12px; height: 12px;
-  border: 2px solid rgba(255,255,255,0.4);
-  border-top-color: white;
-  border-radius: 50%;
-  animation: spin 0.7s linear infinite;
-  vertical-align: middle;
-  margin-right: 4px;
-}
-#url-elapsed { font-size: 0.78rem; color: var(--muted); margin-top: 6px; display: none; }
-#url-error {
-  display: none;
-  margin-top: 8px;
-  font-size: 0.82rem;
-  color: #dc2626;
-}
-
 /* ── App ── */
 #app { display: none; }
 .app-body { padding: 18px 24px 32px; }
+
+/* ── Info banner (edited schedule) ── */
+#info-banner {
+  display: none;
+  background: #fff7ed;
+  border: 1.5px solid #f97316;
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+#info-banner.visible { display: block; }
+.info-banner-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #9a3412;
+  margin-bottom: 6px;
+}
+.info-banner-title svg { flex-shrink: 0; }
+.info-banner-body {
+  font-size: 0.82rem;
+  color: #7c2d12;
+  line-height: 1.5;
+}
+.info-banner-section { margin-top: 8px; }
+.info-banner-section-title {
+  font-weight: 700;
+  color: #92400e;
+  margin-bottom: 2px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.info-banner-change { padding: 1px 0; }
 
 /* ── Compact mode ── */
 body.compact .slot-cell { padding: 2px 3px; min-width: 80px; font-size: 0.75rem; }
@@ -586,6 +540,201 @@ body.compact .team-tag  { padding: 1px 5px; font-size: 0.72rem; }
   background: #e5e7eb;
   color: #374151;
 }
+
+/* ── Wallboard full-screen mode ── */
+body.wallboard-mode {
+  background: #0f0d1a;
+  overflow: hidden;
+}
+body.wallboard-mode header,
+body.wallboard-mode .view-selector {
+  display: none;
+}
+body.wallboard-mode #app {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+body.wallboard-mode .app-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+}
+body.wallboard-mode #info-banner { display: none !important; }
+body.wallboard-mode #view-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Wallboard view ── */
+.wb-root {
+  font-size: 1.2rem;
+  max-width: 100%;
+  background: #16132b;
+  color: #e8e6f0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  animation: wb-fade-in 0.4s ease;
+}
+@keyframes wb-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.wb-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 28px;
+  color: white;
+  flex-shrink: 0;
+}
+.wb-div-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.wb-progress-label {
+  font-size: 0.95rem;
+  opacity: 0.7;
+}
+.wb-body {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
+}
+.wb-day-section {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.wb-day-section:last-child { border-bottom: none; }
+.wb-day-header {
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 10px 24px 8px;
+  color: rgba(255,255,255,0.45);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.wb-section-label {
+  font-size: 0.78em;
+  font-weight: 600;
+  padding: 10px 24px 4px;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.wb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: inherit;
+}
+.wb-table th {
+  padding: 7px 20px;
+  background: rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  text-align: left;
+  font-size: 0.68em;
+  color: rgba(255,255,255,0.4);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.wb-table td {
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  vertical-align: middle;
+}
+.wb-table tr:last-child td { border-bottom: none; }
+.wb-table tr:hover td { background: rgba(255,255,255,0.04); }
+.wb-time {
+  white-space: nowrap;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.85em;
+  font-weight: 600;
+  min-width: 130px;
+}
+.wb-arena {
+  font-weight: 600;
+  min-width: 80px;
+  font-size: 0.9em;
+  color: rgba(255,255,255,0.8);
+}
+.wb-now-row td { border-left: 3px solid; }
+.wb-now-row .wb-time { font-weight: 700; opacity: 1; color: inherit; }
+@keyframes wb-progress {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+.wb-progress-bar-wrap {
+  height: 4px;
+  background: rgba(255,255,255,0.12);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wb-progress-bar {
+  height: 100%;
+  width: 0%;
+  animation: wb-progress linear forwards;
+  opacity: 0.9;
+}
+.wb-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  background: rgba(0,0,0,0.35);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.wb-ctrl-btn {
+  padding: 3px 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px;
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.85);
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.5;
+  transition: background 0.15s, border-color 0.15s;
+}
+.wb-ctrl-btn:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.4); }
+.wb-ctrl-btn.paused { border-color: rgba(255,255,255,0.55); }
+.wb-ctrl-btn.wb-exit { margin-left: auto; }
+.wb-interval-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.45);
+  margin-left: 6px;
+}
+.wb-interval-select {
+  font-size: 0.82rem;
+  padding: 2px 4px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px;
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.85);
+}
+.wb-paused-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+@media print {
+  .wb-controls { display: none; }
+}
 </style>
 </head>
 <body>
@@ -607,26 +756,26 @@ body.compact .team-tag  { padding: 1px 5px; font-size: 0.72rem; }
     <p>Drag &amp; drop <strong>schedule.json</strong> or <strong>Day1.csv</strong>, <strong>Day2.csv</strong>, … here<br>
     or click to select files</p>
   </div>
-  <div id="url-panel">
-    <div class="divider">or</div>
-    <div id="url-card">
-      <label for="url-input">Load from URL</label>
-      <div class="url-row">
-        <input type="url" id="url-input" placeholder="https://example.com/schedule.json">
-        <button id="url-load-btn">Load</button>
-      </div>
-      <p id="url-error"></p>
-      <p id="url-elapsed"></p>
-    </div>
-  </div>
 </div>
 
 <div id="app">
   <div class="app-body">
+    <div id="info-banner">
+      <div class="info-banner-title">
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M8.485 2.495c.673-1.167 2.357-1.167 3.03 0l6.28 10.875c.673 1.167-.17 2.625-1.516 2.625H3.72c-1.346 0-2.189-1.458-1.515-2.625L8.485 2.495z" fill="#f97316"/>
+          <path d="M10 7v4" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="10" cy="14" r="0.75" fill="#fff"/>
+        </svg>
+        Edited Schedule
+      </div>
+      <div class="info-banner-body" id="info-banner-body"></div>
+    </div>
     <div class="view-selector">
       <button class="view-btn active" data-view="day">By Day</button>
-      <button class="view-btn" data-view="interview">Interviews</button>
+      <button class="view-btn" data-view="location">By Location</button>
       <button class="view-btn" data-view="team">By Team</button>
+      <button class="view-btn" data-view="wallboard">Wallboard</button>
     </div>
     <div id="view-container"></div>
   </div>
@@ -639,11 +788,17 @@ body.compact .team-tag  { padding: 1px 5px; font-size: 0.72rem; }
 const state = {
   days: {},           // { "Day1": [{time_slot, resource, teams}, …] }
   breaks: {},         // { "Day1": [{start, end, label}, …] }
+  infoText: null,     // info field from edited schedule.json, or null
   view: 'day',
   selectedDay: null,
+  selectedLocation: null,
   teamSearch: '',
   compact: false,
   hiddenDivisions: new Set(),
+  wallboardInterval: 15,
+  wallboardDivIdx: 0,
+  wallboardTimer: null,
+  wallboardPaused: false,
 };
 
 // ─────────────────────────────────────────────
@@ -716,7 +871,8 @@ function parseScheduleJSON(text) {
       (breaks[day] ??= []).push({ start: b.start, end: b.end, label: b.label || 'Break', division: b.division ?? null });
     });
   }
-  return { days, breaks };
+  const infoText = data.info || null;
+  return { days, breaks, infoText };
 }
 
 // ─────────────────────────────────────────────
@@ -724,16 +880,58 @@ function parseScheduleJSON(text) {
 // ─────────────────────────────────────────────
 const EN_DASH = '\u2013';
 
+function isInterviewResource(resource) {
+  return resource === 'Interview' || /^Interview \d+$/.test(resource);
+}
+
 function divisionOf(resource) {
-  if (resource === 'Interview') return 'Interview';
+  if (isInterviewResource(resource)) return 'Interview';
   const idx = resource.indexOf(` ${EN_DASH} `);
   return idx > -1 ? resource.slice(0, idx) : resource;
 }
 
 function shortName(resource) {
-  if (resource === 'Interview') return 'Interview';
+  if (isInterviewResource(resource)) return resource;
   const idx = resource.indexOf(` ${EN_DASH} `);
   return idx > -1 ? resource.slice(idx + 3) : resource;
+}
+
+// For a given day, return a map from interview resource name → Set of division labels.
+// Two passes: first build team→division from arena rows, then resolve interview resources.
+function interviewResourceDivisions(day) {
+  const teamToDiv = {};
+  const result = {};
+  (state.days[day] || []).forEach(row => {
+    if (isInterviewResource(row.resource)) {
+      (result[row.resource] ??= new Set());
+    } else {
+      const div = divisionOf(row.resource);
+      if (div !== row.resource) {
+        row.teams.split(',').forEach(t => { const tr = t.trim(); if (tr) teamToDiv[tr] = div; });
+      }
+    }
+  });
+  (state.days[day] || []).forEach(row => {
+    if (isInterviewResource(row.resource)) {
+      const divSet = result[row.resource];
+      row.teams.split(',').forEach(t => {
+        const tr = t.trim();
+        if (tr && teamToDiv[tr]) divSet.add(teamToDiv[tr]);
+      });
+    }
+  });
+  return result;
+}
+
+// Returns the effective division for a resource: interview resources map to their
+// parent division (first alphabetically if mixed), fallback 'Interview' if unmapped.
+function effectiveDivOf(resource, intResDivs) {
+  if (isInterviewResource(resource)) {
+    const divSet = intResDivs[resource];
+    if (divSet && divSet.size > 0) return [...divSet].sort()[0];
+    return 'Interview';
+  }
+  return divisionOf(resource);
 }
 
 function allDivisions() {
@@ -745,16 +943,35 @@ function allDivisions() {
   return [...s].sort();
 }
 
-// Resources for a specific day, ordered by division then name
-function resourcesForDay(day) {
+// Resources for a specific day, ordered by division then arenas then interview resources.
+// Accepts an optional pre-computed interviewResourceDivisions map to avoid redundant work.
+function resourcesForDay(day, intResDivs) {
   const res = new Set((state.days[day] || []).map(r => r.resource));
+  intResDivs ??= interviewResourceDivisions(day);
   return [...res].sort((a, b) => {
+    const da = effectiveDivOf(a, intResDivs), db = effectiveDivOf(b, intResDivs);
+    if (da !== db) return da.localeCompare(db);
+    const aIsInt = isInterviewResource(a), bIsInt = isInterviewResource(b);
+    if (aIsInt !== bIsInt) return aIsInt ? 1 : -1;
+    return a.localeCompare(b);
+  });
+}
+
+// All unique locations across all days, interview resources sorted last
+function allLocations() {
+  const res = new Set();
+  for (const day of Object.keys(state.days)) {
+    for (const r of (state.days[day] || [])) res.add(r.resource);
+  }
+  return [...res].sort((a, b) => {
+    const aIsInt = isInterviewResource(a), bIsInt = isInterviewResource(b);
     const da = divisionOf(a), db = divisionOf(b);
     if (da !== db) {
       if (da === 'Interview') return 1;
       if (db === 'Interview') return -1;
       return da.localeCompare(db);
     }
+    if (aIsInt !== bIsInt) return aIsInt ? 1 : -1;
     return a.localeCompare(b);
   });
 }
@@ -781,21 +998,22 @@ function loadFiles(files) {
     const reader = new FileReader();
     reader.onload = e => {
       if (file.name.toLowerCase().endsWith('.json')) {
-        const { days, breaks } = parseScheduleJSON(e.target.result);
-        resolve({ days, breaks });
+        const { days, breaks, infoText } = parseScheduleJSON(e.target.result);
+        resolve({ days, breaks, infoText });
       } else {
         const day = file.name.replace(/\.csv$/i, '');
-        resolve({ days: { [day]: parseCSV(e.target.result) }, breaks: {} });
+        resolve({ days: { [day]: parseCSV(e.target.result) }, breaks: {}, infoText: null });
       }
     };
     reader.readAsText(file);
   }));
   Promise.all(promises).then(results => {
-    results.forEach(({ days, breaks }) => {
+    results.forEach(({ days, breaks, infoText }) => {
       Object.assign(state.days, days);
       Object.entries(breaks || {}).forEach(([day, bs]) => {
         (state.breaks[day] ??= []).push(...bs);
       });
+      if (infoText) state.infoText = infoText;
     });
     if (!state.selectedDay || !state.days[state.selectedDay]) {
       state.selectedDay = Object.keys(state.days).sort()[0];
@@ -818,12 +1036,36 @@ function renderDayView() {
 
   const day = state.selectedDay;
   const rows = state.days[day] || [];
-  const allResources = resourcesForDay(day);
-  const resources = allResources.filter(r => !state.hiddenDivisions.has(divisionOf(r)));
+  const intResDivs = interviewResourceDivisions(day);
+
+  const allResources = resourcesForDay(day, intResDivs);
   const timeSlots = timeSlotsForDay(day);
 
-  // Division filter toggles
-  const divisions = [...new Set(allResources.map(r => divisionOf(r)))];
+  // Build team→division map from arena rows (for coloring teams in interview cells)
+  const teamToDiv = {};
+  rows.forEach(row => {
+    if (!isInterviewResource(row.resource)) {
+      const d = divisionOf(row.resource);
+      row.teams.split(',').forEach(t => { const tr = t.trim(); if (tr) teamToDiv[tr] = d; });
+    }
+  });
+
+  // Build expanded resource list: arena resources grouped by division, interview resources
+  // collected into a single grey "Interview" group at the end.
+  // Each entry: {resource, div}
+  const expandedResources = [];
+  const divOrder = [...new Set(allResources.filter(r => !isInterviewResource(r)).map(r => divisionOf(r)))].sort();
+  const interviewResources = allResources.filter(r => isInterviewResource(r));
+  divOrder.forEach(div => {
+    allResources.filter(r => !isInterviewResource(r) && divisionOf(r) === div)
+      .forEach(r => expandedResources.push({ resource: r, div }));
+  });
+  interviewResources.forEach(r => expandedResources.push({ resource: r, div: 'Interview' }));
+
+  const visibleResources = expandedResources.filter(e => !state.hiddenDivisions.has(e.div));
+
+  // Division filter toggles — exclude the Interview group (no pill for it)
+  const divisions = [...new Set(expandedResources.map(e => e.div).filter(d => d !== 'Interview'))];
   const filterPills = divisions.map(div => {
     const c = divColor(div);
     const active = !state.hiddenDivisions.has(div);
@@ -835,13 +1077,11 @@ function renderDayView() {
     ${filterPills}
   </div>`;
 
-  // Group resources into division columns
   const groups = [];
   let lastDiv = null;
-  for (const r of resources) {
-    const div = divisionOf(r);
-    if (div !== lastDiv) { groups.push({ div, resources: [] }); lastDiv = div; }
-    groups[groups.length - 1].resources.push(r);
+  for (const e of visibleResources) {
+    if (e.div !== lastDiv) { groups.push({ div: e.div, resources: [] }); lastDiv = e.div; }
+    groups[groups.length - 1].resources.push(e);
   }
 
   // Build lookup: timeSlot → resource → teams[]
@@ -858,13 +1098,13 @@ function renderDayView() {
   }).join('');
 
   // Header row 2: individual resources
-  const resCells = resources.map(r =>
-    `<th>${shortName(r)}</th>`
+  const resCells = visibleResources.map(e =>
+    `<th>${esc(shortName(e.resource))}</th>`
   ).join('');
 
   // Build break rows: insert after the last slot before each break
   const dayBreaks = (state.breaks[day] || []).filter(b => b.division === null).slice().sort((a,b) => a.start.localeCompare(b.start));
-  const colCount = resources.length + 1;
+  const colCount = visibleResources.length + 1;
 
   // Division-specific breaks indexed by division for quick lookup
   const divBreaksByDiv = {};
@@ -886,8 +1126,8 @@ function renderDayView() {
         <span class="break-label">${esc(br.label)} ${br.start}–${br.end}</span>
       </td></tr>`);
     }
-    const cells = resources.map(r => {
-      const div = divisionOf(r);
+    const cells = visibleResources.map(e => {
+      const { resource: r, div } = e;
       const divBr = (divBreaksByDiv[div] || []).find(b => tsStart >= b.start && tsStart < b.end);
       if (divBr) {
         const key = div + divBr.start;
@@ -896,10 +1136,10 @@ function renderDayView() {
         return `<td class="break-row">${label}</td>`;
       }
       const teams = lookup[ts]?.[r] ?? [];
-      const c = divColor(div);
-      const chips = teams.map(t =>
-        `<span class="team-tag team-tag-link" style="background:${c}1a;color:${c}" data-team="${esc(t)}">${esc(t)}</span>`
-      ).join('');
+      const chips = teams.map(t => {
+        const c = divColor(isInterviewResource(r) ? (teamToDiv[t] || div) : div);
+        return `<span class="team-tag team-tag-link" style="background:${c}1a;color:${c}" data-team="${esc(t)}">${esc(t)}</span>`;
+      }).join('');
       return `<td class="slot-cell">${chips}</td>`;
     }).join('');
     const isNow = isCurrentSlot(ts);
@@ -908,16 +1148,17 @@ function renderDayView() {
 
   // Mobile: vertical list grouped by timeslot
   const mobileCards = timeSlots.map(ts => {
-    const rowItems = resources.map(r => {
+    const rowItems = visibleResources.map(e => {
+      const { resource: r, div } = e;
       const teams = lookup[ts]?.[r] ?? [];
       if (!teams.length) return '';
-      const div = divisionOf(r);
-      const c = divColor(div);
-      const chips = teams.map(t =>
-        `<span class="team-tag team-tag-link" style="background:${c}1a;color:${c}" data-team="${esc(t)}">${esc(t)}</span>`
-      ).join('');
+      const headerColor = divColor(div);
+      const chips = teams.map(t => {
+        const c = divColor(isInterviewResource(r) ? (teamToDiv[t] || div) : div);
+        return `<span class="team-tag team-tag-link" style="background:${c}1a;color:${c}" data-team="${esc(t)}">${esc(t)}</span>`;
+      }).join('');
       return `<div class="mobile-slot-row">
-        <span class="mobile-resource" style="color:${c}">${esc(shortName(r))}</span>
+        <span class="mobile-resource" style="color:${headerColor}">${esc(shortName(r))}</span>
         <span class="mobile-teams">${chips}</span>
       </div>`;
     }).filter(Boolean).join('');
@@ -950,31 +1191,57 @@ function renderDayView() {
 }
 
 // ─────────────────────────────────────────────
-//  Render – Interview view
+//  Render – Location view
 // ─────────────────────────────────────────────
-function renderInterviewView() {
-  const days = Object.keys(state.days).sort();
-  const intRows = [];
-  days.forEach(day =>
-    (state.days[day] || []).forEach(row => {
-      if (row.resource === 'Interview') intRows.push({ day, ...row });
-    })
-  );
-
-  if (!intRows.length) {
-    return `<div class="empty">No interview slots found in the loaded schedule.</div>`;
+function renderLocationView() {
+  const locations = allLocations();
+  if (!locations.length) {
+    return `<div class="empty">No schedule loaded.</div>`;
   }
 
-  // Group by day
+  // Default selection: first interview resource if present, otherwise first location
+  if (!state.selectedLocation || !locations.includes(state.selectedLocation)) {
+    const firstInterview = locations.find(l => isInterviewResource(l));
+    state.selectedLocation = firstInterview || locations[0];
+  }
+
+  const loc = state.selectedLocation;
+  const color = divColor(divisionOf(loc));
+
+  // Collect all rows for the selected location across all days
+  const days = Object.keys(state.days).sort();
   const byDay = {};
-  intRows.forEach(r => { (byDay[r.day] ??= []).push(r); });
+  days.forEach(day => {
+    const rows = (state.days[day] || []).filter(r => r.resource === loc);
+    if (rows.length) byDay[day] = rows;
+  });
+
+  // Location picker
+  const pickerBtns = locations.map(l => {
+    const active = l === loc;
+    const c = divColor(divisionOf(l));
+    const style = active
+      ? `background:${c};color:#fff;border-color:${c}`
+      : `background:transparent;color:${c};border-color:${c}`;
+    const escapedLoc = l.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    return `<button onclick="state.selectedLocation='${escapedLoc}';render()"
+      style="border:2px solid;border-radius:999px;padding:4px 12px;font-size:0.8rem;cursor:pointer;margin:2px;${style}"
+    >${esc(l)}</button>`;
+  }).join('');
+
+  const picker = `<div style="margin-bottom:20px;display:flex;flex-wrap:wrap;gap:2px">${pickerBtns}</div>`;
+
+  // Day cards
+  if (!Object.keys(byDay).length) {
+    return picker + `<div class="empty">No slots found for <strong>${esc(loc)}</strong>.</div>`;
+  }
 
   const tables = Object.keys(byDay).sort().map(day => {
     byDay[day].sort((a, b) => a.time_slot.localeCompare(b.time_slot));
     const rows = byDay[day].map((r, i) => {
       const teams = r.teams.split(',').map(t => t.trim()).filter(Boolean);
       const chips = teams.map(t =>
-        `<span class="team-tag" style="background:#37415118;color:#374151">${esc(t)}</span>`
+        `<span class="team-tag" style="background:${color}18;color:${color}">${esc(t)}</span>`
       ).join(' ');
       return `<tr>
         <td style="color:var(--muted);font-size:0.78rem;font-weight:600;white-space:nowrap">${r.time_slot}</td>
@@ -985,7 +1252,7 @@ function renderInterviewView() {
 
     return `
       <div class="div-card" style="margin-bottom:16px">
-        <div class="div-card-header" style="background:#374151">
+        <div class="div-card-header" style="background:${color}">
           <span>${esc(day)}</span>
           <span class="meta">${byDay[day].length} slot${byDay[day].length>1?'s':''}</span>
         </div>
@@ -996,7 +1263,7 @@ function renderInterviewView() {
       </div>`;
   }).join('');
 
-  return `<div style="max-width:720px">${tables}</div>`;
+  return `<div style="max-width:720px">${picker}${tables}</div>`;
 }
 
 // ─────────────────────────────────────────────
@@ -1189,18 +1456,331 @@ function renderTeamView() {
 }
 
 // ─────────────────────────────────────────────
+//  Wallboard view
+// ─────────────────────────────────────────────
+let _wallboardScrollFrame = null;
+
+function cancelWallboardScroll() {
+  if (_wallboardScrollFrame !== null) {
+    cancelAnimationFrame(_wallboardScrollFrame);
+    _wallboardScrollFrame = null;
+  }
+}
+
+function advanceWallboard() {
+  const divs = allDivisions();
+  if (divs.length > 0) {
+    state.wallboardDivIdx = (state.wallboardDivIdx + 1) % divs.length;
+  }
+  render();
+}
+
+function navigateWallboard(delta) {
+  const divs = allDivisions();
+  if (divs.length > 0) {
+    state.wallboardDivIdx = (state.wallboardDivIdx + divs.length + delta) % divs.length;
+  }
+  state.wallboardPaused = false;
+  render();
+}
+
+function toggleWallboardPause() {
+  state.wallboardPaused = !state.wallboardPaused;
+  if (state.wallboardPaused) {
+    if (state.wallboardTimer !== null) { clearTimeout(state.wallboardTimer); state.wallboardTimer = null; }
+    cancelWallboardScroll();
+    render();
+  } else {
+    render(); // re-render restarts timer via setupWallboardScroll
+  }
+}
+
+function setupWallboardScroll(onDone) {
+  cancelWallboardScroll();
+  if (state.wallboardPaused) return; // don't start timer when paused
+  const root = document.getElementById('wb-root');
+  const body = document.getElementById('wb-body');
+  if (!root || !body) {
+    if (onDone) state.wallboardTimer = setTimeout(onDone, state.wallboardInterval * 1000);
+    return;
+  }
+
+  // Try shrinking font size before resorting to scroll
+  const fontSizes = [1.2, 1.1, 1.0, 0.9];
+  let fi = 0;
+  root.style.fontSize = fontSizes[fi] + 'rem';
+  while (fi < fontSizes.length - 1 && body.scrollHeight > body.clientHeight) {
+    fi++;
+    root.style.fontSize = fontSizes[fi] + 'rem';
+  }
+
+  if (body.scrollHeight <= body.clientHeight) {
+    body.scrollTop = 0;
+    if (onDone) state.wallboardTimer = setTimeout(onDone, state.wallboardInterval * 1000);
+    return;
+  }
+
+  // Auto-scroll: top → bottom over wallboardInterval, with brief pauses
+  const pauseMs = 600;
+  const scrollDuration = Math.max(state.wallboardInterval * 1000 - pauseMs * 2, 1000);
+  const maxScrollY = body.scrollHeight - body.clientHeight;
+  body.scrollTop = 0;
+
+  let phase = 'pause-top';
+  let phaseStart = null;
+
+  function step(ts) {
+    if (phaseStart === null) phaseStart = ts;
+    const elapsed = ts - phaseStart;
+
+    if (phase === 'pause-top') {
+      if (elapsed >= pauseMs) { phase = 'scrolling'; phaseStart = ts; }
+    } else if (phase === 'scrolling') {
+      const t = Math.min(elapsed / scrollDuration, 1);
+      // Ease in-out
+      const eased = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+      body.scrollTop = eased * maxScrollY;
+      if (t >= 1) { phase = 'pause-bottom'; phaseStart = ts; }
+    } else {
+      // pause-bottom — brief pause, then trigger cycle
+      _wallboardScrollFrame = null;
+      if (onDone) state.wallboardTimer = setTimeout(onDone, pauseMs);
+      return;
+    }
+
+    _wallboardScrollFrame = requestAnimationFrame(step);
+  }
+
+  _wallboardScrollFrame = requestAnimationFrame(step);
+}
+
+function renderWallboardView() {
+  const divs = allDivisions();
+  if (!divs.length) return `<div class="empty">No schedule loaded.</div>`;
+
+  const idx = state.wallboardDivIdx % divs.length;
+  const div = divs[idx];
+  const color = divColor(div);
+
+  const days = Object.keys(state.days).sort();
+  const now = new Date();
+  const nowMin = now.getHours() * 60 + now.getMinutes();
+
+  // Detect which day is "today" by finding a day with a currently running slot
+  let todayDayIdx = -1;
+  days.forEach((day, di) => {
+    if (todayDayIdx === -1 && (state.days[day] || []).some(r => isCurrentSlot(r.time_slot))) {
+      todayDayIdx = di;
+    }
+  });
+
+  // Collect all teams in this division across all days (for interview matching)
+  const divTeams = new Set();
+  days.forEach(day => {
+    (state.days[day] || []).forEach(row => {
+      if (divisionOf(row.resource) === div) {
+        row.teams.split(',').forEach(t => { const tr = t.trim(); if (tr) divTeams.add(tr); });
+      }
+    });
+  });
+
+  const daySections = [];
+  days.forEach((day, di) => {
+    const rows = state.days[day] || [];
+
+    // Filter rows for this division
+    let arenaRows = rows.filter(r => divisionOf(r.resource) === div);
+    // Interview rows that include any team from this division (supports multiple interview resources)
+    let interviewRows = rows.filter(r =>
+      isInterviewResource(r.resource) &&
+      r.teams.split(',').some(t => divTeams.has(t.trim()))
+    );
+
+    // Apply from-now filtering when today is known
+    if (todayDayIdx !== -1) {
+      if (di < todayDayIdx) return; // past day — skip
+      if (di === todayDayIdx) {
+        // Today: only show slots ending at or after now
+        const keep = r => {
+          const parts = r.time_slot.split(EN_DASH).map(x => x.trim());
+          const end = timeToMinutes(parts[1] || parts[0]);
+          return isNaN(end) || end >= nowMin;
+        };
+        arenaRows = arenaRows.filter(keep);
+        interviewRows = interviewRows.filter(keep);
+      }
+      // Future days: show all
+    }
+
+    if (!arenaRows.length && !interviewRows.length) return;
+
+    arenaRows.sort((a, b) => a.time_slot.localeCompare(b.time_slot));
+    interviewRows.sort((a, b) => a.time_slot.localeCompare(b.time_slot));
+
+    const arenaRowsHtml = arenaRows.map(r => {
+      const teams = r.teams.split(',').map(t => t.trim()).filter(Boolean);
+      const chips = teams.map(t =>
+        `<span class="team-tag" style="background:${color}1a;color:${color}">${esc(t)}</span>`
+      ).join(' ');
+      const isNow = isCurrentSlot(r.time_slot);
+      const nowStyle = isNow ? ` style="border-color:${color}"` : '';
+      return `<tr${isNow ? ` class="wb-now-row"${nowStyle}` : ''}>
+        <td class="wb-time"${isNow ? ` style="color:${color}"` : ''}>${esc(r.time_slot)}</td>
+        <td class="wb-arena">${esc(shortName(r.resource))}</td>
+        <td class="wb-teams">${chips}</td>
+      </tr>`;
+    }).join('');
+
+    let interviewHtml = '';
+    if (interviewRows.length) {
+      const intRowsHtml = interviewRows.map(r => {
+        const teams = r.teams.split(',').map(t => t.trim()).filter(t => t && divTeams.has(t));
+        const chips = teams.map(t =>
+          `<span class="team-tag" style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.75)">${esc(t)}</span>`
+        ).join(' ');
+        const isNow = isCurrentSlot(r.time_slot);
+        return `<tr${isNow ? ' class="wb-now-row"' : ''}>
+          <td class="wb-time">${esc(r.time_slot)}</td>
+          <td class="wb-arena" style="opacity:0.55;font-weight:400">${esc(r.resource)}</td>
+          <td class="wb-teams">${chips}</td>
+        </tr>`;
+      }).join('');
+      interviewHtml = `
+        <div class="wb-section-label">Interviews</div>
+        <table class="wb-table">
+          <thead><tr><th>Time</th><th>Slot</th><th>Teams</th></tr></thead>
+          <tbody>${intRowsHtml}</tbody>
+        </table>`;
+    }
+
+    daySections.push(`
+      <div class="wb-day-section">
+        <div class="wb-day-header">${esc(day)}</div>
+        ${arenaRows.length ? `
+          <table class="wb-table">
+            <thead><tr><th>Time</th><th>Arena</th><th>Teams</th></tr></thead>
+            <tbody>${arenaRowsHtml}</tbody>
+          </table>` : ''}
+        ${interviewHtml}
+      </div>`);
+  });
+
+  const content = daySections.join('') ||
+    `<div class="empty">No upcoming slots for this division.</div>`;
+
+  const intervalOptions = [5, 10, 15, 20, 30, 60].map(s =>
+    `<option value="${s}"${s === state.wallboardInterval ? ' selected' : ''}>${s}s</option>`
+  ).join('');
+
+  return `
+    <div class="wb-root" id="wb-root">
+      <div class="wb-header" style="background:${color}">
+        <div class="wb-div-name">${esc(div)}</div>
+        <div class="wb-progress-label">Division ${idx + 1} of ${divs.length}</div>
+      </div>
+      <div class="wb-progress-bar-wrap" style="background:rgba(0,0,0,0.2)">
+        <div class="wb-progress-bar" style="animation-duration:${state.wallboardInterval}s;background:${color}"></div>
+      </div>
+      <div class="wb-controls">
+        <button class="wb-ctrl-btn" id="wb-prev">&#8592; Prev</button>
+        <button class="wb-ctrl-btn${state.wallboardPaused ? ' paused' : ''}" id="wb-pause">${state.wallboardPaused ? 'Resume' : 'Pause'}</button>
+        <button class="wb-ctrl-btn" id="wb-next">Next &#8594;</button>
+        <span class="wb-interval-label">Interval:</span>
+        <select class="wb-interval-select" id="wb-interval">${intervalOptions}</select>
+        ${state.wallboardPaused ? '<span class="wb-paused-badge">Paused</span>' : ''}
+        <button class="wb-ctrl-btn wb-exit" id="wb-exit">&#x2715; Exit</button>
+      </div>
+      <div class="wb-body" id="wb-body">
+        ${content}
+      </div>
+    </div>`
+;
+}
+
+// ─────────────────────────────────────────────
 //  Render dispatcher
 // ─────────────────────────────────────────────
+// ─────────────────────────────────────────────
+//  Info banner (edited schedule)
+// ─────────────────────────────────────────────
+function renderInfoBanner() {
+  const banner = document.getElementById('info-banner');
+  const body = document.getElementById('info-banner-body');
+  if (!state.infoText) {
+    banner.classList.remove('visible');
+    return;
+  }
+  // Parse info text: first line(s) are header (before "Changes:"), rest are change lines
+  const lines = state.infoText.split('\n');
+  const headerLines = [];
+  const changeLines = [];
+  let inChanges = false;
+  for (const line of lines) {
+    if (line.trim().toLowerCase() === 'changes:') { inChanges = true; continue; }
+    if (inChanges) { if (line.trim()) changeLines.push(line.replace(/^-\s*/, '')); }
+    else { if (line.trim()) headerLines.push(line); }
+  }
+
+  // Group changes by team name (text before the first colon)
+  const byTeam = {};
+  for (const line of changeLines) {
+    const colon = line.indexOf(':');
+    const team = colon > -1 ? line.slice(0, colon).trim() : 'Unknown';
+    const detail = colon > -1 ? line.slice(colon + 1).trim() : line;
+    (byTeam[team] ??= []).push(detail);
+  }
+
+  let html = headerLines.map(l => `<div>${esc(l)}</div>`).join('');
+  if (Object.keys(byTeam).length > 0) {
+    html += '<div class="info-banner-section"><div class="info-banner-section-title">Changes</div>';
+    for (const [team, details] of Object.entries(byTeam)) {
+      html += `<div class="info-banner-change"><strong>${esc(team)}:</strong> ${details.map(esc).join('; ')}</div>`;
+    }
+    html += '</div>';
+  }
+
+  body.innerHTML = html;
+  banner.classList.add('visible');
+}
+
 function render() {
+  if (state.wallboardTimer !== null) {
+    clearTimeout(state.wallboardTimer);
+    state.wallboardTimer = null;
+  }
+  cancelWallboardScroll();
   document.body.classList.toggle('compact', state.compact);
+  document.body.classList.toggle('wallboard-mode', state.view === 'wallboard');
+  renderInfoBanner();
   const container = document.getElementById('view-container');
   if (state.view === 'day') container.innerHTML = renderDayView();
-  else if (state.view === 'interview') container.innerHTML = renderInterviewView();
+  else if (state.view === 'location') container.innerHTML = renderLocationView();
+  else if (state.view === 'wallboard') container.innerHTML = renderWallboardView();
   else container.innerHTML = renderTeamView();
 
-  // Scroll now-row into view
-  const nowRow = container.querySelector('.now-row');
-  if (nowRow) nowRow.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  if (state.view === 'wallboard') {
+    // Wire up wallboard controls
+    const pauseBtn = container.querySelector('#wb-pause');
+    if (pauseBtn) pauseBtn.addEventListener('click', toggleWallboardPause);
+    const prevBtn = container.querySelector('#wb-prev');
+    if (prevBtn) prevBtn.addEventListener('click', () => navigateWallboard(-1));
+    const nextBtn = container.querySelector('#wb-next');
+    if (nextBtn) nextBtn.addEventListener('click', () => navigateWallboard(1));
+    const exitBtn = container.querySelector('#wb-exit');
+    if (exitBtn) exitBtn.addEventListener('click', () => switchView('day'));
+    const intervalSel = container.querySelector('#wb-interval');
+    if (intervalSel) intervalSel.addEventListener('change', () => {
+      state.wallboardInterval = parseInt(intervalSel.value, 10);
+      state.wallboardPaused = false;
+      render();
+    });
+    // Defer scroll setup until after layout is painted
+    requestAnimationFrame(() => requestAnimationFrame(() => setupWallboardScroll(advanceWallboard)));
+  } else {
+    // Scroll now-row into view
+    const nowRow = container.querySelector('.now-row');
+    if (nowRow) nowRow.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  }
 
   // Day tab clicks
   container.querySelectorAll('.tab[data-day]').forEach(btn =>
@@ -1245,8 +1825,7 @@ function render() {
   const noneBtn = container.querySelector('#div-filter-none');
   if (noneBtn) {
     noneBtn.addEventListener('click', () => {
-      const divs = [...new Set(resourcesForDay(state.selectedDay).map(r => divisionOf(r)))];
-      divs.forEach(d => state.hiddenDivisions.add(d));
+      allDivisions().forEach(d => state.hiddenDivisions.add(d));
       render();
     });
   }
@@ -1302,62 +1881,6 @@ function esc(s) {
 }
 
 // ─────────────────────────────────────────────
-//  URL loading
-// ─────────────────────────────────────────────
-function loadFromURL(url) {
-  const btn = document.getElementById('url-load-btn');
-  const errEl = document.getElementById('url-error');
-  const elapsedEl = document.getElementById('url-elapsed');
-  btn.disabled = true;
-  btn.innerHTML = '<span class="spinner"></span>Loading…';
-  errEl.style.display = 'none';
-  elapsedEl.style.display = 'none';
-
-  const startTime = Date.now();
-  const elapsedTimer = setInterval(() => {
-    const s = ((Date.now() - startTime) / 1000).toFixed(1);
-    if (Date.now() - startTime > 2000) {
-      elapsedEl.style.display = 'block';
-      elapsedEl.textContent = `Still loading… ${s}s`;
-    }
-  }, 500);
-
-  fetch(url)
-    .then(res => {
-      if (!res.ok) throw new Error(`Server returned ${res.status} ${res.statusText}`);
-      return res.text();
-    })
-    .then(text => {
-      clearInterval(elapsedTimer);
-      elapsedEl.style.display = 'none';
-      const { days, breaks } = parseScheduleJSON(text);
-      Object.assign(state.days, days);
-      Object.entries(breaks || {}).forEach(([day, bs]) => {
-        (state.breaks[day] ??= []).push(...bs);
-      });
-      if (!state.selectedDay || !state.days[state.selectedDay]) {
-        state.selectedDay = Object.keys(state.days).sort()[0];
-      }
-      document.getElementById('loader-screen').style.display = 'none';
-      document.getElementById('app').style.display = 'block';
-      applyHash();
-      render();
-    })
-    .catch(err => {
-      clearInterval(elapsedTimer);
-      elapsedEl.style.display = 'none';
-      let msg = err.message || 'Unknown error';
-      if (msg.toLowerCase().includes('failed to fetch') || msg.toLowerCase().includes('networkerror')) {
-        msg = 'Could not fetch – check CORS headers or try downloading the file directly.';
-      }
-      errEl.textContent = msg;
-      errEl.style.display = 'block';
-      btn.disabled = false;
-      btn.textContent = 'Load';
-    });
-}
-
-// ─────────────────────────────────────────────
 //  URL hash helpers
 // ─────────────────────────────────────────────
 function updateHash() {
@@ -1375,6 +1898,21 @@ function applyHash() {
     state.teamSearch = team;
     state.view = 'team';
     document.querySelectorAll('.view-btn').forEach(b => b.classList.toggle('active', b.dataset.view === 'team'));
+  } else if (hash === '#wallboard' || hash.startsWith('#wallboard=')) {
+    const secs = parseInt(hash.split('=')[1], 10);
+    if (!isNaN(secs) && secs > 0) state.wallboardInterval = secs;
+    state.view = 'wallboard';
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.toggle('active', b.dataset.view === 'wallboard'));
+  }
+}
+
+function applyURLParams() {
+  const params = new URLSearchParams(location.search);
+  if (params.has('wallboard')) {
+    const secs = parseInt(params.get('wallboard'), 10);
+    if (!isNaN(secs) && secs > 0) state.wallboardInterval = secs;
+    state.view = 'wallboard';
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.toggle('active', b.dataset.view === 'wallboard'));
   }
 }
 
@@ -1392,6 +1930,23 @@ fileInput.addEventListener('change', e => e.target.files.length && loadFiles(e.t
 addBtn.addEventListener('click', () => addInput.click());
 addInput.addEventListener('change', e => e.target.files.length && loadFiles(e.target.files));
 
+// Auto-load schedule.json from the same directory (works when served over HTTP/S)
+fetch('./schedule.json')
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
+  .then(text => {
+    const { days, breaks, infoText } = parseScheduleJSON(text);
+    Object.assign(state.days, days);
+    Object.entries(breaks || {}).forEach(([day, bs]) => { (state.breaks[day] ??= []).push(...bs); });
+    if (infoText) state.infoText = infoText;
+    if (!state.selectedDay || !state.days[state.selectedDay])
+      state.selectedDay = Object.keys(state.days).sort()[0];
+    document.getElementById('loader-screen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    applyHash();
+    render();
+  })
+  .catch(() => { /* no schedule.json available — user must load manually */ });
+
 dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.classList.add('drag-over'); });
 dropzone.addEventListener('dragleave', () => dropzone.classList.remove('drag-over'));
 dropzone.addEventListener('drop', e => {
@@ -1400,10 +1955,6 @@ dropzone.addEventListener('drop', e => {
   e.dataTransfer.files.length && loadFiles(e.dataTransfer.files);
 });
 
-const urlInput = document.getElementById('url-input');
-const urlBtn   = document.getElementById('url-load-btn');
-urlBtn.addEventListener('click', () => { const u = urlInput.value.trim(); if (u) loadFromURL(u); });
-urlInput.addEventListener('keydown', e => { if (e.key === 'Enter') { const u = urlInput.value.trim(); if (u) loadFromURL(u); } });
 
 document.getElementById('print-btn').addEventListener('click', () => window.print());
 
@@ -1413,11 +1964,15 @@ document.addEventListener('keydown', e => {
   const tag = document.activeElement.tagName;
   if (tag === 'INPUT' || tag === 'TEXTAREA') return;
   if (e.key === '1') switchView('day');
-  else if (e.key === '2') switchView('interview');
+  else if (e.key === '2') switchView('location');
   else if (e.key === '3') switchView('team');
+  else if (e.key === '4') switchView('wallboard');
   else if (e.key === '/' ) { e.preventDefault(); focusTeamSearch(); }
   else if (e.key === 'ArrowLeft'  && state.view === 'day') navigateDay(-1);
   else if (e.key === 'ArrowRight' && state.view === 'day') navigateDay(1);
+  else if (e.key === ' ' && state.view === 'wallboard') { e.preventDefault(); toggleWallboardPause(); }
+  else if (e.key === 'ArrowLeft'  && state.view === 'wallboard') { e.preventDefault(); navigateWallboard(-1); }
+  else if (e.key === 'ArrowRight' && state.view === 'wallboard') { e.preventDefault(); navigateWallboard(1); }
 });
 
 function switchView(v) {
