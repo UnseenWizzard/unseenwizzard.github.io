@@ -1,5 +1,5 @@
 {
-  "info": "Schedule edited on 2026-04-08 at 10:49\nChanges:\n- Mechanic Team: Line – Arena 2 Day1 13:50-14:00 -> Day1 14:00-14:10\n- Die Haftelmacher: Line – Arena 2 Day1 14:00-14:10 -> Day1 13:50-14:00\n- Mechanic Team: Line – Arena 1 Day1 11:40-11:50 -> Day1 13:30-13:40\n- NanoRobots: Line – Arena 1 Day1 13:30-13:40 -> Day1 11:40-11:50\n- NanoRobots, Angora Goasbock: Interview Day1 18:00-18:15 -> Day1 10:30-10:40\n- Project PVP, Deep-Drive: Interview Day1 18:15-18:30 -> Day1 10:40-10:50\n- Project X, TriByte: Interview Day1 17:45-18:00 -> Day1 11:40-11:50\n- 2 Gehörnzellen, Project William: Interview Day1 17:30-17:45 -> Day1 13:40-13:50\n- CyberStorm, Die Linienrichter: Interview Day1 17:15-17:30 -> Day1 11:20-11:30\n- Metal Minds: Online_Simulation – Arena 1 Day1 11:30-11:40 -> Day1 11:10-11:20\n- MS LaHö: Online_Simulation – Arena 1 Day1 11:40-11:50 -> Day1 11:20-11:30\n- MS LaHö: Online_Simulation – Arena 1 Day1 11:20-11:30 -> Day1 11:30-11:40\n- Metal Minds: Online_Simulation – Arena 1 Day1 11:10-11:20 -> Day1 11:00-11:10\n- MS LaHö: Online_Simulation – Arena 1 Day1 11:30-11:40 -> Day1 11:20-11:30\n- O-Dorf: Online_Simulation – Arena 1 Day1 11:50-12:00 -> Day1 11:40-11:50",
+  "info": "Soccer: Mentor meeting at 9:45 at the Soccer Interview area.\nRescue: Mentor meeting at 9:30 at the Rescue Interview area.",
   "meta": {
     "divisions": {
       "Line": {
@@ -26,6 +26,22 @@
         "arenas": 1,
         "runs_per_arena": 5,
         "arena_reset_minutes": 60
+      },
+      "OnStage": {
+        "arenas": 1,
+        "runs_per_arena": 1
+      },
+      "Soccer Entry 1vs1": {
+        "arenas": 1,
+        "runs_per_arena": 1
+      },
+      "Soccer Lightweight 2v2": {
+        "arenas": 1,
+        "runs_per_arena": 1
+      },
+      "Soccer Open 2v2": {
+        "arenas": 1,
+        "runs_per_arena": 1
       }
     },
     "run_time_minutes": 10,
@@ -3527,7 +3543,7 @@
       "start": "13:30",
       "end": "13:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Stars",
         "Mazetrix Vienna"
@@ -3893,7 +3909,7 @@
       "start": "12:00",
       "end": "12:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Lugner",
         "B.Robots Seniors"
@@ -3908,7 +3924,7 @@
       "start": "12:15",
       "end": "12:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "TechTitans",
         "Fight Club"
@@ -3923,7 +3939,7 @@
       "start": "15:00",
       "end": "15:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "B.Robots",
         "Monstar in Muul"
@@ -3938,7 +3954,7 @@
       "start": "15:15",
       "end": "15:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Gebrüder Weiss CRO Team",
         "B.Robots Juniors"
@@ -3953,7 +3969,7 @@
       "start": "15:30",
       "end": "15:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "DIPH"
       ],
@@ -4226,7 +4242,7 @@
       "start": "11:00",
       "end": "11:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Eurobot",
         "Library"
@@ -4241,7 +4257,7 @@
       "start": "11:15",
       "end": "11:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Die Haftelmacher",
         "Das Original"
@@ -4256,7 +4272,7 @@
       "start": "14:45",
       "end": "15:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "we:bots",
         "GearUp"
@@ -4271,7 +4287,7 @@
       "start": "16:00",
       "end": "16:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Die Glorreichen 4",
         "Kaktus"
@@ -4286,7 +4302,7 @@
       "start": "16:15",
       "end": "16:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Nebenniere",
         "Kepler 404"
@@ -4301,7 +4317,7 @@
       "start": "13:40",
       "end": "13:50",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "2 Gehörnzellen",
         "Project William"
@@ -4316,7 +4332,7 @@
       "start": "11:40",
       "end": "11:50",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Project X",
         "TriByte"
@@ -4331,7 +4347,7 @@
       "start": "10:30",
       "end": "10:40",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "NanoRobots",
         "Angora Goasbock"
@@ -4346,7 +4362,7 @@
       "start": "10:40",
       "end": "10:50",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Project PVP",
         "Deep-Drive"
@@ -4361,7 +4377,7 @@
       "start": "08:30",
       "end": "08:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Die (3) 2 Robomenschen",
         "HTL Trieben Engineering"
@@ -4376,7 +4392,7 @@
       "start": "08:45",
       "end": "09:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "NLO Rescue CRO Team",
         "Mechanic Team"
@@ -4391,7 +4407,7 @@
       "start": "11:30",
       "end": "11:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Negativ",
         "Botzilla"
@@ -4406,7 +4422,7 @@
       "start": "11:45",
       "end": "12:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Ifhungryeat",
         "Schwainsbraten_Hooligans"
@@ -4421,7 +4437,7 @@
       "start": "15:45",
       "end": "16:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Gulaschpanzer",
         "Cyberhühner"
@@ -4436,7 +4452,7 @@
       "start": "11:20",
       "end": "11:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "CyberStorm",
         "Die Linienrichter"
@@ -4451,7 +4467,7 @@
       "start": "09:00",
       "end": "09:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Night Strikers",
         "Stroke_of_Genius"
@@ -4466,7 +4482,7 @@
       "start": "09:15",
       "end": "09:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Code4U Line",
         "Salamibrot"
@@ -4481,7 +4497,7 @@
       "start": "09:30",
       "end": "09:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Made in China",
         "Miss klickt"
@@ -4496,7 +4512,7 @@
       "start": "09:45",
       "end": "10:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "The Ninjas",
         "Project Pommes"
@@ -4511,7 +4527,7 @@
       "start": "10:00",
       "end": "10:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Potato Girls",
         "Kampfzwerge"
@@ -4526,7 +4542,7 @@
       "start": "10:15",
       "end": "10:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Ninja Turtles",
         "Big Rösti"
@@ -4541,7 +4557,7 @@
       "start": "10:30",
       "end": "10:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "No pain no gain",
         "Panzerabwehrfluggerät"
@@ -4556,7 +4572,7 @@
       "start": "10:45",
       "end": "11:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Byte Me",
         "Pixelbauer"
@@ -4571,7 +4587,7 @@
       "start": "11:00",
       "end": "11:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Tobix",
         "Astrogix"
@@ -4586,7 +4602,7 @@
       "start": "11:15",
       "end": "11:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Keine Ahnung",
         "Team Talentlosen"
@@ -4601,7 +4617,7 @@
       "start": "11:30",
       "end": "11:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Doofuse",
         "Wowa 2.0"
@@ -4616,7 +4632,7 @@
       "start": "11:45",
       "end": "12:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Renegade",
         "Queens of the Robots"
@@ -4631,7 +4647,7 @@
       "start": "12:00",
       "end": "12:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Frederik Squad",
         "The Bots"
@@ -4646,7 +4662,7 @@
       "start": "12:15",
       "end": "12:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "The Prime",
         "Volte Bot"
@@ -4661,7 +4677,7 @@
       "start": "12:30",
       "end": "12:45",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Chaos-Piloten",
         "DDHS"
@@ -4676,7 +4692,7 @@
       "start": "12:45",
       "end": "13:00",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Die Grafen",
         "Team Günther 7"
@@ -4691,7 +4707,7 @@
       "start": "13:00",
       "end": "13:15",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "PlaKaRaNi",
         "E&E"
@@ -4706,13 +4722,672 @@
       "start": "13:15",
       "end": "13:30",
       "resource_kind": "interview",
-      "resource_name": "Interview",
+      "resource_name": "Interview – Rescue",
       "teams": [
         "Klaka Robotics"
       ],
       "divisions": [
         "Line Entry"
       ]
-    }
+    },
+  {
+    "day": "Day1",
+    "start": "10:30",
+    "end": "10:50",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["The choosen ones"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "10:50",
+    "end": "11:10",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Vienna Magic Show"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:10",
+    "end": "11:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Queen Bees"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:30",
+    "end": "11:50",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Around the World"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:50",
+    "end": "13:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Freibad"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:00",
+    "end": "13:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Venüs"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:20",
+    "end": "13:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Forest Guardians"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:40",
+    "end": "14:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["The time travelers"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:00",
+    "end": "14:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Vesele ciglice"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:20",
+    "end": "14:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Neobots"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:40",
+    "end": "15:10",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Eine kleine Nachtmaschine"],
+    "training": true,
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "10:30",
+    "end": "10:50",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Venüs"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "10:50",
+    "end": "11:10",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Forest Guardians"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:10",
+    "end": "11:30",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["The time travelers"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:30",
+    "end": "11:50",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Vesele ciglice"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:50",
+    "end": "13:00",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Neobots"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:00",
+    "end": "13:20",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Eine kleine Nachtmaschine"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:20",
+    "end": "13:40",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["The choosen ones"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:40",
+    "end": "14:00",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Vienna Magic Show"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:00",
+    "end": "14:20",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Queen Bees"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:20",
+    "end": "14:40",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Around the World"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:40",
+    "end": "15:00",
+    "resource_kind": "interview",
+    "resource_name": "Interview – OnStage",
+    "teams": ["Freibad"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "15:10",
+    "end": "15:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["The choosen ones"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "15:20",
+    "end": "15:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Vienna Magic Show"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "15:30",
+    "end": "15:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Queen Bees"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "15:40",
+    "end": "15:50",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Around the World"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "15:50",
+    "end": "16:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Freibad"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:00",
+    "end": "16:10",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Venüs"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:10",
+    "end": "16:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Forest Guardians"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:20",
+    "end": "16:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["The time travelers"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:30",
+    "end": "16:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Vesele ciglice"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:40",
+    "end": "16:50",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Neobots"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:50",
+    "end": "17:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Eine kleine Nachtmaschine"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "10:00",
+    "end": "10:10",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["The choosen ones"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "10:10",
+    "end": "10:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Vienna Magic Show"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "10:20",
+    "end": "10:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Queen Bees"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "10:30",
+    "end": "10:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Around the World"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "10:40",
+    "end": "10:50",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Freibad"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "10:50",
+    "end": "11:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Venüs"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "11:00",
+    "end": "11:10",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Forest Guardians"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "11:10",
+    "end": "11:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["The time travelers"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "11:20",
+    "end": "11:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Vesele ciglice"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "11:30",
+    "end": "11:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Neobots"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day2",
+    "start": "11:40",
+    "end": "11:50",
+    "resource_kind": "arena",
+    "resource_name": "OnStage – Stage",
+    "teams": ["Eine kleine Nachtmaschine"],
+    "divisions": ["OnStage"]
+  },
+  {
+    "day": "Day1",
+    "start": "10:30",
+    "end": "11:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Techno Force Robotics", "Robokicker"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:30",
+    "end": "12:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["DIE BOTS", "Jorge y Juan Technologies"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "12:30",
+    "end": "13:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Uranüs", "Robokicker"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:30",
+    "end": "14:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Jorge y Juan Technologies", "Techno Force Robotics"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:30",
+    "end": "15:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["DIE BOTS", "Uranüs"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "15:30",
+    "end": "16:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Robokicker", "Jorge y Juan Technologies"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:30",
+    "end": "17:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Uranüs", "Techno Force Robotics"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "17:30",
+    "end": "18:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Uranüs", "Robokicker"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day1",
+    "start": "11:00",
+    "end": "11:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Lightweight 2v2 – Large Field",
+    "teams": ["Arch Linux", "Die die nichts können"],
+    "divisions": ["Soccer Lightweight 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "12:00",
+    "end": "12:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Open 2v2 – Large Field",
+    "teams": ["Bravo", "Two dustbins"],
+    "divisions": ["Soccer Open 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "13:00",
+    "end": "13:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Lightweight 2v2 – Large Field",
+    "teams": ["Die die nichts können", "ETC Varazdin"],
+    "divisions": ["Soccer Lightweight 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "14:00",
+    "end": "14:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Open 2v2 – Large Field",
+    "teams": ["We use Arch BTW", "Bravo"],
+    "divisions": ["Soccer Open 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "15:00",
+    "end": "15:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Lightweight 2v2 – Large Field",
+    "teams": ["ETC Varazdin", "Arch Linux"],
+    "divisions": ["Soccer Lightweight 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "16:00",
+    "end": "16:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Open 2v2 – Large Field",
+    "teams": ["Two dustbins", "We use Arch BTW"],
+    "divisions": ["Soccer Open 2v2"]
+  },
+  {
+    "day": "Day2",
+    "start": "08:00",
+    "end": "08:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Jorge y Juan Technologies", "Uranüs"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day2",
+    "start": "09:00",
+    "end": "09:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Techno Force Robotics", "DIE BOTS"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day2",
+    "start": "10:00",
+    "end": "10:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Half Final 1"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day2",
+    "start": "11:00",
+    "end": "11:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Half Final 2"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day2",
+    "start": "12:00",
+    "end": "12:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["3rd-Place Play-off"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day2",
+    "start": "13:00",
+    "end": "13:30",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Entry 1v1 – Small Field",
+    "teams": ["Entry Final"],
+    "divisions": ["Soccer Entry 1v1"]
+  },
+  {
+    "day": "Day2",
+    "start": "11:30",
+    "end": "12:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Lightweight 2v2 – Large Field",
+    "teams": ["Lightweight Final"],
+    "divisions": ["Soccer Lightweight 2v2"]
+  },
+  {
+    "day": "Day2",
+    "start": "12:30",
+    "end": "13:00",
+    "resource_kind": "arena",
+    "resource_name": "Soccer Open 2v2 – Large Field",
+    "teams": ["Open Final"],
+    "divisions": ["Soccer Open 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "08:15",
+    "end": "08:30",
+    "resource_kind": "interview",
+    "resource_name": "Interview – Soccer",
+    "teams": ["Arch Linux"],
+    "divisions": ["Soccer Lightweight 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "08:30",
+    "end": "08:45",
+    "resource_kind": "interview",
+    "resource_name": "Interview – Soccer",
+    "teams": ["DIE BOTS","Die die nichts können"],
+    "divisions": ["Soccer Entry 1v1", "Soccer Lightweight 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "08:45",
+    "end": "09:00",
+    "resource_kind": "interview",
+    "resource_name": "Interview – Soccer",
+    "teams": ["Jorge y Juan Technologies","ETC Varazdin"],
+    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "09:00",
+    "end": "09:15",
+    "resource_kind": "interview",
+    "resource_name": "Interview – Soccer",
+    "teams": ["Robokicker","Bravo"],
+    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "09:15",
+    "end": "09:30",
+    "resource_kind": "interview",
+    "resource_name": "Interview – Soccer",
+    "teams": ["Techno Force Robotics", "Two dustbins"],
+    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
+  },
+  {
+    "day": "Day1",
+    "start": "09:30",
+    "end": "09:45",
+    "resource_kind": "interview",
+    "resource_name": "Interview – Soccer",
+    "teams": ["Uranüs", "We use Arch BTW"],
+    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
+  }
   ]
 }
