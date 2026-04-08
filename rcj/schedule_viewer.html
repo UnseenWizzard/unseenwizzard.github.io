@@ -967,7 +967,7 @@ function parseScheduleJSON(text) {
 const EN_DASH = '\u2013';
 
 function isInterviewResource(resource) {
-  return resource === 'Interview' || /^Interview \d+$/.test(resource);
+  return resource.startsWith(`Interview`);
 }
 
 function divisionOf(resource) {
