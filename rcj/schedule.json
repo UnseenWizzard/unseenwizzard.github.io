@@ -1,5 +1,5 @@
 {
-  "info": "Soccer: Mentor meeting at 9:45 at the Soccer Interview area.\nRescue: Mentor meeting at 9:30 at the Rescue Interview area.",
+  "info": "Soccer: Mentor meeting at 9:45 at the Soccer Team area.\nRescue: Mentor meeting at 9:30 at the Rescue Interview area.",
   "meta": {
     "divisions": {
       "Line": {
@@ -5206,7 +5206,7 @@
     "end": "18:00",
     "resource_kind": "arena",
     "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Uranüs", "Robokicker"],
+    "teams": ["Robokicker", "DIE BOTS"],
     "divisions": ["Soccer Entry 1v1"]
   },
   {
