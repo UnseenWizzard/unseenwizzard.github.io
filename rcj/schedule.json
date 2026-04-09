@@ -5596,7 +5596,9 @@
       "resource_kind": "arena",
       "resource_name": "Soccer Lightweight 2v2 – Large Field",
       "teams": [
-        "Lightweight Final"
+        "Lightweight Final",
+        "Arch Linux",
+        "ETC Varazdin"
       ],
       "divisions": [
         "Soccer Lightweight 2v2"
@@ -5609,7 +5611,9 @@
       "resource_kind": "arena",
       "resource_name": "Soccer Open 2v2 – Large Field",
       "teams": [
-        "Open Final"
+        "Open Final",
+        "We use Arch BTW",
+        "Two dustbins"
       ],
       "divisions": [
         "Soccer Open 2v2"
