@@ -1,5 +1,5 @@
 {
-  "info": "Soccer: Mentor meeting at 9:45 at the Soccer tables.\nRescue: Mentor meeting at 9:30 at the Rescue Interview area.\nLINE ENTRY & SIMULATION: TURN LEFT",
+  "info": "LINE ENTRY & SIMULATION: TURN LEFT\n\nSchedule change:\n- 2 Gehörnzellen, Project William: Interview – Rescue Day1 13:40–13:50 → Day1 13:45–14:00\n -Project X, TriByte: Interview – Rescue Day1 11:40–11:50 → Day1 14:00–14:15",
   "meta": {
     "divisions": {
       "Line": {
@@ -4314,8 +4314,8 @@
     },
     {
       "day": "Day1",
-      "start": "13:40",
-      "end": "13:50",
+      "start": "13:45",
+      "end": "14:00",
       "resource_kind": "interview",
       "resource_name": "Interview – Rescue",
       "teams": [
@@ -4329,8 +4329,8 @@
     },
     {
       "day": "Day1",
-      "start": "11:40",
-      "end": "11:50",
+      "start": "14:00",
+      "end": "14:15",
       "resource_kind": "interview",
       "resource_name": "Interview – Rescue",
       "teams": [
@@ -4450,7 +4450,7 @@
     {
       "day": "Day1",
       "start": "11:20",
-      "end": "11:30",
+      "end": "11:35",
       "resource_kind": "interview",
       "resource_name": "Interview – Rescue",
       "teams": [
@@ -4730,664 +4730,978 @@
         "Line Entry"
       ]
     },
-  {
-    "day": "Day1",
-    "start": "10:30",
-    "end": "10:50",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["The choosen ones"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "10:50",
-    "end": "11:10",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Vienna Magic Show"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:10",
-    "end": "11:30",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Queen Bees"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:30",
-    "end": "11:50",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Around the World"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:50",
-    "end": "13:00",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Freibad"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:00",
-    "end": "13:20",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Venüs"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:20",
-    "end": "13:40",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Forest Guardians"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:40",
-    "end": "14:00",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["The time travelers"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:00",
-    "end": "14:20",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Vesele ciglice"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:20",
-    "end": "14:40",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Neobots"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:40",
-    "end": "15:10",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Eine kleine Nachtmaschine"],
-    "training": true,
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "10:30",
-    "end": "10:50",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Venüs"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "10:50",
-    "end": "11:10",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Forest Guardians"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:10",
-    "end": "11:30",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["The time travelers"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:30",
-    "end": "11:50",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Vesele ciglice"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:50",
-    "end": "13:00",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Neobots"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:00",
-    "end": "13:20",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Eine kleine Nachtmaschine"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:20",
-    "end": "13:40",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["The choosen ones"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:40",
-    "end": "14:00",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Vienna Magic Show"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:00",
-    "end": "14:20",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Queen Bees"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:20",
-    "end": "14:40",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Around the World"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:40",
-    "end": "15:00",
-    "resource_kind": "interview",
-    "resource_name": "Interview – OnStage",
-    "teams": ["Freibad"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "15:10",
-    "end": "15:20",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["The choosen ones"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "15:20",
-    "end": "15:30",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Vienna Magic Show"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "15:30",
-    "end": "15:40",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Queen Bees"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "15:40",
-    "end": "15:50",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Around the World"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "15:50",
-    "end": "16:00",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Freibad"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:00",
-    "end": "16:10",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Venüs"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:10",
-    "end": "16:20",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Forest Guardians"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:20",
-    "end": "16:30",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["The time travelers"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:30",
-    "end": "16:40",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Vesele ciglice"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:40",
-    "end": "16:50",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Neobots"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:50",
-    "end": "17:00",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Eine kleine Nachtmaschine"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "10:00",
-    "end": "10:10",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["The choosen ones"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "10:10",
-    "end": "10:20",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Vienna Magic Show"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "10:20",
-    "end": "10:30",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Queen Bees"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "10:30",
-    "end": "10:40",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Around the World"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "10:40",
-    "end": "10:50",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Freibad"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "10:50",
-    "end": "11:00",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Venüs"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "11:00",
-    "end": "11:10",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Forest Guardians"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "11:10",
-    "end": "11:20",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["The time travelers"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "11:20",
-    "end": "11:30",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Vesele ciglice"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "11:30",
-    "end": "11:40",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Neobots"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day2",
-    "start": "11:40",
-    "end": "11:50",
-    "resource_kind": "arena",
-    "resource_name": "OnStage – Stage",
-    "teams": ["Eine kleine Nachtmaschine"],
-    "divisions": ["OnStage"]
-  },
-  {
-    "day": "Day1",
-    "start": "10:30",
-    "end": "11:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Techno Force Robotics", "Robokicker"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:30",
-    "end": "12:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["DIE BOTS", "Jorge y Juan Technologies"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "12:30",
-    "end": "13:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Uranüs", "Robokicker"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:30",
-    "end": "14:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Jorge y Juan Technologies", "Techno Force Robotics"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:30",
-    "end": "15:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["DIE BOTS", "Uranüs"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "15:30",
-    "end": "16:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Robokicker", "Jorge y Juan Technologies"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:30",
-    "end": "17:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Uranüs", "Techno Force Robotics"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "17:30",
-    "end": "18:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Robokicker", "DIE BOTS"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day1",
-    "start": "11:00",
-    "end": "11:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Lightweight 2v2 – Large Field",
-    "teams": ["Arch Linux", "Die die nichts können"],
-    "divisions": ["Soccer Lightweight 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "12:00",
-    "end": "12:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Open 2v2 – Large Field",
-    "teams": ["Bravo", "Two dustbins"],
-    "divisions": ["Soccer Open 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "13:00",
-    "end": "13:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Lightweight 2v2 – Large Field",
-    "teams": ["Die die nichts können", "ETC Varazdin"],
-    "divisions": ["Soccer Lightweight 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "14:00",
-    "end": "14:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Open 2v2 – Large Field",
-    "teams": ["We use Arch BTW", "Bravo"],
-    "divisions": ["Soccer Open 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "15:00",
-    "end": "15:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Lightweight 2v2 – Large Field",
-    "teams": ["ETC Varazdin", "Arch Linux"],
-    "divisions": ["Soccer Lightweight 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "16:00",
-    "end": "16:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Open 2v2 – Large Field",
-    "teams": ["Two dustbins", "We use Arch BTW"],
-    "divisions": ["Soccer Open 2v2"]
-  },
-  {
-    "day": "Day2",
-    "start": "08:00",
-    "end": "08:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Jorge y Juan Technologies", "Uranüs"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day2",
-    "start": "09:00",
-    "end": "09:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Techno Force Robotics", "DIE BOTS"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day2",
-    "start": "10:00",
-    "end": "10:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Half Final 1"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day2",
-    "start": "11:00",
-    "end": "11:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Half Final 2"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day2",
-    "start": "12:00",
-    "end": "12:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["3rd-Place Play-off"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day2",
-    "start": "13:00",
-    "end": "13:30",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Entry 1v1 – Small Field",
-    "teams": ["Entry Final"],
-    "divisions": ["Soccer Entry 1v1"]
-  },
-  {
-    "day": "Day2",
-    "start": "11:30",
-    "end": "12:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Lightweight 2v2 – Large Field",
-    "teams": ["Lightweight Final"],
-    "divisions": ["Soccer Lightweight 2v2"]
-  },
-  {
-    "day": "Day2",
-    "start": "12:30",
-    "end": "13:00",
-    "resource_kind": "arena",
-    "resource_name": "Soccer Open 2v2 – Large Field",
-    "teams": ["Open Final"],
-    "divisions": ["Soccer Open 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "08:15",
-    "end": "08:30",
-    "resource_kind": "interview",
-    "resource_name": "Interview – Soccer",
-    "teams": ["Arch Linux"],
-    "divisions": ["Soccer Lightweight 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "08:30",
-    "end": "08:45",
-    "resource_kind": "interview",
-    "resource_name": "Interview – Soccer",
-    "teams": ["DIE BOTS","Die die nichts können"],
-    "divisions": ["Soccer Entry 1v1", "Soccer Lightweight 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "08:45",
-    "end": "09:00",
-    "resource_kind": "interview",
-    "resource_name": "Interview – Soccer",
-    "teams": ["Jorge y Juan Technologies","ETC Varazdin"],
-    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "09:00",
-    "end": "09:15",
-    "resource_kind": "interview",
-    "resource_name": "Interview – Soccer",
-    "teams": ["Robokicker","Bravo"],
-    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "09:15",
-    "end": "09:30",
-    "resource_kind": "interview",
-    "resource_name": "Interview – Soccer",
-    "teams": ["Techno Force Robotics", "Two dustbins"],
-    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
-  },
-  {
-    "day": "Day1",
-    "start": "09:30",
-    "end": "09:45",
-    "resource_kind": "interview",
-    "resource_name": "Interview – Soccer",
-    "teams": ["Uranüs", "We use Arch BTW"],
-    "divisions": ["Soccer Entry 1v1", "Soccer Open 2v2"]
-  }
+    {
+      "day": "Day1",
+      "start": "10:30",
+      "end": "10:50",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "The choosen ones"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "10:50",
+      "end": "11:10",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Vienna Magic Show"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:10",
+      "end": "11:30",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Queen Bees"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:30",
+      "end": "11:50",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Around the World"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:50",
+      "end": "13:00",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Freibad"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:00",
+      "end": "13:20",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Venüs"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:20",
+      "end": "13:40",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Forest Guardians"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:40",
+      "end": "14:00",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "The time travelers"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:00",
+      "end": "14:20",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Vesele ciglice"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:20",
+      "end": "14:40",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Neobots"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:40",
+      "end": "15:10",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Eine kleine Nachtmaschine"
+      ],
+      "training": true,
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "10:30",
+      "end": "10:50",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Venüs"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "10:50",
+      "end": "11:10",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Forest Guardians"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:10",
+      "end": "11:30",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "The time travelers"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:30",
+      "end": "11:50",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Vesele ciglice"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:50",
+      "end": "13:00",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Neobots"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:00",
+      "end": "13:20",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Eine kleine Nachtmaschine"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:20",
+      "end": "13:40",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "The choosen ones"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:40",
+      "end": "14:00",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Vienna Magic Show"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:00",
+      "end": "14:20",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Queen Bees"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:20",
+      "end": "14:40",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Around the World"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:40",
+      "end": "15:00",
+      "resource_kind": "interview",
+      "resource_name": "Interview – OnStage",
+      "teams": [
+        "Freibad"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "15:10",
+      "end": "15:20",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "The choosen ones"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "15:20",
+      "end": "15:30",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Vienna Magic Show"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "15:30",
+      "end": "15:40",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Queen Bees"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "15:40",
+      "end": "15:50",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Around the World"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "15:50",
+      "end": "16:00",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Freibad"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:00",
+      "end": "16:10",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Venüs"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:10",
+      "end": "16:20",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Forest Guardians"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:20",
+      "end": "16:30",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "The time travelers"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:30",
+      "end": "16:40",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Vesele ciglice"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:40",
+      "end": "16:50",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Neobots"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:50",
+      "end": "17:00",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Eine kleine Nachtmaschine"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "10:00",
+      "end": "10:10",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "The choosen ones"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "10:10",
+      "end": "10:20",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Vienna Magic Show"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "10:20",
+      "end": "10:30",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Queen Bees"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "10:30",
+      "end": "10:40",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Around the World"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "10:40",
+      "end": "10:50",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Freibad"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "10:50",
+      "end": "11:00",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Venüs"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "11:00",
+      "end": "11:10",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Forest Guardians"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "11:10",
+      "end": "11:20",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "The time travelers"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "11:20",
+      "end": "11:30",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Vesele ciglice"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "11:30",
+      "end": "11:40",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Neobots"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "11:40",
+      "end": "11:50",
+      "resource_kind": "arena",
+      "resource_name": "OnStage – Stage",
+      "teams": [
+        "Eine kleine Nachtmaschine"
+      ],
+      "divisions": [
+        "OnStage"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "10:30",
+      "end": "11:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Techno Force Robotics",
+        "Robokicker"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:30",
+      "end": "12:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "DIE BOTS",
+        "Jorge y Juan Technologies"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "12:30",
+      "end": "13:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Uranüs",
+        "Robokicker"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:30",
+      "end": "14:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Jorge y Juan Technologies",
+        "Techno Force Robotics"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:30",
+      "end": "15:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "DIE BOTS",
+        "Uranüs"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "15:30",
+      "end": "16:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Robokicker",
+        "Jorge y Juan Technologies"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:30",
+      "end": "17:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Uranüs",
+        "Techno Force Robotics"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "17:30",
+      "end": "18:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Robokicker",
+        "DIE BOTS"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "11:00",
+      "end": "11:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Lightweight 2v2 – Large Field",
+      "teams": [
+        "Arch Linux",
+        "Die die nichts können"
+      ],
+      "divisions": [
+        "Soccer Lightweight 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "12:00",
+      "end": "12:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Open 2v2 – Large Field",
+      "teams": [
+        "Bravo",
+        "Two dustbins"
+      ],
+      "divisions": [
+        "Soccer Open 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "13:00",
+      "end": "13:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Lightweight 2v2 – Large Field",
+      "teams": [
+        "Die die nichts können",
+        "ETC Varazdin"
+      ],
+      "divisions": [
+        "Soccer Lightweight 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "14:00",
+      "end": "14:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Open 2v2 – Large Field",
+      "teams": [
+        "We use Arch BTW",
+        "Bravo"
+      ],
+      "divisions": [
+        "Soccer Open 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "15:00",
+      "end": "15:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Lightweight 2v2 – Large Field",
+      "teams": [
+        "ETC Varazdin",
+        "Arch Linux"
+      ],
+      "divisions": [
+        "Soccer Lightweight 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "16:00",
+      "end": "16:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Open 2v2 – Large Field",
+      "teams": [
+        "Two dustbins",
+        "We use Arch BTW"
+      ],
+      "divisions": [
+        "Soccer Open 2v2"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "08:00",
+      "end": "08:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Jorge y Juan Technologies",
+        "Uranüs"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "09:00",
+      "end": "09:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Techno Force Robotics",
+        "DIE BOTS"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "10:00",
+      "end": "10:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Half Final 1"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "11:00",
+      "end": "11:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Half Final 2"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "12:00",
+      "end": "12:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "3rd-Place Play-off"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "13:00",
+      "end": "13:30",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Entry 1v1 – Small Field",
+      "teams": [
+        "Entry Final"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "11:30",
+      "end": "12:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Lightweight 2v2 – Large Field",
+      "teams": [
+        "Lightweight Final"
+      ],
+      "divisions": [
+        "Soccer Lightweight 2v2"
+      ]
+    },
+    {
+      "day": "Day2",
+      "start": "12:30",
+      "end": "13:00",
+      "resource_kind": "arena",
+      "resource_name": "Soccer Open 2v2 – Large Field",
+      "teams": [
+        "Open Final"
+      ],
+      "divisions": [
+        "Soccer Open 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "08:15",
+      "end": "08:30",
+      "resource_kind": "interview",
+      "resource_name": "Interview – Soccer",
+      "teams": [
+        "Arch Linux"
+      ],
+      "divisions": [
+        "Soccer Lightweight 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "08:30",
+      "end": "08:45",
+      "resource_kind": "interview",
+      "resource_name": "Interview – Soccer",
+      "teams": [
+        "DIE BOTS",
+        "Die die nichts können"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1",
+        "Soccer Lightweight 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "08:45",
+      "end": "09:00",
+      "resource_kind": "interview",
+      "resource_name": "Interview – Soccer",
+      "teams": [
+        "Jorge y Juan Technologies",
+        "ETC Varazdin"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1",
+        "Soccer Open 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "09:00",
+      "end": "09:15",
+      "resource_kind": "interview",
+      "resource_name": "Interview – Soccer",
+      "teams": [
+        "Robokicker",
+        "Bravo"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1",
+        "Soccer Open 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "09:15",
+      "end": "09:30",
+      "resource_kind": "interview",
+      "resource_name": "Interview – Soccer",
+      "teams": [
+        "Techno Force Robotics",
+        "Two dustbins"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1",
+        "Soccer Open 2v2"
+      ]
+    },
+    {
+      "day": "Day1",
+      "start": "09:30",
+      "end": "09:45",
+      "resource_kind": "interview",
+      "resource_name": "Interview – Soccer",
+      "teams": [
+        "Uranüs",
+        "We use Arch BTW"
+      ],
+      "divisions": [
+        "Soccer Entry 1v1",
+        "Soccer Open 2v2"
+      ]
+    }
   ]
 }
