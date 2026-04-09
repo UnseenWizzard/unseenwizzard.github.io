@@ -1,5 +1,5 @@
 {
-  "info": "LINE ENTRY & SIMULATION: TURN LEFT\n\nSchedule change:\n- 2 Gehörnzellen, Project William: Interview – Rescue Day1 13:40–13:50 → Day1 13:45–14:00\n -Project X, TriByte: Interview – Rescue Day1 11:40–11:50 → Day1 14:00–14:15",
+  "info": "LINE ENTRY & SIMULATION: TURN LEFT\n\nSchedule change:\n- Mazetrix Vienna Day2 10:50–11:00 → Day2 10:40–10:50",
   "meta": {
     "divisions": {
       "Line": {
@@ -3516,19 +3516,6 @@
       "day": "Day2",
       "start": "10:40",
       "end": "10:50",
-      "resource_kind": "arena",
-      "resource_name": "Maze Entry – Arena 1",
-      "teams": [
-        "Stars"
-      ],
-      "divisions": [
-        "Maze Entry"
-      ]
-    },
-    {
-      "day": "Day2",
-      "start": "10:50",
-      "end": "11:00",
       "resource_kind": "arena",
       "resource_name": "Maze Entry – Arena 1",
       "teams": [
