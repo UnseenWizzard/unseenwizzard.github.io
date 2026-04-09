@@ -5511,20 +5511,6 @@
     },
     {
       "day": "Day2",
-      "start": "08:00",
-      "end": "08:30",
-      "resource_kind": "arena",
-      "resource_name": "Soccer Entry 1v1 – Small Field",
-      "teams": [
-        "Jorge y Juan Technologies",
-        "Uranüs"
-      ],
-      "divisions": [
-        "Soccer Entry 1v1"
-      ]
-    },
-    {
-      "day": "Day2",
       "start": "09:00",
       "end": "09:30",
       "resource_kind": "arena",
