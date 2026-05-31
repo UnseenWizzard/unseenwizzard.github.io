@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RCJ Schedule Viewer</title>
+<title>RoboCupJunior EC2026 Schedule</title>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -821,7 +821,7 @@ body.wallboard-mode #view-container {
 <body>
 
 <header>
-  <h1>🤖 RCJ Schedule Viewer</h1>
+  <h1>🤖 RoboCupJunior EC2026 Schedule</h1>
   <div class="header-actions">
     <button id="print-btn">Print</button>
   </div>
@@ -1169,6 +1169,8 @@ function renderDayView() {
     if (e.div !== lastDiv) { groups.push({ div: e.div, resources: [] }); lastDiv = e.div; }
     groups[groups.length - 1].resources.push(e);
   }
+
+  console.log(groups);
 
   // Build lookup: timeSlot → resource → {teams[], training}
   const lookup = {};
