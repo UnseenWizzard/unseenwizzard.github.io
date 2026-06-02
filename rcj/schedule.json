@@ -22,12 +22,12 @@
         "arena_reset_minutes": 50
       },
       "Line - TC": {
-        "arenas": 2,
+        "arenas": 1,
         "runs_per_arena": 1,
         "arena_reset_minutes": 0
       },
       "Line Entry - TC": {
-        "arenas": 2,
+        "arenas": 1,
         "runs_per_arena": 1,
         "arena_reset_minutes": 0
       },
@@ -95,6 +95,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -108,6 +114,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -121,6 +133,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -134,6 +152,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "WisyLab"
       ]
     },
     {
@@ -147,6 +171,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -160,6 +190,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -173,6 +209,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -186,6 +228,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -199,6 +247,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -212,6 +266,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -225,6 +285,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -238,6 +304,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -251,6 +323,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -264,6 +342,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI Marconi"
       ]
     },
     {
@@ -277,6 +361,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTL Trieben"
       ]
     },
     {
@@ -290,6 +380,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -303,6 +399,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -316,6 +418,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Barcelos"
       ]
     },
     {
@@ -329,6 +437,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -342,6 +456,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
       ]
     },
     {
@@ -355,6 +475,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -368,6 +494,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -381,6 +513,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -394,6 +532,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IISS Erodoto di Thurii"
       ]
     },
     {
@@ -407,6 +551,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Teknikum"
       ]
     },
     {
@@ -420,6 +570,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "MAKIF H DARCA"
       ]
     },
     {
@@ -433,6 +589,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ohel-Shem"
       ]
     },
     {
@@ -446,6 +608,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -459,6 +627,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ISIS VALDARNO"
       ]
     },
     {
@@ -472,6 +646,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Association des Techniques de Robotique"
       ]
     },
     {
@@ -485,6 +665,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -498,6 +684,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -511,6 +703,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "WisyLab"
       ]
     },
     {
@@ -524,6 +722,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -537,6 +741,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -550,6 +760,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -563,6 +779,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -576,6 +798,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -589,6 +817,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -602,6 +836,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -615,6 +855,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -628,6 +874,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -641,6 +893,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI Marconi"
       ]
     },
     {
@@ -654,6 +912,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -667,6 +931,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -680,6 +950,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTL Trieben"
       ]
     },
     {
@@ -693,6 +969,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Barcelos"
       ]
     },
     {
@@ -706,6 +988,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -719,6 +1007,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
       ]
     },
     {
@@ -732,6 +1026,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -745,6 +1045,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -758,6 +1064,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -771,6 +1083,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IISS Erodoto di Thurii"
       ]
     },
     {
@@ -784,6 +1102,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -797,6 +1121,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "MAKIF H DARCA"
       ]
     },
     {
@@ -810,6 +1140,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Teknikum"
       ]
     },
     {
@@ -823,6 +1159,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -836,6 +1178,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ohel-Shem"
       ]
     },
     {
@@ -849,6 +1197,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Association des Techniques de Robotique"
       ]
     },
     {
@@ -862,6 +1216,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ISIS VALDARNO"
       ]
     },
     {
@@ -875,6 +1235,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -888,6 +1254,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -901,6 +1273,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -914,6 +1292,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -927,6 +1311,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "WisyLab"
       ]
     },
     {
@@ -940,6 +1330,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -953,6 +1349,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -966,6 +1368,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -979,6 +1387,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -992,6 +1406,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -1005,6 +1425,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -1018,6 +1444,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -1031,6 +1463,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -1044,6 +1482,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTL Trieben"
       ]
     },
     {
@@ -1057,6 +1501,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -1070,6 +1520,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Barcelos"
       ]
     },
     {
@@ -1083,6 +1539,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -1096,6 +1558,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI Marconi"
       ]
     },
     {
@@ -1109,6 +1577,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -1122,6 +1596,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -1135,6 +1615,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -1148,6 +1634,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IISS Erodoto di Thurii"
       ]
     },
     {
@@ -1161,6 +1653,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -1174,6 +1672,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
       ]
     },
     {
@@ -1187,6 +1691,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ISIS VALDARNO"
       ]
     },
     {
@@ -1200,6 +1710,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ohel-Shem"
       ]
     },
     {
@@ -1213,6 +1729,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Teknikum"
       ]
     },
     {
@@ -1226,6 +1748,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Association des Techniques de Robotique"
       ]
     },
     {
@@ -1239,6 +1767,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -1252,6 +1786,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "MAKIF H DARCA"
       ]
     },
     {
@@ -1265,6 +1805,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -1278,6 +1824,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -1291,6 +1843,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -1304,6 +1862,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "WisyLab"
       ]
     },
     {
@@ -1317,6 +1881,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -1330,6 +1900,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -1343,6 +1919,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -1356,6 +1938,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -1369,6 +1957,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -1382,6 +1976,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -1395,6 +1995,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -1408,6 +2014,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -1421,6 +2033,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -1434,6 +2052,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI Marconi"
       ]
     },
     {
@@ -1447,6 +2071,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTL Trieben"
       ]
     },
     {
@@ -1460,6 +2090,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -1473,6 +2109,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -1486,6 +2128,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Barcelos"
       ]
     },
     {
@@ -1499,6 +2147,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -1512,6 +2166,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
       ]
     },
     {
@@ -1525,6 +2185,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -1538,6 +2204,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -1551,6 +2223,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -1564,6 +2242,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IISS Erodoto di Thurii"
       ]
     },
     {
@@ -1577,6 +2261,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Teknikum"
       ]
     },
     {
@@ -1590,6 +2280,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "MAKIF H DARCA"
       ]
     },
     {
@@ -1603,6 +2299,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ohel-Shem"
       ]
     },
     {
@@ -1616,6 +2318,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -1629,6 +2337,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ISIS VALDARNO"
       ]
     },
     {
@@ -1642,6 +2356,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Association des Techniques de Robotique"
       ]
     },
     {
@@ -1655,6 +2375,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -1668,6 +2394,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -1681,6 +2413,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "WisyLab"
       ]
     },
     {
@@ -1694,6 +2432,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -1707,6 +2451,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -1720,6 +2470,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -1733,6 +2489,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -1746,6 +2508,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -1759,6 +2527,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -1772,6 +2546,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -1785,6 +2565,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -1798,6 +2584,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -1811,6 +2603,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI Marconi"
       ]
     },
     {
@@ -1824,6 +2622,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -1837,6 +2641,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -1850,6 +2660,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTL Trieben"
       ]
     },
     {
@@ -1863,6 +2679,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Barcelos"
       ]
     },
     {
@@ -1876,6 +2698,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -1889,6 +2717,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
       ]
     },
     {
@@ -1902,6 +2736,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -1915,6 +2755,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -1928,6 +2774,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -1941,6 +2793,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IISS Erodoto di Thurii"
       ]
     },
     {
@@ -1954,6 +2812,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -1967,6 +2831,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "MAKIF H DARCA"
       ]
     },
     {
@@ -1980,6 +2850,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Teknikum"
       ]
     },
     {
@@ -1993,6 +2869,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -2006,6 +2888,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ohel-Shem"
       ]
     },
     {
@@ -2019,6 +2907,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Association des Techniques de Robotique"
       ]
     },
     {
@@ -2032,6 +2926,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ISIS VALDARNO"
       ]
     },
     {
@@ -2045,6 +2945,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -2058,6 +2964,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2071,6 +2983,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2084,6 +3002,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -2097,6 +3021,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "WisyLab"
       ]
     },
     {
@@ -2110,6 +3040,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2123,6 +3059,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -2136,6 +3078,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -2149,6 +3097,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -2162,6 +3116,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -2175,6 +3135,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -2188,6 +3154,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -2201,6 +3173,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -2214,6 +3192,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTL Trieben"
       ]
     },
     {
@@ -2227,6 +3211,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -2240,6 +3230,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Barcelos"
       ]
     },
     {
@@ -2253,6 +3249,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -2266,6 +3268,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI Marconi"
       ]
     },
     {
@@ -2279,6 +3287,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -2292,6 +3306,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -2305,6 +3325,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -2318,6 +3344,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IISS Erodoto di Thurii"
       ]
     },
     {
@@ -2331,6 +3363,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -2344,6 +3382,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
       ]
     },
     {
@@ -2357,6 +3401,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ISIS VALDARNO"
       ]
     },
     {
@@ -2370,6 +3420,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ohel-Shem"
       ]
     },
     {
@@ -2383,6 +3439,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Teknikum"
       ]
     },
     {
@@ -2396,6 +3458,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Association des Techniques de Robotique"
       ]
     },
     {
@@ -2409,6 +3477,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -2422,6 +3496,12 @@
       ],
       "divisions": [
         "Line"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "MAKIF H DARCA"
       ]
     },
     {
@@ -2435,6 +3515,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2448,6 +3534,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2461,6 +3553,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "O\u0160 Komen"
       ]
     },
     {
@@ -2474,6 +3572,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -2487,6 +3591,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga Robofreak"
       ]
     },
     {
@@ -2500,6 +3610,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -2513,6 +3629,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Roboticki klub Otocac"
       ]
     },
     {
@@ -2526,6 +3648,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Rapatac Sandviken"
       ]
     },
     {
@@ -2539,6 +3667,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -2552,6 +3686,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -2565,6 +3705,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Beginning Academy"
       ]
     },
     {
@@ -2578,6 +3724,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -2591,6 +3743,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -2604,6 +3762,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -2617,6 +3781,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -2630,6 +3800,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -2643,6 +3819,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Trento 3"
       ]
     },
     {
@@ -2656,6 +3838,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -2669,6 +3857,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -2682,6 +3876,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC9 Vicenza"
       ]
     },
     {
@@ -2695,6 +3895,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Masaccio San Giovanni Valdarno"
       ]
     },
     {
@@ -2708,6 +3914,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "MS St. Marein bei Graz"
       ]
     },
     {
@@ -2721,6 +3933,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -2734,6 +3952,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Balmaz\u00fajv\u00e1ros Reform\u00e1tus Ifj\u00fas\u00e1g\u00e1\u00e9rt Egyes\u00fclet"
       ]
     },
     {
@@ -2747,6 +3971,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -2760,6 +3990,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -2773,6 +4009,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC Lauropoli Sibari Cassano"
       ]
     },
     {
@@ -2786,6 +4028,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -2799,6 +4047,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -2812,6 +4066,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. GRIMALDI-LOMBARDI"
       ]
     },
     {
@@ -2825,6 +4085,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2838,6 +4104,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2851,6 +4123,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -2864,6 +4142,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "O\u0160 Komen"
       ]
     },
     {
@@ -2877,6 +4161,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -2890,6 +4180,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga Robofreak"
       ]
     },
     {
@@ -2903,6 +4199,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Rapatac Sandviken"
       ]
     },
     {
@@ -2916,6 +4218,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Roboticki klub Otocac"
       ]
     },
     {
@@ -2929,6 +4237,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -2942,6 +4256,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -2955,6 +4275,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -2968,6 +4294,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Beginning Academy"
       ]
     },
     {
@@ -2981,6 +4313,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -2994,6 +4332,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3007,6 +4351,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -3020,6 +4370,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3033,6 +4389,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -3046,6 +4408,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Trento 3"
       ]
     },
     {
@@ -3059,6 +4427,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC9 Vicenza"
       ]
     },
     {
@@ -3072,6 +4446,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -3085,6 +4465,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "MS St. Marein bei Graz"
       ]
     },
     {
@@ -3098,6 +4484,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Masaccio San Giovanni Valdarno"
       ]
     },
     {
@@ -3111,6 +4503,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Balmaz\u00fajv\u00e1ros Reform\u00e1tus Ifj\u00fas\u00e1g\u00e1\u00e9rt Egyes\u00fclet"
       ]
     },
     {
@@ -3124,6 +4522,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -3137,6 +4541,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -3150,6 +4560,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -3163,6 +4579,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -3176,6 +4598,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC Lauropoli Sibari Cassano"
       ]
     },
     {
@@ -3189,6 +4617,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. GRIMALDI-LOMBARDI"
       ]
     },
     {
@@ -3202,6 +4636,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -3215,6 +4655,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga Robofreak"
       ]
     },
     {
@@ -3228,6 +4674,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "O\u0160 Komen"
       ]
     },
     {
@@ -3241,6 +4693,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -3254,6 +4712,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -3267,6 +4731,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -3280,6 +4750,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -3293,6 +4769,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Beginning Academy"
       ]
     },
     {
@@ -3306,6 +4788,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -3319,6 +4807,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Roboticki klub Otocac"
       ]
     },
     {
@@ -3332,6 +4826,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -3345,6 +4845,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -3358,6 +4864,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Rapatac Sandviken"
       ]
     },
     {
@@ -3371,6 +4883,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Trento 3"
       ]
     },
     {
@@ -3384,6 +4902,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3397,6 +4921,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3410,6 +4940,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -3423,6 +4959,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -3436,6 +4978,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3449,6 +4997,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -3462,6 +5016,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Masaccio San Giovanni Valdarno"
       ]
     },
     {
@@ -3475,6 +5035,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -3488,6 +5054,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Balmaz\u00fajv\u00e1ros Reform\u00e1tus Ifj\u00fas\u00e1g\u00e1\u00e9rt Egyes\u00fclet"
       ]
     },
     {
@@ -3501,6 +5073,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "MS St. Marein bei Graz"
       ]
     },
     {
@@ -3514,6 +5092,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC9 Vicenza"
       ]
     },
     {
@@ -3527,6 +5111,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -3540,6 +5130,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC Lauropoli Sibari Cassano"
       ]
     },
     {
@@ -3553,6 +5149,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -3566,6 +5168,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. GRIMALDI-LOMBARDI"
       ]
     },
     {
@@ -3579,6 +5187,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -3592,6 +5206,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -3605,6 +5225,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -3618,6 +5244,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -3631,6 +5263,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "O\u0160 Komen"
       ]
     },
     {
@@ -3644,6 +5282,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -3657,6 +5301,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga Robofreak"
       ]
     },
     {
@@ -3670,6 +5320,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -3683,6 +5339,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Roboticki klub Otocac"
       ]
     },
     {
@@ -3696,6 +5358,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Rapatac Sandviken"
       ]
     },
     {
@@ -3709,6 +5377,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -3722,6 +5396,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -3735,6 +5415,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Beginning Academy"
       ]
     },
     {
@@ -3748,6 +5434,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -3761,6 +5453,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3774,6 +5472,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3787,6 +5491,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -3800,6 +5510,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -3813,6 +5529,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Trento 3"
       ]
     },
     {
@@ -3826,6 +5548,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -3839,6 +5567,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -3852,6 +5586,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC9 Vicenza"
       ]
     },
     {
@@ -3865,6 +5605,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Masaccio San Giovanni Valdarno"
       ]
     },
     {
@@ -3878,6 +5624,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "MS St. Marein bei Graz"
       ]
     },
     {
@@ -3891,6 +5643,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -3904,6 +5662,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Balmaz\u00fajv\u00e1ros Reform\u00e1tus Ifj\u00fas\u00e1g\u00e1\u00e9rt Egyes\u00fclet"
       ]
     },
     {
@@ -3917,6 +5681,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -3930,6 +5700,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -3943,6 +5719,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC Lauropoli Sibari Cassano"
       ]
     },
     {
@@ -3956,6 +5738,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -3969,6 +5757,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -3982,6 +5776,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. GRIMALDI-LOMBARDI"
       ]
     },
     {
@@ -3995,6 +5795,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -4008,6 +5814,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -4021,6 +5833,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -4034,6 +5852,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "O\u0160 Komen"
       ]
     },
     {
@@ -4047,6 +5871,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -4060,6 +5890,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga Robofreak"
       ]
     },
     {
@@ -4073,6 +5909,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Rapatac Sandviken"
       ]
     },
     {
@@ -4086,6 +5928,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Roboticki klub Otocac"
       ]
     },
     {
@@ -4099,6 +5947,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -4112,6 +5966,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -4125,6 +5985,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -4138,6 +6004,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Beginning Academy"
       ]
     },
     {
@@ -4151,6 +6023,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -4164,6 +6042,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -4177,6 +6061,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -4190,6 +6080,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -4203,6 +6099,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -4216,6 +6118,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Trento 3"
       ]
     },
     {
@@ -4229,6 +6137,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC9 Vicenza"
       ]
     },
     {
@@ -4242,6 +6156,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -4255,6 +6175,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "MS St. Marein bei Graz"
       ]
     },
     {
@@ -4268,6 +6194,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Masaccio San Giovanni Valdarno"
       ]
     },
     {
@@ -4281,6 +6213,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Balmaz\u00fajv\u00e1ros Reform\u00e1tus Ifj\u00fas\u00e1g\u00e1\u00e9rt Egyes\u00fclet"
       ]
     },
     {
@@ -4294,6 +6232,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -4307,6 +6251,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -4320,6 +6270,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -4333,6 +6289,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -4346,6 +6308,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC Lauropoli Sibari Cassano"
       ]
     },
     {
@@ -4359,6 +6327,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. GRIMALDI-LOMBARDI"
       ]
     },
     {
@@ -4372,6 +6346,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -4385,6 +6365,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga Robofreak"
       ]
     },
     {
@@ -4398,6 +6384,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "O\u0160 Komen"
       ]
     },
     {
@@ -4411,6 +6403,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -4424,6 +6422,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -4437,6 +6441,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "BS"
+      ],
+      "institutions": [
+        "Mali programer"
       ]
     },
     {
@@ -4450,6 +6460,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -4463,6 +6479,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Beginning Academy"
       ]
     },
     {
@@ -4476,6 +6498,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -4489,6 +6517,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Roboticki klub Otocac"
       ]
     },
     {
@@ -4502,6 +6536,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -4515,6 +6555,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -4528,6 +6574,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Rapatac Sandviken"
       ]
     },
     {
@@ -4541,6 +6593,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Trento 3"
       ]
     },
     {
@@ -4554,6 +6612,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -4567,6 +6631,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -4580,6 +6650,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -4593,6 +6669,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -4606,6 +6688,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -4619,6 +6707,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -4632,6 +6726,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. Masaccio San Giovanni Valdarno"
       ]
     },
     {
@@ -4645,6 +6745,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -4658,6 +6764,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Balmaz\u00fajv\u00e1ros Reform\u00e1tus Ifj\u00fas\u00e1g\u00e1\u00e9rt Egyes\u00fclet"
       ]
     },
     {
@@ -4671,6 +6783,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "MS St. Marein bei Graz"
       ]
     },
     {
@@ -4684,6 +6802,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC9 Vicenza"
       ]
     },
     {
@@ -4697,6 +6821,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -4710,6 +6840,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IC Lauropoli Sibari Cassano"
       ]
     },
     {
@@ -4723,6 +6859,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -4736,6 +6878,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "I.C. GRIMALDI-LOMBARDI"
       ]
     },
     {
@@ -4749,6 +6897,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Ron vardi center"
       ]
     },
     {
@@ -4762,6 +6916,12 @@
       ],
       "divisions": [
         "Line Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen"
       ]
     },
     {
@@ -4775,6 +6935,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Baptista Szeretetszolg\u00e1lat EJSZ"
       ]
     },
     {
@@ -4788,6 +6954,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "SER\u0160 Maribor"
       ]
     },
     {
@@ -4801,6 +6973,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting"
       ]
     },
     {
@@ -4814,6 +6992,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting"
       ]
     },
     {
@@ -4827,6 +7011,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Albert Einstein Gymnasium"
       ]
     },
     {
@@ -4840,6 +7030,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -4853,6 +7049,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Werner-von-Siemens-Gymnasium"
       ]
     },
     {
@@ -4866,6 +7068,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -4879,6 +7087,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium im Bildungszentrum Markdorf / Roboter AG"
       ]
     },
     {
@@ -4892,6 +7106,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI \"SILVIO DE PRETTO\""
       ]
     },
     {
@@ -4905,6 +7125,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -4918,6 +7144,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Berzeliusskolan"
       ]
     },
     {
@@ -4931,6 +7163,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IIS Fermi Guttuso"
       ]
     },
     {
@@ -4944,6 +7182,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 odborn\u00e1 \u0161kola elektrotechnick\u00e1 Liptovsk\u00fd Hr\u00e1dok"
       ]
     },
     {
@@ -4957,6 +7201,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IT Archimede"
       ]
     },
     {
@@ -4970,6 +7220,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de \u00c1gueda Sul"
       ]
     },
     {
@@ -4983,6 +7239,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Arouca"
       ]
     },
     {
@@ -4996,6 +7258,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Shorouk Academy"
       ]
     },
     {
@@ -5009,6 +7277,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -5022,6 +7296,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Baptista Szeretetszolg\u00e1lat EJSZ"
       ]
     },
     {
@@ -5035,6 +7315,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "SER\u0160 Maribor"
       ]
     },
     {
@@ -5048,6 +7334,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting"
       ]
     },
     {
@@ -5061,6 +7353,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting"
       ]
     },
     {
@@ -5074,6 +7372,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Albert Einstein Gymnasium"
       ]
     },
     {
@@ -5087,6 +7391,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -5100,6 +7410,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Werner-von-Siemens-Gymnasium"
       ]
     },
     {
@@ -5113,6 +7429,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -5126,6 +7448,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium im Bildungszentrum Markdorf / Roboter AG"
       ]
     },
     {
@@ -5139,6 +7467,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI \"SILVIO DE PRETTO\""
       ]
     },
     {
@@ -5152,6 +7486,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -5165,6 +7505,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Berzeliusskolan"
       ]
     },
     {
@@ -5178,6 +7524,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IIS Fermi Guttuso"
       ]
     },
     {
@@ -5191,6 +7543,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 odborn\u00e1 \u0161kola elektrotechnick\u00e1 Liptovsk\u00fd Hr\u00e1dok"
       ]
     },
     {
@@ -5204,6 +7562,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IT Archimede"
       ]
     },
     {
@@ -5217,6 +7581,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de \u00c1gueda Sul"
       ]
     },
     {
@@ -5230,6 +7600,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Arouca"
       ]
     },
     {
@@ -5243,6 +7619,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Shorouk Academy"
       ]
     },
     {
@@ -5256,6 +7638,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -5269,6 +7657,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Baptista Szeretetszolg\u00e1lat EJSZ"
       ]
     },
     {
@@ -5282,6 +7676,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SL"
+      ],
+      "institutions": [
+        "SER\u0160 Maribor"
       ]
     },
     {
@@ -5295,6 +7695,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting"
       ]
     },
     {
@@ -5308,6 +7714,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting"
       ]
     },
     {
@@ -5321,6 +7733,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Albert Einstein Gymnasium"
       ]
     },
     {
@@ -5334,6 +7752,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg"
       ]
     },
     {
@@ -5347,6 +7771,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Werner-von-Siemens-Gymnasium"
       ]
     },
     {
@@ -5360,6 +7790,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -5373,6 +7809,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Gymnasium im Bildungszentrum Markdorf / Roboter AG"
       ]
     },
     {
@@ -5386,6 +7828,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITI \"SILVIO DE PRETTO\""
       ]
     },
     {
@@ -5399,6 +7847,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "NL"
+      ],
+      "institutions": [
+        "Groenewald"
       ]
     },
     {
@@ -5412,6 +7866,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SV"
+      ],
+      "institutions": [
+        "Berzeliusskolan"
       ]
     },
     {
@@ -5425,6 +7885,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IIS Fermi Guttuso"
       ]
     },
     {
@@ -5438,6 +7904,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "SK"
+      ],
+      "institutions": [
+        "Stredn\u00e1 odborn\u00e1 \u0161kola elektrotechnick\u00e1 Liptovsk\u00fd Hr\u00e1dok"
       ]
     },
     {
@@ -5451,6 +7923,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "IT Archimede"
       ]
     },
     {
@@ -5464,6 +7942,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de \u00c1gueda Sul"
       ]
     },
     {
@@ -5477,6 +7961,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Arouca"
       ]
     },
     {
@@ -5490,6 +7980,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Shorouk Academy"
       ]
     },
     {
@@ -5503,6 +7999,12 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -5518,6 +8020,14 @@
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "HU",
+        "SL"
+      ],
+      "institutions": [
+        "Baptista Szeretetszolg\u00e1lat EJSZ",
+        "SER\u0160 Maribor"
       ]
     },
     {
@@ -5528,11 +8038,19 @@
       "resource_name": "Interview",
       "teams": [
         "B.Robots",
-        "B.Robots Junior"
+        "STRUCA BOTONI"
       ],
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting",
+        "ITI \"SILVIO DE PRETTO\""
       ]
     },
     {
@@ -5542,12 +8060,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Skarlax",
-        "photon"
+        "B.Robots Junior",
+        "Team Jup Maze"
       ],
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "DE",
+        "NL"
+      ],
+      "institutions": [
+        "HTBL BULME Graz-G\u00f6sting",
+        "Groenewald"
       ]
     },
     {
@@ -5557,12 +8083,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "WvSG_Wall\u00b7E",
-        "Theseus"
+        "Skarlax",
+        "Minotaurus"
       ],
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "DE",
+        "SV"
+      ],
+      "institutions": [
+        "Albert Einstein Gymnasium",
+        "Berzeliusskolan"
       ]
     },
     {
@@ -5572,12 +8106,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Bodensee Beavers",
-        "STRUCA BOTONI"
+        "photon",
+        "MezaMaze"
       ],
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg",
+        "IIS Fermi Guttuso"
       ]
     },
     {
@@ -5587,12 +8129,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Team Jup Maze",
-        "Minotaurus"
+        "WvSG_Wall\u00b7E",
+        "RoboWatch"
       ],
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "DE",
+        "SK"
+      ],
+      "institutions": [
+        "Werner-von-Siemens-Gymnasium",
+        "Stredn\u00e1 odborn\u00e1 \u0161kola elektrotechnick\u00e1 Liptovsk\u00fd Hr\u00e1dok"
       ]
     },
     {
@@ -5606,6 +8156,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -5619,6 +8175,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Jos\u00e9phine Baker"
       ]
     },
     {
@@ -5632,6 +8194,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga TK mladi tehnicari"
       ]
     },
     {
@@ -5645,6 +8213,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -5658,6 +8232,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -5671,6 +8251,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "code4u"
       ]
     },
     {
@@ -5684,6 +8270,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "KGS Rastede"
       ]
     },
     {
@@ -5697,6 +8289,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Werner-von-Siemens-Gymnasium"
       ]
     },
     {
@@ -5710,6 +8308,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -5723,6 +8327,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -5736,6 +8346,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "SFZ Tuttlingen"
       ]
     },
     {
@@ -5749,6 +8365,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Hajd\u00fab\u00f6sz\u00f6rm\u00e9nyi Bocskai Istv\u00e1n Gimn\u00e1zium"
       ]
     },
     {
@@ -5762,6 +8384,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITTS Vito Volterra"
       ]
     },
     {
@@ -5775,6 +8403,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -5788,6 +8422,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -5801,6 +8441,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -5814,6 +8460,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITT Buonarroti"
       ]
     },
     {
@@ -5827,6 +8479,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Excelence school Ron Vardi"
       ]
     },
     {
@@ -5840,6 +8498,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Excelence school Ron Vardi"
       ]
     },
     {
@@ -5853,6 +8517,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -5866,6 +8536,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Jos\u00e9phine Baker"
       ]
     },
     {
@@ -5879,6 +8555,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga TK mladi tehnicari"
       ]
     },
     {
@@ -5892,6 +8574,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -5905,6 +8593,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -5918,6 +8612,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "code4u"
       ]
     },
     {
@@ -5931,6 +8631,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "KGS Rastede"
       ]
     },
     {
@@ -5944,6 +8650,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Werner-von-Siemens-Gymnasium"
       ]
     },
     {
@@ -5957,6 +8669,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -5970,6 +8688,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -5983,6 +8707,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "SFZ Tuttlingen"
       ]
     },
     {
@@ -5996,6 +8726,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Hajd\u00fab\u00f6sz\u00f6rm\u00e9nyi Bocskai Istv\u00e1n Gimn\u00e1zium"
       ]
     },
     {
@@ -6009,6 +8745,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITTS Vito Volterra"
       ]
     },
     {
@@ -6022,6 +8764,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -6035,6 +8783,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -6048,6 +8802,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -6061,6 +8821,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITT Buonarroti"
       ]
     },
     {
@@ -6074,6 +8840,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Excelence school Ron Vardi"
       ]
     },
     {
@@ -6087,6 +8859,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Excelence school Ron Vardi"
       ]
     },
     {
@@ -6100,6 +8878,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -6113,6 +8897,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "FR"
+      ],
+      "institutions": [
+        "Jos\u00e9phine Baker"
       ]
     },
     {
@@ -6126,6 +8916,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Udruga TK mladi tehnicari"
       ]
     },
     {
@@ -6139,6 +8935,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -6152,6 +8954,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -6165,6 +8973,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "code4u"
       ]
     },
     {
@@ -6178,6 +8992,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "KGS Rastede"
       ]
     },
     {
@@ -6191,6 +9011,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Werner-von-Siemens-Gymnasium"
       ]
     },
     {
@@ -6204,6 +9030,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -6217,6 +9049,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop"
       ]
     },
     {
@@ -6230,6 +9068,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "SFZ Tuttlingen"
       ]
     },
     {
@@ -6243,6 +9087,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HU"
+      ],
+      "institutions": [
+        "Hajd\u00fab\u00f6sz\u00f6rm\u00e9nyi Bocskai Istv\u00e1n Gimn\u00e1zium"
       ]
     },
     {
@@ -6256,6 +9106,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITTS Vito Volterra"
       ]
     },
     {
@@ -6269,6 +9125,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -6282,6 +9144,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -6295,6 +9163,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "PT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -6308,6 +9182,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITT Buonarroti"
       ]
     },
     {
@@ -6321,6 +9201,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Excelence school Ron Vardi"
       ]
     },
     {
@@ -6334,6 +9220,12 @@
       ],
       "divisions": [
         "Maze Entry"
+      ],
+      "languages": [
+        "HE"
+      ],
+      "institutions": [
+        "Excelence school Ron Vardi"
       ]
     },
     {
@@ -6347,6 +9239,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6360,6 +9258,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6373,6 +9277,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6386,6 +9296,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6399,6 +9315,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6412,6 +9334,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6425,6 +9353,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6438,6 +9372,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6451,6 +9391,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6464,6 +9410,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6477,6 +9429,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6490,6 +9448,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6503,6 +9467,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6516,6 +9486,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6529,6 +9505,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6542,6 +9524,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6555,6 +9543,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6568,6 +9562,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6581,6 +9581,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6594,6 +9600,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6607,6 +9619,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6620,6 +9638,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6633,6 +9657,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6646,6 +9676,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6659,6 +9695,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6672,6 +9714,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6685,6 +9733,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6698,6 +9752,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6711,6 +9771,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6724,6 +9790,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6737,6 +9809,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6750,6 +9828,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6763,6 +9847,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6776,6 +9866,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6789,6 +9885,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6802,6 +9904,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6815,6 +9923,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6828,6 +9942,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6841,6 +9961,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6854,6 +9980,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6867,6 +9999,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6880,6 +10018,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6893,6 +10037,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6906,6 +10056,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6919,6 +10075,12 @@
       ],
       "divisions": [
         "Line - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6932,6 +10094,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6945,6 +10113,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6958,6 +10132,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6971,6 +10151,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6984,6 +10170,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -6997,6 +10189,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7010,6 +10208,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7023,6 +10227,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7036,6 +10246,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7049,6 +10265,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7062,6 +10284,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7075,6 +10303,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7088,6 +10322,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7101,6 +10341,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7114,6 +10360,12 @@
       ],
       "divisions": [
         "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7127,6 +10379,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7140,6 +10398,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7153,6 +10417,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7166,6 +10436,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7179,6 +10455,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7192,6 +10474,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7205,6 +10493,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7218,6 +10512,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7231,6 +10531,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7244,6 +10550,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7257,6 +10569,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7270,6 +10588,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7283,6 +10607,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7296,6 +10626,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7309,6 +10645,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7322,6 +10664,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7335,6 +10683,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7348,6 +10702,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7361,6 +10721,12 @@
       ],
       "divisions": [
         "Maze - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7374,6 +10740,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7387,6 +10759,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7400,6 +10778,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7413,6 +10797,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7426,6 +10816,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7439,6 +10835,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7452,6 +10854,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7465,6 +10873,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7478,6 +10892,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7491,6 +10911,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7504,6 +10930,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7517,6 +10949,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7530,6 +10968,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7543,6 +10987,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7556,6 +11006,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7569,6 +11025,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7582,6 +11044,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7595,6 +11063,12 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7608,21 +11082,354 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
-      "day": "Day1_Thu",
-      "start": "11:00",
-      "end": "11:15",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
+      "day": "Day3_Sat",
+      "start": "09:00",
+      "end": "09:10",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
       "teams": [
-        "Discovery Hrissa",
-        "Discovery Baklouti"
+        "TBD"
       ],
       "divisions": [
-        "Line",
-        "Line"
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:10",
+      "end": "09:20",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:20",
+      "end": "09:30",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:30",
+      "end": "09:40",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:40",
+      "end": "09:50",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:50",
+      "end": "10:00",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:00",
+      "end": "10:10",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:10",
+      "end": "10:20",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:20",
+      "end": "10:30",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:00",
+      "end": "09:10",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:10",
+      "end": "09:20",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:20",
+      "end": "09:30",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:30",
+      "end": "09:40",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:40",
+      "end": "09:50",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:50",
+      "end": "10:00",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:00",
+      "end": "10:10",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:10",
+      "end": "10:20",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:20",
+      "end": "10:30",
+      "resource_kind": "arena",
+      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "teams": [
+        "TBD"
+      ],
+      "divisions": [
+        "SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
       ]
     },
     {
@@ -7632,12 +11439,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Discovery Torchi",
-        "WisyBot"
+        "Discovery Hrissa",
+        "NLO Rescue"
       ],
       "divisions": [
         "Line",
         "Line"
+      ],
+      "languages": [
+        "AR",
+        "HR"
+      ],
+      "institutions": [
+        "Discovery Club Junior",
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -7647,12 +11462,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "NLO Rescue",
+        "Discovery Baklouti",
         "\u0160kolska Knjiga CRO"
       ],
       "divisions": [
         "Line",
         "Line"
+      ],
+      "languages": [
+        "AR",
+        "HR"
+      ],
+      "institutions": [
+        "Discovery Club Junior",
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -7662,12 +11485,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Eurobot",
-        "Die Haftelmacher"
+        "Discovery Torchi",
+        "Eurobot"
       ],
       "divisions": [
         "Line",
         "Line"
+      ],
+      "languages": [
+        "AR",
+        "DE"
+      ],
+      "institutions": [
+        "Discovery Club Junior",
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -7677,27 +11508,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Library",
-        "DinA4"
+        "WisyBot",
+        "Die Haftelmacher"
       ],
       "divisions": [
         "Line",
         "Line"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:15",
-      "end": "14:30",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Robuh",
-        "Checkmate"
       ],
-      "divisions": [
-        "Line",
-        "Line"
+      "languages": [
+        "AR",
+        "DE"
+      ],
+      "institutions": [
+        "WisyLab",
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -7707,12 +11531,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "BIGG-IRMI",
+        "Library",
         "Dragon_Hybrid"
       ],
       "divisions": [
         "Line",
         "Line"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "BG/BRG/BORG K\u00f6flach",
+        "ITI Marconi"
       ]
     },
     {
@@ -7722,12 +11554,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "HTL Trieben Engineering",
+        "DinA4",
         "Billy"
       ],
       "divisions": [
         "Line",
         "Line"
+      ],
+      "languages": [
+        "DE",
+        "FR"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach",
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -7737,132 +11577,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "TVOFF",
-        "Iron Line"
+        "Robuh",
+        "TVOFF"
       ],
       "divisions": [
         "Line",
         "Line"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "15:15",
-      "end": "15:30",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Mali programer - Kesteni",
-        "Spe\u0161are"
       ],
-      "divisions": [
-        "Line",
-        "Line"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "15:30",
-      "end": "15:45",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "The Springrolls",
-        "Team Jup Line"
+      "languages": [
+        "DE",
+        "IT"
       ],
-      "divisions": [
-        "Line",
-        "Line"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "15:45",
-      "end": "16:00",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "BMO",
-        "RoboCassano26"
-      ],
-      "divisions": [
-        "Line",
-        "Line"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "09:00",
-      "end": "09:15",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Axiom",
-        "KING JULIAN"
-      ],
-      "divisions": [
-        "Line",
-        "Line"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "09:15",
-      "end": "09:30",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Hermes",
-        "RC Tech"
-      ],
-      "divisions": [
-        "Line",
-        "Line"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "09:30",
-      "end": "09:45",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "ISIS VALDARNO - AGEM",
-        "super neues Line Team"
-      ],
-      "divisions": [
-        "Line",
-        "Line"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:00",
-      "end": "14:15",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Discovery Brika",
-        "Discovery Mraweb"
-      ],
-      "divisions": [
-        "Line Entry",
-        "Line Entry"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "16:00",
-      "end": "16:15",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "BoraForce",
-        "Mali programer juniors"
-      ],
-      "divisions": [
-        "Line Entry",
-        "Line Entry"
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach",
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -7872,12 +11600,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "JADROLINKE",
-        "Klaka Robotics"
+        "Checkmate",
+        "Iron Line"
       ],
       "divisions": [
-        "Line Entry",
-        "Line Entry"
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "DE",
+        "PT"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem",
+        "Agrupamento de Escolas de Barcelos"
       ]
     },
     {
@@ -7887,12 +11623,273 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Gacka Robotics",
+        "BIGG-IRMI",
+        "Mali programer - Kesteni"
+      ],
+      "divisions": [
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "DE",
+        "BS"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen",
+        "Mali programer"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "09:00",
+      "end": "09:15",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "HTL Trieben Engineering",
+        "Spe\u0161are"
+      ],
+      "divisions": [
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "DE",
+        "SK"
+      ],
+      "institutions": [
+        "HTL Trieben",
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "09:15",
+      "end": "09:30",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "The Springrolls",
+        "BMO"
+      ],
+      "divisions": [
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "NL",
+        "IT"
+      ],
+      "institutions": [
+        "Metis Montessori Lyceum",
+        "ITIS Galileo Galilei"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "09:30",
+      "end": "09:45",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Team Jup Line",
+        "RoboCassano26"
+      ],
+      "divisions": [
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "NL",
+        "IT"
+      ],
+      "institutions": [
+        "Groenewald",
+        "IISS Erodoto di Thurii"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "09:45",
+      "end": "10:00",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Axiom",
+        "KING JULIAN"
+      ],
+      "divisions": [
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "SV",
+        "HE"
+      ],
+      "institutions": [
+        "Teknikum",
+        "MAKIF H DARCA"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "11:00",
+      "end": "11:15",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Hermes",
+        "RC Tech"
+      ],
+      "divisions": [
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "HE",
+        "PT"
+      ],
+      "institutions": [
+        "Ohel-Shem",
+        "Agrupamento de Escolas Romeu Correia"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "11:15",
+      "end": "11:30",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "ISIS VALDARNO - AGEM",
+        "super neues Line Team"
+      ],
+      "divisions": [
+        "Line",
+        "Line"
+      ],
+      "languages": [
+        "IT",
+        "AR"
+      ],
+      "institutions": [
+        "ISIS VALDARNO",
+        "Association des Techniques de Robotique"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "13:30",
+      "end": "13:45",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Discovery Brika",
+        "BoraForce"
+      ],
+      "divisions": [
+        "Line Entry",
+        "Line Entry"
+      ],
+      "languages": [
+        "AR",
+        "SL"
+      ],
+      "institutions": [
+        "Discovery Club Junior",
+        "O\u0160 Komen"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "14:00",
+      "end": "14:15",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Discovery Mraweb",
+        "Mali programer juniors"
+      ],
+      "divisions": [
+        "Line Entry",
+        "Line Entry"
+      ],
+      "languages": [
+        "AR",
+        "BS"
+      ],
+      "institutions": [
+        "Discovery Club Junior",
+        "Mali programer"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "14:15",
+      "end": "14:30",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "JADROLINKE",
         "Rapatac Sandviken"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "HR",
+        "SV"
+      ],
+      "institutions": [
+        "Udruga Robofreak",
+        "Rapatac Sandviken"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "15:45",
+      "end": "16:00",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Klaka Robotics",
+        "Byte Me"
+      ],
+      "divisions": [
+        "Line Entry",
+        "Line Entry"
+      ],
+      "languages": [
+        "HR",
+        "DE"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku",
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "16:00",
+      "end": "16:15",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Gacka Robotics",
+        "Negativ"
+      ],
+      "divisions": [
+        "Line Entry",
+        "Line Entry"
+      ],
+      "languages": [
+        "HR",
+        "DE"
+      ],
+      "institutions": [
+        "Roboticki klub Otocac",
+        "Bundesgymnasium und Bundesrealgymnasium Neusiedl am See"
       ]
     },
     {
@@ -7902,12 +11899,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Byte Me",
-        "Negativ"
+        "Pharaohs",
+        "Brain"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "AR",
+        "DE"
+      ],
+      "institutions": [
+        "Beginning Academy",
+        "Gymnasium Korntal-M\u00fcnchingen"
       ]
     },
     {
@@ -7917,12 +11922,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Pharaohs",
-        "Brain"
+        "Die Bugs",
+        "Mc Qeen 95 - IcTn3"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg",
+        "I.C. Trento 3"
       ]
     },
     {
@@ -7932,12 +11945,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Die Bugs",
-        "Goblin Gang"
+        "Goblin Gang",
+        "PG_bern964"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "DE",
+        "SK"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg",
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -7948,26 +11969,19 @@
       "resource_name": "Interview",
       "teams": [
         "Die Steine",
-        "Leerzeichen"
+        "VK964"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "12:00",
-      "end": "12:15",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Mc Qeen 95 - IcTn3",
-        "PG_bern964"
       ],
-      "divisions": [
-        "Line Entry",
-        "Line Entry"
+      "languages": [
+        "DE",
+        "SK"
+      ],
+      "institutions": [
+        "Herbartgymnasium Oldenburg",
+        "Z\u0160 Bernol\u00e1kova a Amavet 964"
       ]
     },
     {
@@ -7977,12 +11991,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "VK964",
+        "Leerzeichen",
         "Jeuf"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "Gymnasium Korntal-M\u00fcnchingen",
+        "IC9 Vicenza"
       ]
     },
     {
@@ -7998,6 +12020,14 @@
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "IT",
+        "DE"
+      ],
+      "institutions": [
+        "I.C. Masaccio San Giovanni Valdarno",
+        "MS St. Marein bei Graz"
       ]
     },
     {
@@ -8013,6 +12043,14 @@
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "FR",
+        "HU"
+      ],
+      "institutions": [
+        "Coll\u00e8ge Gis\u00e8le Halimi",
+        "Balmaz\u00fajv\u00e1ros Reform\u00e1tus Ifj\u00fas\u00e1g\u00e1\u00e9rt Egyes\u00fclet"
       ]
     },
     {
@@ -8023,11 +12061,19 @@
       "resource_name": "Interview",
       "teams": [
         "Die Grafen",
-        "Team G\u00fcnther 7"
+        "Burger Kong"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen",
+        "IC Lauropoli Sibari Cassano"
       ]
     },
     {
@@ -8037,12 +12083,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Burger Kong",
+        "Team G\u00fcnther 7",
         "Pinky and the pinkies"
       ],
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "DE",
+        "HE"
+      ],
+      "institutions": [
+        "Mittelschule Stallhofen",
+        "Ron vardi center"
       ]
     },
     {
@@ -8058,6 +12112,14 @@
       "divisions": [
         "Line Entry",
         "Line Entry"
+      ],
+      "languages": [
+        "HE",
+        "IT"
+      ],
+      "institutions": [
+        "Ron vardi center",
+        "I.C. GRIMALDI-LOMBARDI"
       ]
     },
     {
@@ -8067,12 +12129,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "MezaMaze",
-        "RoboWatch"
+        "Theseus",
+        "Backfeed"
       ],
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop",
+        "IT Archimede"
       ]
     },
     {
@@ -8082,18 +12152,26 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Backfeed",
+        "Bodensee Beavers",
         "Orange Bots"
       ],
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "DE",
+        "PT"
+      ],
+      "institutions": [
+        "Gymnasium im Bildungszentrum Markdorf / Roboter AG",
+        "Agrupamento de Escolas de \u00c1gueda Sul"
       ]
     },
     {
       "day": "Day1_Thu",
-      "start": "13:30",
-      "end": "13:45",
+      "start": "11:00",
+      "end": "11:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8103,6 +12181,14 @@
       "divisions": [
         "Maze",
         "Maze"
+      ],
+      "languages": [
+        "PT",
+        "AR"
+      ],
+      "institutions": [
+        "Agrupamento de Escolas de Arouca",
+        "Shorouk Academy"
       ]
     },
     {
@@ -8116,12 +12202,18 @@
       ],
       "divisions": [
         "Maze"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
-      "day": "Day2_Fri",
-      "start": "09:45",
-      "end": "10:00",
+      "day": "Day1_Thu",
+      "start": "15:15",
+      "end": "15:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8131,36 +12223,37 @@
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "AR",
+        "FR"
+      ],
+      "institutions": [
+        "Discovery Club Junior",
+        "Jos\u00e9phine Baker"
       ]
     },
     {
-      "day": "Day2_Fri",
-      "start": "11:00",
-      "end": "11:15",
+      "day": "Day1_Thu",
+      "start": "15:30",
+      "end": "15:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
         "Bioter Botsi",
-        "CI Varazdin"
-      ],
-      "divisions": [
-        "Maze Entry",
-        "Maze Entry"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "11:15",
-      "end": "11:30",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Gebruder Weiss CRO",
         "Mazetrix Vienna"
       ],
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "HR",
+        "DE"
+      ],
+      "institutions": [
+        "Udruga TK mladi tehnicari",
+        "code4u"
       ]
     },
     {
@@ -8170,12 +12263,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Bratnudeln",
-        "WvSG_Mann'n'Maus"
+        "CI Varazdin",
+        "Bratnudeln"
       ],
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "HR",
+        "DE"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku",
+        "KGS Rastede"
       ]
     },
     {
@@ -8185,12 +12286,43 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Cyber Knights",
-        "KaMa Robots"
+        "Gebruder Weiss CRO",
+        "WvSG_Mann'n'Maus"
       ],
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "HR",
+        "DE"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku",
+        "Werner-von-Siemens-Gymnasium"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "12:00",
+      "end": "12:15",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Cyber Knights",
+        "BIG-Team"
+      ],
+      "divisions": [
+        "Maze Entry",
+        "Maze Entry"
+      ],
+      "languages": [
+        "DE",
+        "HU"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop",
+        "Hajd\u00fab\u00f6sz\u00f6rm\u00e9nyi Bocskai Istv\u00e1n Gimn\u00e1zium"
       ]
     },
     {
@@ -8200,12 +12332,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "MazeRunner",
-        "BIG-Team"
+        "KaMa Robots",
+        "Circuit Breakers"
       ],
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop",
+        "ITTS Vito Volterra"
       ]
     },
     {
@@ -8215,12 +12355,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Circuit Breakers",
+        "MazeRunner",
         "Pixel Pirates"
       ],
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "DE",
+        "PT"
+      ],
+      "institutions": [
+        "SFZ Tuttlingen",
+        "Escola Alem\u00e3 de Lisboa"
       ]
     },
     {
@@ -8231,11 +12379,19 @@
       "resource_name": "Interview",
       "teams": [
         "Capybara!",
-        "M-I-E"
+        "Panikk Protokoll"
       ],
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "PT",
+        "IT"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa",
+        "ITT Buonarroti"
       ]
     },
     {
@@ -8245,12 +12401,20 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Panikk Protokoll",
+        "M-I-E",
         "MAS"
       ],
       "divisions": [
         "Maze Entry",
         "Maze Entry"
+      ],
+      "languages": [
+        "PT",
+        "HE"
+      ],
+      "institutions": [
+        "Escola Alem\u00e3 de Lisboa",
+        "Excelence school Ron Vardi"
       ]
     },
     {
@@ -8264,370 +12428,12 @@
       ],
       "divisions": [
         "Maze Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:00",
-      "end": "09:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
-      "teams": [
-        "TBD"
       ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:10",
-      "end": "09:20",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
-      "teams": [
-        "TBD"
+      "languages": [
+        "HE"
       ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:20",
-      "end": "09:30",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:30",
-      "end": "09:40",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:40",
-      "end": "09:50",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:50",
-      "end": "10:00",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "10:00",
-      "end": "10:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:00",
-      "end": "09:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:10",
-      "end": "09:20",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:20",
-      "end": "09:30",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:30",
-      "end": "09:40",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:40",
-      "end": "09:50",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:50",
-      "end": "10:00",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "10:00",
-      "end": "10:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:00",
-      "end": "09:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:10",
-      "end": "09:20",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:20",
-      "end": "09:30",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:30",
-      "end": "09:40",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:40",
-      "end": "09:50",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:50",
-      "end": "10:00",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "10:00",
-      "end": "10:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:00",
-      "end": "09:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:10",
-      "end": "09:20",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:20",
-      "end": "09:30",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:30",
-      "end": "09:40",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:40",
-      "end": "09:50",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "09:50",
-      "end": "10:00",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
-      ]
-    },
-    {
-      "day": "Day3_Sat",
-      "start": "10:00",
-      "end": "10:10",
-      "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "TBD"
-      ],
-      "divisions": [
-        "SuperTeam Entry"
+      "institutions": [
+        "Excelence school Ron Vardi"
       ]
     }
   ]
