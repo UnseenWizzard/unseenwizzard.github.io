@@ -1,5 +1,5 @@
 {
-  "info": "Soccer schedule see dedicated link!\nRescue Interviews at table near Rescue training arenas\n OnStage Interviews opposite the OnStage traning area",
+  "info": "Soccer: see dedicated link for schedule\nRescue:\n  - Please be at assigned arenas a few minutes before your run!\n  - Interviews at table near Rescue training arenas\n OnStage: Interviews opposite the OnStage traning area\nlast schedule update 2026-06-03 20:42 CEST",
   "meta": {
     "divisions": {
       "Line": {
@@ -12057,7 +12057,7 @@
     "start": "09:00",
     "end": "09:20",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "GOLDEN"
     ],
@@ -12084,7 +12084,7 @@
     "start": "09:20",
     "end": "09:40",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "Tecnoshow"
     ],
@@ -12111,7 +12111,7 @@
     "start": "09:40",
     "end": "10:00",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "BARBIE GIRLS"
     ],
@@ -12138,7 +12138,7 @@
     "start": "10:00",
     "end": "10:20",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "Dreamers"
     ],
@@ -12165,7 +12165,7 @@
     "start": "10:20",
     "end": "10:40",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "Level Up Split"
     ],
@@ -12192,7 +12192,7 @@
     "start": "10:40",
     "end": "11:00",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "MechaMove"
     ],
@@ -12219,7 +12219,7 @@
     "start": "11:00",
     "end": "11:20",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "Painting ciglice"
     ],
@@ -12246,7 +12246,7 @@
     "start": "11:20",
     "end": "11:40",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "Sortilèges Mécaniques"
     ],
@@ -12273,7 +12273,7 @@
     "start": "11:40",
     "end": "12:00",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "Vienna Magic Show"
     ],
@@ -12300,7 +12300,7 @@
     "start": "12:00",
     "end": "12:20",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "rtc gransee - junior"
     ],
@@ -12327,7 +12327,7 @@
     "start": "12:20",
     "end": "12:40",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "OZRIT3"
     ],
@@ -13080,7 +13080,7 @@
     "start": "12:40",
     "end": "13:00",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "SPACEDANCE"
     ],
@@ -13121,7 +13121,7 @@
     "start": "16:00",
     "end": "16:20",
     "resource_kind": "interview",
-    "resource_name": "OnStage \u2013 Interview",
+    "resource_name": "Interview",
     "teams": [
       "rtc gransee - goofy tech"
     ],
