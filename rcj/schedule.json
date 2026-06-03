@@ -7674,7 +7674,7 @@
       "day": "Day1_Thu",
       "start": "12:10",
       "end": "12:20",
-      "resource_name": "Maze – Arena 1",
+      "resource_name": "Maze \u2013 Arena 1",
       "resource_kind": "arena",
       "teams": [
         "Discovery Torchi"
@@ -7684,7 +7684,7 @@
       "day": "Day1_Thu",
       "start": "16:20",
       "end": "16:30",
-      "resource_name": "Maze – Arena 1",
+      "resource_name": "Maze \u2013 Arena 1",
       "resource_kind": "arena",
       "teams": [
         "Discovery Torchi"
@@ -7694,7 +7694,7 @@
       "day": "Day2_Fri",
       "start": "11:50",
       "end": "12:00",
-      "resource_name": "Maze – Arena 1",
+      "resource_name": "Maze \u2013 Arena 1",
       "resource_kind": "arena",
       "teams": [
         "Discovery Torchi"
@@ -7704,7 +7704,7 @@
       "day": "Day2_Fri",
       "start": "16:50",
       "end": "17:00",
-      "resource_name": "Maze - TC – Arena 1",
+      "resource_name": "Maze - TC \u2013 Arena 1",
       "resource_kind": "arena",
       "teams": [
         "Discovery Torchi"
@@ -12043,7 +12043,7 @@
     "start": "09:00",
     "end": "09:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "Level Up Split"
@@ -12057,7 +12057,7 @@
     "start": "09:00",
     "end": "09:20",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "GOLDEN"
     ],
@@ -12070,7 +12070,7 @@
     "start": "09:20",
     "end": "09:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "MechaMove"
@@ -12084,7 +12084,7 @@
     "start": "09:20",
     "end": "09:40",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "Tecnoshow"
     ],
@@ -12097,7 +12097,7 @@
     "start": "09:40",
     "end": "10:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "Painting ciglice"
@@ -12111,7 +12111,7 @@
     "start": "09:40",
     "end": "10:00",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "BARBIE GIRLS"
     ],
@@ -12124,7 +12124,7 @@
     "start": "10:00",
     "end": "10:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "Sortilèges Mécaniques"
@@ -12138,7 +12138,7 @@
     "start": "10:00",
     "end": "10:20",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "Dreamers"
     ],
@@ -12151,7 +12151,7 @@
     "start": "10:20",
     "end": "10:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "Vienna Magic Show"
@@ -12165,7 +12165,7 @@
     "start": "10:20",
     "end": "10:40",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "Level Up Split"
     ],
@@ -12178,7 +12178,7 @@
     "start": "10:40",
     "end": "11:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "rtc gransee - junior"
@@ -12192,7 +12192,7 @@
     "start": "10:40",
     "end": "11:00",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "MechaMove"
     ],
@@ -12205,7 +12205,7 @@
     "start": "11:00",
     "end": "11:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "OZRIT3"
@@ -12219,7 +12219,7 @@
     "start": "11:00",
     "end": "11:20",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "Painting ciglice"
     ],
@@ -12232,7 +12232,7 @@
     "start": "11:20",
     "end": "11:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "GOLDEN"
@@ -12246,7 +12246,7 @@
     "start": "11:20",
     "end": "11:40",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "Sortilèges Mécaniques"
     ],
@@ -12259,7 +12259,7 @@
     "start": "11:40",
     "end": "12:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "Tecnoshow"
@@ -12273,7 +12273,7 @@
     "start": "11:40",
     "end": "12:00",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "Vienna Magic Show"
     ],
@@ -12286,7 +12286,7 @@
     "start": "12:00",
     "end": "12:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "BARBIE GIRLS"
@@ -12300,7 +12300,7 @@
     "start": "12:00",
     "end": "12:20",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "rtc gransee - junior"
     ],
@@ -12313,7 +12313,7 @@
     "start": "12:20",
     "end": "12:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "training": true,
     "teams": [
       "Dreamers"
@@ -12327,7 +12327,7 @@
     "start": "12:20",
     "end": "12:40",
     "resource_kind": "interview",
-    "resource_name": "Onstage \u2013 Interview",
+    "resource_name": "OnStage \u2013 Interview",
     "teams": [
       "OZRIT3"
     ],
@@ -12340,7 +12340,7 @@
     "start": "14:00",
     "end": "14:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Dino Robotics"
     ],
@@ -12353,7 +12353,7 @@
     "start": "14:10",
     "end": "14:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "rtc gransee - goofy tech"
     ],
@@ -12366,7 +12366,7 @@
     "start": "14:20",
     "end": "14:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Skejtborďaci"
     ],
@@ -12379,7 +12379,7 @@
     "start": "14:30",
     "end": "14:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Argg Group"
     ],
@@ -12392,7 +12392,7 @@
     "start": "14:40",
     "end": "14:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Oganesón"
     ],
@@ -12405,7 +12405,7 @@
     "start": "14:50",
     "end": "15:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "ROBOSHOW"
     ],
@@ -12418,7 +12418,7 @@
     "start": "15:00",
     "end": "15:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "SPACEDANCE"
     ],
@@ -12431,7 +12431,7 @@
     "start": "15:10",
     "end": "15:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "TITANSBOT"
     ],
@@ -12444,7 +12444,7 @@
     "start": "15:20",
     "end": "15:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "R.A.M."
     ],
@@ -12457,7 +12457,7 @@
     "start": "15:30",
     "end": "15:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Metal Minds"
     ],
@@ -12470,7 +12470,7 @@
     "start": "15:40",
     "end": "15:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Eine kleine Nachtmaschine"
     ],
@@ -12483,7 +12483,7 @@
     "start": "09:30",
     "end": "09:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Level Up Split"
     ],
@@ -12496,7 +12496,7 @@
     "start": "09:40",
     "end": "09:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "MechaMove"
     ],
@@ -12509,7 +12509,7 @@
     "start": "09:50",
     "end": "10:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Painting ciglice"
     ],
@@ -12522,7 +12522,7 @@
     "start": "10:00",
     "end": "10:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Sortilèges Mécaniques"
     ],
@@ -12535,7 +12535,7 @@
     "start": "10:10",
     "end": "10:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Vienna Magic Show"
     ],
@@ -12548,7 +12548,7 @@
     "start": "10:20",
     "end": "10:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "rtc gransee - junior"
     ],
@@ -12561,7 +12561,7 @@
     "start": "10:30",
     "end": "10:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "OZRIT3"
     ],
@@ -12574,7 +12574,7 @@
     "start": "10:40",
     "end": "10:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "GOLDEN"
     ],
@@ -12587,7 +12587,7 @@
     "start": "10:50",
     "end": "11:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Tecnoshow"
     ],
@@ -12600,7 +12600,7 @@
     "start": "11:00",
     "end": "11:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "BARBIE GIRLS"
     ],
@@ -12613,7 +12613,7 @@
     "start": "11:10",
     "end": "11:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Dreamers"
     ],
@@ -12626,7 +12626,7 @@
     "start": "12:20",
     "end": "12:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Dino Robotics"
     ],
@@ -12639,7 +12639,7 @@
     "start": "12:30",
     "end": "12:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "rtc gransee - goofy tech"
     ],
@@ -12652,7 +12652,7 @@
     "start": "12:40",
     "end": "12:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Skejtborďaci"
     ],
@@ -12665,7 +12665,7 @@
     "start": "12:50",
     "end": "13:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Argg Group"
     ],
@@ -12678,7 +12678,7 @@
     "start": "13:00",
     "end": "13:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Oganesón"
     ],
@@ -12691,7 +12691,7 @@
     "start": "13:10",
     "end": "13:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "ROBOSHOW"
     ],
@@ -12704,7 +12704,7 @@
     "start": "13:20",
     "end": "13:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "SPACEDANCE"
     ],
@@ -12717,7 +12717,7 @@
     "start": "13:30",
     "end": "13:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "TITANSBOT"
     ],
@@ -12730,7 +12730,7 @@
     "start": "13:40",
     "end": "13:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "R.A.M."
     ],
@@ -12743,7 +12743,7 @@
     "start": "13:50",
     "end": "14:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Metal Minds"
     ],
@@ -12756,7 +12756,7 @@
     "start": "14:00",
     "end": "14:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Eine kleine Nachtmaschine"
     ],
@@ -12769,7 +12769,7 @@
     "start": "15:00",
     "end": "15:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Level Up Split"
     ],
@@ -12782,7 +12782,7 @@
     "start": "15:10",
     "end": "15:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "MechaMove"
     ],
@@ -12795,7 +12795,7 @@
     "start": "15:20",
     "end": "15:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Painting ciglice"
     ],
@@ -12808,7 +12808,7 @@
     "start": "15:30",
     "end": "15:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Sortilèges Mécaniques"
     ],
@@ -12821,7 +12821,7 @@
     "start": "15:40",
     "end": "15:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Vienna Magic Show"
     ],
@@ -12834,7 +12834,7 @@
     "start": "15:50",
     "end": "16:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "rtc gransee - junior"
     ],
@@ -12847,7 +12847,7 @@
     "start": "16:00",
     "end": "16:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "OZRIT3"
     ],
@@ -12860,7 +12860,7 @@
     "start": "16:10",
     "end": "16:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "GOLDEN"
     ],
@@ -12873,7 +12873,7 @@
     "start": "16:20",
     "end": "16:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Tecnoshow"
     ],
@@ -12886,7 +12886,7 @@
     "start": "16:30",
     "end": "16:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "BARBIE GIRLS"
     ],
@@ -12899,7 +12899,7 @@
     "start": "16:40",
     "end": "16:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
       "Dreamers"
     ],
@@ -12907,14 +12907,362 @@
       "OnStage"
     ]
   },
+    {
+    "day": "Day1_Thu",
+    "start": "09:00",
+    "end": "09:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "Dino Robotics"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "09:20",
+    "end": "09:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "rtc gransee - goofy tech"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "09:40",
+    "end": "10:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "Skejtborďaci"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:00",
+    "end": "10:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "Argg Group"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:20",
+    "end": "10:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "Oganesón"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:40",
+    "end": "11:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "ROBOSHOW"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:00",
+    "end": "11:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SPACEDANCE"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:20",
+    "end": "11:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "TITANSBOT"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:40",
+    "end": "12:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "R.A.M."
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:00",
+    "end": "12:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "Metal Minds"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:20",
+    "end": "12:40",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "Eine kleine Nachtmaschine"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:40",
+    "end": "13:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "Sortilèges Mécaniques"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:40",
+    "end": "13:00",
+    "resource_kind": "interview",
+    "resource_name": "OnStage \u2013 Interview",
+    "teams": [
+      "SPACEDANCE"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:40",
+    "end": "13:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "rtc gransee - goofy tech"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "16:00",
+    "end": "16:20",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "SPACEDANCE"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "16:00",
+    "end": "16:20",
+    "resource_kind": "interview",
+    "resource_name": "OnStage \u2013 Interview",
+    "teams": [
+      "rtc gransee - goofy tech"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "12:30",
+    "end": "13:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 1"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:00",
+    "end": "13:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 2"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:30",
+    "end": "14:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 3"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "14:00",
+    "end": "14:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 4"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "15:30",
+    "end": "16:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 5"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "16:00",
+    "end": "16:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 6"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "16:30",
+    "end": "17:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 7"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "17:00",
+    "end": "17:30",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 8"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "17:30",
+    "end": "18:00",
+    "resource_kind": "arena",
+    "resource_name": "OnStage \u2013 Training Stage",
+    "training": true,
+    "teams": [
+      "SuperTeam TDB 9"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
   {
     "day": "Day3_Sat",
     "start": "09:00",
     "end": "09:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 1"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -12925,9 +13273,9 @@
     "start": "09:10",
     "end": "09:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 2"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -12938,9 +13286,9 @@
     "start": "09:20",
     "end": "09:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 3"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -12951,9 +13299,9 @@
     "start": "09:30",
     "end": "09:40",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 4"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -12964,9 +13312,9 @@
     "start": "09:40",
     "end": "09:50",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 5"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -12977,9 +13325,9 @@
     "start": "09:50",
     "end": "10:00",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 6"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -12990,9 +13338,9 @@
     "start": "10:00",
     "end": "10:10",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 7"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13003,9 +13351,9 @@
     "start": "10:10",
     "end": "10:20",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 8"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13016,9 +13364,9 @@
     "start": "10:20",
     "end": "10:30",
     "resource_kind": "arena",
-    "resource_name": "Onstage \u2013 Main Stage",
+    "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD"
+      "SuperTeam TBD 9"
     ],
     "divisions": [
       "OnStage SuperTeam"
