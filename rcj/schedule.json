@@ -1,5 +1,5 @@
 {
-  "info": "Rescue Interviews at table near Rescue training arenas\n OnStage Interviews opposite the OnStage traning area",
+  "info": "Soccer schedule see dedicated link!\nRescue Interviews at table near Rescue training arenas\n OnStage Interviews opposite the OnStage traning area",
   "meta": {
     "divisions": {
       "Line": {
@@ -129,25 +129,6 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "09:00",
-      "end": "09:10",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
-      "teams": [
-        "Discovery Torchi"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Discovery Club Junior"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
       "start": "09:10",
       "end": "09:20",
       "resource_kind": "arena",
@@ -667,25 +648,6 @@
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
         "Discovery Baklouti"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Discovery Club Junior"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "10:40",
-      "end": "10:50",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
-      "teams": [
-        "Discovery Torchi"
       ],
       "divisions": [
         "Line"
@@ -1234,25 +1196,6 @@
       "start": "12:20",
       "end": "12:30",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "Discovery Torchi"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Discovery Club Junior"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "12:20",
-      "end": "12:30",
-      "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
         "WisyBot"
@@ -1769,25 +1712,6 @@
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
         "Discovery Baklouti"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Discovery Club Junior"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:50",
-      "end": "15:00",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
-      "teams": [
-        "Discovery Torchi"
       ],
       "divisions": [
         "Line"
@@ -2355,25 +2279,6 @@
       "start": "09:10",
       "end": "09:20",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "Discovery Torchi"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Discovery Club Junior"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "09:10",
-      "end": "09:20",
-      "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
         "\u0160kolska Knjiga CRO"
@@ -2823,25 +2728,6 @@
       ],
       "institutions": [
         "Ohel-Shem"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "10:30",
-      "end": "10:40",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
-      "teams": [
-        "Discovery Torchi"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Discovery Club Junior"
       ]
     },
     {
@@ -7783,6 +7669,48 @@
       "institutions": [
         "Agrupamento de Escolas de Arouca"
       ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "12:10",
+      "end": "12:20",
+      "resource_name": "Maze – Arena 1",
+      "resource_kind": "arena",
+      "teams": [
+        "Discovery Torchi"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "16:20",
+      "end": "16:30",
+      "resource_name": "Maze – Arena 1",
+      "resource_kind": "arena",
+      "teams": [
+        "Discovery Torchi"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "11:50",
+      "end": "12:00",
+      "resource_name": "Maze – Arena 1",
+      "resource_kind": "arena",
+      "teams": [
+        "Discovery Torchi"
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "16:50",
+      "end": "17:00",
+      "resource_name": "Maze - TC – Arena 1",
+      "resource_kind": "arena",
+      "teams": [
+        "Discovery Torchi"
+ 
+      ]
+ 
     },
     {
       "day": "Day1_Thu",
@@ -9078,25 +9006,6 @@
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
         "Discovery Baklouti"
-      ],
-      "divisions": [
-        "Line - TC"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "14:20",
-      "end": "14:30",
-      "resource_kind": "arena",
-      "resource_name": "Line - TC \u2013 Arena 1",
-      "teams": [
-        "Discovery Torchi"
       ],
       "divisions": [
         "Line - TC"
