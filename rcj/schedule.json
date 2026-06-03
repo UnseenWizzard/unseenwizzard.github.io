@@ -1,4 +1,5 @@
 {
+  "info": "Rescue Interviews at table near Rescue training arenas\n OnStage Interviews opposite the OnStage traning area",
   "meta": {
     "divisions": {
       "Line": {
@@ -41,16 +42,20 @@
         "runs_per_arena": 1,
         "arena_reset_minutes": 0
       },
-      "SuperTeam": {
+      "Rescue SuperTeam": {
         "arenas": 1,
         "runs_per_arena": 1,
         "arena_reset_minutes": 0
       },
-      "SuperTeam Entry": {
+      "Rescue SuperTeam Entry": {
         "arenas": 1,
         "runs_per_arena": 1,
         "arena_reset_minutes": 0
-      }
+      },
+      "OnStage": {
+
+      },
+      "OnStage SuperTeam": { }
     },
     "run_time_minutes": 10,
     "interview_time_minutes": 15,
@@ -642,7 +647,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "super neues Line Team"
+        "Discovery Hrissa"
       ],
       "divisions": [
         "Line"
@@ -651,7 +656,7 @@
         "AR"
       ],
       "institutions": [
-        "Association des Techniques de Robotique"
+        "Discovery Club Junior"
       ]
     },
     {
@@ -680,7 +685,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Discovery Hrissa"
+        "Discovery Torchi"
       ],
       "divisions": [
         "Line"
@@ -718,16 +723,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
-        "Discovery Torchi"
+        "NLO Rescue"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "AR"
+        "HR"
       ],
       "institutions": [
-        "Discovery Club Junior"
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -756,16 +761,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "NLO Rescue"
+        "Eurobot"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "HR"
+        "DE"
       ],
       "institutions": [
-        "Hrvatsko Drustvo za robotiku"
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -794,7 +799,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Eurobot"
+        "Library"
       ],
       "divisions": [
         "Line"
@@ -803,7 +808,7 @@
         "DE"
       ],
       "institutions": [
-        "Europagymnasium vom Guten Hirten Baumgartenberg"
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -832,7 +837,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
-        "Library"
+        "Robuh"
       ],
       "divisions": [
         "Line"
@@ -841,7 +846,7 @@
         "DE"
       ],
       "institutions": [
-        "BG/BRG/BORG K\u00f6flach"
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -870,7 +875,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "Robuh"
+        "BIGG-IRMI"
       ],
       "divisions": [
         "Line"
@@ -879,7 +884,7 @@
         "DE"
       ],
       "institutions": [
-        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -908,7 +913,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "BIGG-IRMI"
+        "HTL Trieben Engineering"
       ],
       "divisions": [
         "Line"
@@ -917,7 +922,7 @@
         "DE"
       ],
       "institutions": [
-        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
+        "HTL Trieben"
       ]
     },
     {
@@ -946,16 +951,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
-        "HTL Trieben Engineering"
+        "TVOFF"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "DE"
+        "IT"
       ],
       "institutions": [
-        "HTL Trieben"
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -984,16 +989,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "TVOFF"
+        "Mali programer - Kesteni"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "IT"
+        "BS"
       ],
       "institutions": [
-        "Liceo Scientifico E.Fermi Padova"
+        "Mali programer"
       ]
     },
     {
@@ -1022,16 +1027,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Mali programer - Kesteni"
+        "The Springrolls"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "BS"
+        "NL"
       ],
       "institutions": [
-        "Mali programer"
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -1060,16 +1065,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
-        "The Springrolls"
+        "BMO"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "NL"
+        "IT"
       ],
       "institutions": [
-        "Metis Montessori Lyceum"
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -1098,16 +1103,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "BMO"
+        "Axiom"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "IT"
+        "SV"
       ],
       "institutions": [
-        "ITIS Galileo Galilei"
+        "Teknikum"
       ]
     },
     {
@@ -1136,16 +1141,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Axiom"
+        "Hermes"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "SV"
+        "HE"
       ],
       "institutions": [
-        "Teknikum"
+        "Ohel-Shem"
       ]
     },
     {
@@ -1174,44 +1179,6 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
-        "Hermes"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "HE"
-      ],
-      "institutions": [
-        "Ohel-Shem"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "12:10",
-      "end": "12:20",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
-      "teams": [
-        "super neues Line Team"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Association des Techniques de Robotique"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "12:10",
-      "end": "12:20",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
-      "teams": [
         "ISIS VALDARNO - AGEM"
       ],
       "divisions": [
@@ -1226,21 +1193,40 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "12:20",
-      "end": "12:30",
+      "start": "12:10",
+      "end": "12:20",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 1",
+      "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "NLO Rescue"
+        "Discovery Hrissa"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "HR"
+        "AR"
       ],
       "institutions": [
-        "Hrvatsko Drustvo za robotiku"
+        "Discovery Club Junior"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "12:10",
+      "end": "12:20",
+      "resource_kind": "arena",
+      "resource_name": "Line \u2013 Arena 3",
+      "teams": [
+        "Discovery Baklouti"
+      ],
+      "divisions": [
+        "Line"
+      ],
+      "languages": [
+        "AR"
+      ],
+      "institutions": [
+        "Discovery Club Junior"
       ]
     },
     {
@@ -1248,7 +1234,7 @@
       "start": "12:20",
       "end": "12:30",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
+      "resource_name": "Line \u2013 Arena 1",
       "teams": [
         "Discovery Torchi"
       ],
@@ -1267,9 +1253,9 @@
       "start": "12:20",
       "end": "12:30",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
+      "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Discovery Hrissa"
+        "WisyBot"
       ],
       "divisions": [
         "Line"
@@ -1278,7 +1264,26 @@
         "AR"
       ],
       "institutions": [
-        "Discovery Club Junior"
+        "WisyLab"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "12:20",
+      "end": "12:30",
+      "resource_kind": "arena",
+      "resource_name": "Line \u2013 Arena 3",
+      "teams": [
+        "NLO Rescue"
+      ],
+      "divisions": [
+        "Line"
+      ],
+      "languages": [
+        "HR"
+      ],
+      "institutions": [
+        "Hrvatsko Drustvo za robotiku"
       ]
     },
     {
@@ -1307,16 +1312,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "WisyBot"
+        "Eurobot"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "AR"
+        "DE"
       ],
       "institutions": [
-        "WisyLab"
+        "Europagymnasium vom Guten Hirten Baumgartenberg"
       ]
     },
     {
@@ -1326,26 +1331,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "Discovery Baklouti"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Discovery Club Junior"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "13:40",
-      "end": "13:50",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "Robuh"
+        "Die Haftelmacher"
       ],
       "divisions": [
         "Line"
@@ -1354,7 +1340,7 @@
         "DE"
       ],
       "institutions": [
-        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -1362,7 +1348,7 @@
       "start": "13:40",
       "end": "13:50",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
+      "resource_name": "Line \u2013 Arena 1",
       "teams": [
         "Library"
       ],
@@ -1381,9 +1367,9 @@
       "start": "13:40",
       "end": "13:50",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
+      "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Eurobot"
+        "DinA4"
       ],
       "divisions": [
         "Line"
@@ -1392,7 +1378,26 @@
         "DE"
       ],
       "institutions": [
-        "Europagymnasium vom Guten Hirten Baumgartenberg"
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "13:40",
+      "end": "13:50",
+      "resource_kind": "arena",
+      "resource_name": "Line \u2013 Arena 3",
+      "teams": [
+        "Robuh"
+      ],
+      "divisions": [
+        "Line"
+      ],
+      "languages": [
+        "DE"
+      ],
+      "institutions": [
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -1421,7 +1426,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "DinA4"
+        "BIGG-IRMI"
       ],
       "divisions": [
         "Line"
@@ -1430,7 +1435,7 @@
         "DE"
       ],
       "institutions": [
-        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
       ]
     },
     {
@@ -1440,26 +1445,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "Die Haftelmacher"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "DE"
-      ],
-      "institutions": [
-        "BG/BRG/BORG K\u00f6flach"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:00",
-      "end": "14:10",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "TVOFF"
+        "Dragon_Hybrid"
       ],
       "divisions": [
         "Line"
@@ -1468,7 +1454,7 @@
         "IT"
       ],
       "institutions": [
-        "Liceo Scientifico E.Fermi Padova"
+        "ITI Marconi"
       ]
     },
     {
@@ -1476,7 +1462,7 @@
       "start": "14:00",
       "end": "14:10",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
+      "resource_name": "Line \u2013 Arena 1",
       "teams": [
         "HTL Trieben Engineering"
       ],
@@ -1495,18 +1481,37 @@
       "start": "14:00",
       "end": "14:10",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
+      "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "BIGG-IRMI"
+        "Billy"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "DE"
+        "FR"
       ],
       "institutions": [
-        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg e. V. Standort Wangen"
+        "Coll\u00e8ge Gis\u00e8le Halimi"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "14:00",
+      "end": "14:10",
+      "resource_kind": "arena",
+      "resource_name": "Line \u2013 Arena 3",
+      "teams": [
+        "TVOFF"
+      ],
+      "divisions": [
+        "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "Liceo Scientifico E.Fermi Padova"
       ]
     },
     {
@@ -1535,16 +1540,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Billy"
+        "Mali programer - Kesteni"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "FR"
+        "BS"
       ],
       "institutions": [
-        "Coll\u00e8ge Gis\u00e8le Halimi"
+        "Mali programer"
       ]
     },
     {
@@ -1554,16 +1559,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "Dragon_Hybrid"
+        "Spe\u0161are"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "IT"
+        "SK"
       ],
       "institutions": [
-        "ITI Marconi"
+        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
       ]
     },
     {
@@ -1572,25 +1577,6 @@
       "end": "14:30",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "BMO"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "IT"
-      ],
-      "institutions": [
-        "ITIS Galileo Galilei"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:20",
-      "end": "14:30",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
       "teams": [
         "The Springrolls"
       ],
@@ -1609,18 +1595,37 @@
       "start": "14:20",
       "end": "14:30",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
+      "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Mali programer - Kesteni"
+        "Team Jup Line"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "BS"
+        "NL"
       ],
       "institutions": [
-        "Mali programer"
+        "Groenewald"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "14:20",
+      "end": "14:30",
+      "resource_kind": "arena",
+      "resource_name": "Line \u2013 Arena 3",
+      "teams": [
+        "BMO"
+      ],
+      "divisions": [
+        "Line"
+      ],
+      "languages": [
+        "IT"
+      ],
+      "institutions": [
+        "ITIS Galileo Galilei"
       ]
     },
     {
@@ -1649,16 +1654,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Team Jup Line"
+        "Axiom"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "NL"
+        "SV"
       ],
       "institutions": [
-        "Groenewald"
+        "Teknikum"
       ]
     },
     {
@@ -1668,16 +1673,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "Spe\u0161are"
+        "KING JULIAN"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "SK"
+        "HE"
       ],
       "institutions": [
-        "Stredn\u00e1 priemyseln\u00e1 \u0161kola elektrotechnick\u00e1"
+        "MAKIF H DARCA"
       ]
     },
     {
@@ -1686,25 +1691,6 @@
       "end": "14:50",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "ISIS VALDARNO - AGEM"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "IT"
-      ],
-      "institutions": [
-        "ISIS VALDARNO"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:40",
-      "end": "14:50",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
       "teams": [
         "Hermes"
       ],
@@ -1723,44 +1709,6 @@
       "start": "14:40",
       "end": "14:50",
       "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
-      "teams": [
-        "Axiom"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "SV"
-      ],
-      "institutions": [
-        "Teknikum"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:50",
-      "end": "15:00",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "super neues Line Team"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Association des Techniques de Robotique"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "14:50",
-      "end": "15:00",
-      "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
         "RC Tech"
@@ -1777,27 +1725,27 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "14:50",
-      "end": "15:00",
+      "start": "14:40",
+      "end": "14:50",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
-        "KING JULIAN"
+        "ISIS VALDARNO - AGEM"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "HE"
+        "IT"
       ],
       "institutions": [
-        "MAKIF H DARCA"
+        "ISIS VALDARNO"
       ]
     },
     {
       "day": "Day1_Thu",
-      "start": "15:00",
-      "end": "15:10",
+      "start": "14:50",
+      "end": "15:00",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -1815,8 +1763,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:00",
-      "end": "15:10",
+      "start": "14:50",
+      "end": "15:00",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -1834,8 +1782,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:00",
-      "end": "15:10",
+      "start": "14:50",
+      "end": "15:00",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -1853,8 +1801,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:10",
-      "end": "15:20",
+      "start": "15:00",
+      "end": "15:10",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -1872,8 +1820,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:10",
-      "end": "15:20",
+      "start": "15:00",
+      "end": "15:10",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -1891,8 +1839,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:10",
-      "end": "15:20",
+      "start": "15:00",
+      "end": "15:10",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -1910,8 +1858,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:20",
-      "end": "15:30",
+      "start": "15:10",
+      "end": "15:20",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -1929,8 +1877,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:20",
-      "end": "15:30",
+      "start": "15:10",
+      "end": "15:20",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -1948,8 +1896,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:20",
-      "end": "15:30",
+      "start": "15:10",
+      "end": "15:20",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -1967,8 +1915,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:30",
-      "end": "15:40",
+      "start": "15:20",
+      "end": "15:30",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -1986,8 +1934,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:30",
-      "end": "15:40",
+      "start": "15:20",
+      "end": "15:30",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -2005,8 +1953,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:30",
-      "end": "15:40",
+      "start": "15:20",
+      "end": "15:30",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -2024,8 +1972,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:40",
-      "end": "15:50",
+      "start": "15:30",
+      "end": "15:40",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -2043,8 +1991,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:40",
-      "end": "15:50",
+      "start": "15:30",
+      "end": "15:40",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -2062,8 +2010,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:40",
-      "end": "15:50",
+      "start": "15:30",
+      "end": "15:40",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -2081,8 +2029,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:50",
-      "end": "16:00",
+      "start": "15:40",
+      "end": "15:50",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -2100,8 +2048,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:50",
-      "end": "16:00",
+      "start": "15:40",
+      "end": "15:50",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -2119,8 +2067,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:50",
-      "end": "16:00",
+      "start": "15:40",
+      "end": "15:50",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -2138,8 +2086,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:00",
-      "end": "16:10",
+      "start": "15:50",
+      "end": "16:00",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -2157,8 +2105,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:00",
-      "end": "16:10",
+      "start": "15:50",
+      "end": "16:00",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -2176,8 +2124,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:00",
-      "end": "16:10",
+      "start": "15:50",
+      "end": "16:00",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -2195,8 +2143,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:10",
-      "end": "16:20",
+      "start": "16:00",
+      "end": "16:10",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -2214,8 +2162,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:10",
-      "end": "16:20",
+      "start": "16:00",
+      "end": "16:10",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -2233,8 +2181,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:10",
-      "end": "16:20",
+      "start": "16:00",
+      "end": "16:10",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -2252,8 +2200,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:20",
-      "end": "16:30",
+      "start": "16:10",
+      "end": "16:20",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -2271,8 +2219,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:20",
-      "end": "16:30",
+      "start": "16:10",
+      "end": "16:20",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -2290,8 +2238,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:20",
-      "end": "16:30",
+      "start": "16:10",
+      "end": "16:20",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 3",
       "teams": [
@@ -2309,8 +2257,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:30",
-      "end": "16:40",
+      "start": "16:20",
+      "end": "16:30",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 1",
       "teams": [
@@ -2328,8 +2276,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:30",
-      "end": "16:40",
+      "start": "16:20",
+      "end": "16:30",
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
@@ -2343,25 +2291,6 @@
       ],
       "institutions": [
         "ISIS VALDARNO"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "16:30",
-      "end": "16:40",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 3",
-      "teams": [
-        "super neues Line Team"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Association des Techniques de Robotique"
       ]
     },
     {
@@ -2903,7 +2832,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "super neues Line Team"
+        "Discovery Torchi"
       ],
       "divisions": [
         "Line"
@@ -2912,7 +2841,7 @@
         "AR"
       ],
       "institutions": [
-        "Association des Techniques de Robotique"
+        "Discovery Club Junior"
       ]
     },
     {
@@ -2960,7 +2889,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Discovery Torchi"
+        "WisyBot"
       ],
       "divisions": [
         "Line"
@@ -2969,7 +2898,7 @@
         "AR"
       ],
       "institutions": [
-        "Discovery Club Junior"
+        "WisyLab"
       ]
     },
     {
@@ -3017,16 +2946,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "WisyBot"
+        "Library"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "AR"
+        "DE"
       ],
       "institutions": [
-        "WisyLab"
+        "BG/BRG/BORG K\u00f6flach"
       ]
     },
     {
@@ -3074,7 +3003,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Library"
+        "DinA4"
       ],
       "divisions": [
         "Line"
@@ -3083,7 +3012,7 @@
         "DE"
       ],
       "institutions": [
-        "BG/BRG/BORG K\u00f6flach"
+        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
       ]
     },
     {
@@ -3131,7 +3060,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "DinA4"
+        "HTL Trieben Engineering"
       ],
       "divisions": [
         "Line"
@@ -3140,7 +3069,7 @@
         "DE"
       ],
       "institutions": [
-        "Sch\u00fclerforschungszentrum S\u00fcdw\u00fcrttemberg (SFZ) - Stockach"
+        "HTL Trieben"
       ]
     },
     {
@@ -3188,16 +3117,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "HTL Trieben Engineering"
+        "Billy"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "DE"
+        "FR"
       ],
       "institutions": [
-        "HTL Trieben"
+        "Coll\u00e8ge Gis\u00e8le Halimi"
       ]
     },
     {
@@ -3245,16 +3174,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Billy"
+        "The Springrolls"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "FR"
+        "NL"
       ],
       "institutions": [
-        "Coll\u00e8ge Gis\u00e8le Halimi"
+        "Metis Montessori Lyceum"
       ]
     },
     {
@@ -3302,7 +3231,7 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "The Springrolls"
+        "Team Jup Line"
       ],
       "divisions": [
         "Line"
@@ -3311,7 +3240,7 @@
         "NL"
       ],
       "institutions": [
-        "Metis Montessori Lyceum"
+        "Groenewald"
       ]
     },
     {
@@ -3359,16 +3288,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Team Jup Line"
+        "Hermes"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "NL"
+        "HE"
       ],
       "institutions": [
-        "Groenewald"
+        "Ohel-Shem"
       ]
     },
     {
@@ -3416,16 +3345,16 @@
       "resource_kind": "arena",
       "resource_name": "Line \u2013 Arena 2",
       "teams": [
-        "Hermes"
+        "RC Tech"
       ],
       "divisions": [
         "Line"
       ],
       "languages": [
-        "HE"
+        "PT"
       ],
       "institutions": [
-        "Ohel-Shem"
+        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -3445,44 +3374,6 @@
       ],
       "institutions": [
         "Teknikum"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "12:10",
-      "end": "12:20",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 1",
-      "teams": [
-        "super neues Line Team"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Association des Techniques de Robotique"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "12:10",
-      "end": "12:20",
-      "resource_kind": "arena",
-      "resource_name": "Line \u2013 Arena 2",
-      "teams": [
-        "RC Tech"
-      ],
-      "divisions": [
-        "Line"
-      ],
-      "languages": [
-        "PT"
-      ],
-      "institutions": [
-        "Agrupamento de Escolas Romeu Correia"
       ]
     },
     {
@@ -7249,44 +7140,6 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "11:50",
-      "end": "12:00",
-      "resource_kind": "arena",
-      "resource_name": "Maze \u2013 Arena 1",
-      "teams": [
-        "Aline Masters SHA"
-      ],
-      "divisions": [
-        "Maze"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Shorouk Academy"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "12:00",
-      "end": "12:10",
-      "resource_kind": "arena",
-      "resource_name": "Maze \u2013 Arena 1",
-      "teams": [
-        "Neues Line Team"
-      ],
-      "divisions": [
-        "Maze"
-      ],
-      "languages": [
-        "DE"
-      ],
-      "institutions": [
-        "Arndt-Gymnasium Dahlem"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
       "start": "13:30",
       "end": "13:40",
       "resource_kind": "arena",
@@ -7606,44 +7459,6 @@
       ],
       "institutions": [
         "Agrupamento de Escolas de Arouca"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "16:20",
-      "end": "16:30",
-      "resource_kind": "arena",
-      "resource_name": "Maze \u2013 Arena 1",
-      "teams": [
-        "Aline Masters SHA"
-      ],
-      "divisions": [
-        "Maze"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Shorouk Academy"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "16:30",
-      "end": "16:40",
-      "resource_kind": "arena",
-      "resource_name": "Maze \u2013 Arena 1",
-      "teams": [
-        "Neues Line Team"
-      ],
-      "divisions": [
-        "Maze"
-      ],
-      "languages": [
-        "DE"
-      ],
-      "institutions": [
-        "Arndt-Gymnasium Dahlem"
       ]
     },
     {
@@ -7970,47 +7785,9 @@
       ]
     },
     {
-      "day": "Day2_Fri",
-      "start": "11:50",
-      "end": "12:00",
-      "resource_kind": "arena",
-      "resource_name": "Maze \u2013 Arena 1",
-      "teams": [
-        "Aline Masters SHA"
-      ],
-      "divisions": [
-        "Maze"
-      ],
-      "languages": [
-        "AR"
-      ],
-      "institutions": [
-        "Shorouk Academy"
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "12:00",
-      "end": "12:10",
-      "resource_kind": "arena",
-      "resource_name": "Maze \u2013 Arena 1",
-      "teams": [
-        "Neues Line Team"
-      ],
-      "divisions": [
-        "Maze"
-      ],
-      "languages": [
-        "DE"
-      ],
-      "institutions": [
-        "Arndt-Gymnasium Dahlem"
-      ]
-    },
-    {
       "day": "Day1_Thu",
-      "start": "12:15",
-      "end": "12:30",
+      "start": "12:00",
+      "end": "12:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8032,8 +7809,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:45",
-      "end": "17:00",
+      "start": "12:15",
+      "end": "12:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8055,8 +7832,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "17:00",
-      "end": "17:15",
+      "start": "16:30",
+      "end": "16:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8078,8 +7855,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "17:15",
-      "end": "17:30",
+      "start": "16:45",
+      "end": "17:00",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8101,8 +7878,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "17:30",
-      "end": "17:45",
+      "start": "17:00",
+      "end": "17:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8124,8 +7901,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "17:45",
-      "end": "18:00",
+      "start": "17:15",
+      "end": "17:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -8143,6 +7920,52 @@
       "institutions": [
         "Werner-von-Siemens-Gymnasium",
         "Stredn\u00e1 odborn\u00e1 \u0161kola elektrotechnick\u00e1 Liptovsk\u00fd Hr\u00e1dok"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "17:30",
+      "end": "17:45",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Theseus",
+        "Backfeed"
+      ],
+      "divisions": [
+        "Maze",
+        "Maze"
+      ],
+      "languages": [
+        "DE",
+        "IT"
+      ],
+      "institutions": [
+        "Uni Kassel Workshop",
+        "IT Archimede"
+      ]
+    },
+    {
+      "day": "Day1_Thu",
+      "start": "17:45",
+      "end": "18:00",
+      "resource_kind": "interview",
+      "resource_name": "Interview",
+      "teams": [
+        "Bodensee Beavers",
+        "Orange Bots"
+      ],
+      "divisions": [
+        "Maze",
+        "Maze"
+      ],
+      "languages": [
+        "DE",
+        "PT"
+      ],
+      "institutions": [
+        "Gymnasium im Bildungszentrum Markdorf / Roboter AG",
+        "Agrupamento de Escolas de \u00c1gueda Sul"
       ]
     },
     {
@@ -10066,25 +9889,6 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:20",
-      "end": "16:30",
-      "resource_kind": "arena",
-      "resource_name": "Line - TC \u2013 Arena 2",
-      "teams": [
-        "super neues Line Team"
-      ],
-      "divisions": [
-        "Line - TC"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
-      "day": "Day2_Fri",
       "start": "14:00",
       "end": "14:10",
       "resource_kind": "arena",
@@ -10693,44 +10497,6 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:50",
-      "end": "17:00",
-      "resource_kind": "arena",
-      "resource_name": "Maze - TC \u2013 Arena 1",
-      "teams": [
-        "Aline Masters SHA"
-      ],
-      "divisions": [
-        "Maze - TC"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "17:00",
-      "end": "17:10",
-      "resource_kind": "arena",
-      "resource_name": "Maze - TC \u2013 Arena 1",
-      "teams": [
-        "Neues Line Team"
-      ],
-      "divisions": [
-        "Maze - TC"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
-      "day": "Day2_Fri",
       "start": "14:00",
       "end": "14:10",
       "resource_kind": "arena",
@@ -11095,12 +10861,12 @@
       "start": "09:00",
       "end": "09:10",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11114,12 +10880,12 @@
       "start": "09:10",
       "end": "09:20",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11133,12 +10899,12 @@
       "start": "09:20",
       "end": "09:30",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11152,12 +10918,12 @@
       "start": "09:30",
       "end": "09:40",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11171,12 +10937,12 @@
       "start": "09:40",
       "end": "09:50",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11190,12 +10956,12 @@
       "start": "09:50",
       "end": "10:00",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11209,12 +10975,12 @@
       "start": "10:00",
       "end": "10:10",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11228,12 +10994,12 @@
       "start": "10:10",
       "end": "10:20",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11247,12 +11013,12 @@
       "start": "10:20",
       "end": "10:30",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam"
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
@@ -11266,12 +11032,12 @@
       "start": "09:00",
       "end": "09:10",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11285,12 +11051,12 @@
       "start": "09:10",
       "end": "09:20",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11304,12 +11070,12 @@
       "start": "09:20",
       "end": "09:30",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11323,12 +11089,12 @@
       "start": "09:30",
       "end": "09:40",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11342,12 +11108,12 @@
       "start": "09:40",
       "end": "09:50",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11361,12 +11127,12 @@
       "start": "09:50",
       "end": "10:00",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11380,12 +11146,12 @@
       "start": "10:00",
       "end": "10:10",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11399,12 +11165,12 @@
       "start": "10:10",
       "end": "10:20",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11418,12 +11184,12 @@
       "start": "10:20",
       "end": "10:30",
       "resource_kind": "arena",
-      "resource_name": "SuperTeam Entry \u2013 Arena 1",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
         "TBD"
       ],
       "divisions": [
-        "SuperTeam Entry"
+        "Rescue SuperTeam Entry"
       ],
       "languages": [
         ""
@@ -11503,8 +11269,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "12:00",
-      "end": "12:15",
+      "start": "14:00",
+      "end": "14:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11526,8 +11292,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "14:30",
-      "end": "14:45",
+      "start": "14:15",
+      "end": "14:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11549,8 +11315,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "14:45",
-      "end": "15:00",
+      "start": "14:30",
+      "end": "14:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11572,8 +11338,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:00",
-      "end": "15:15",
+      "start": "14:45",
+      "end": "15:00",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11595,8 +11361,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:15",
-      "end": "16:30",
+      "start": "16:00",
+      "end": "16:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11618,8 +11384,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "16:30",
-      "end": "16:45",
+      "start": "16:15",
+      "end": "16:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11761,20 +11527,16 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "ISIS VALDARNO - AGEM",
-        "super neues Line Team"
+        "ISIS VALDARNO - AGEM"
       ],
       "divisions": [
-        "Line",
         "Line"
       ],
       "languages": [
-        "IT",
-        "AR"
+        "IT"
       ],
       "institutions": [
-        "ISIS VALDARNO",
-        "Association des Techniques de Robotique"
+        "ISIS VALDARNO"
       ]
     },
     {
@@ -11802,8 +11564,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "14:00",
-      "end": "14:15",
+      "start": "15:30",
+      "end": "15:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11825,8 +11587,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "14:15",
-      "end": "14:30",
+      "start": "15:45",
+      "end": "16:00",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11847,9 +11609,9 @@
       ]
     },
     {
-      "day": "Day1_Thu",
-      "start": "15:45",
-      "end": "16:00",
+      "day": "Day2_Fri",
+      "start": "10:00",
+      "end": "10:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11870,9 +11632,9 @@
       ]
     },
     {
-      "day": "Day1_Thu",
-      "start": "16:00",
-      "end": "16:15",
+      "day": "Day2_Fri",
+      "start": "10:15",
+      "end": "10:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11894,8 +11656,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "10:00",
-      "end": "10:15",
+      "start": "10:30",
+      "end": "10:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11917,8 +11679,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "10:15",
-      "end": "10:30",
+      "start": "10:45",
+      "end": "11:00",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11940,8 +11702,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "10:30",
-      "end": "10:45",
+      "start": "12:00",
+      "end": "12:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11963,8 +11725,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "10:45",
-      "end": "11:00",
+      "start": "12:15",
+      "end": "12:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -11986,8 +11748,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "12:15",
-      "end": "12:30",
+      "start": "13:30",
+      "end": "13:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12009,8 +11771,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "13:30",
-      "end": "13:45",
+      "start": "13:45",
+      "end": "14:00",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12032,8 +11794,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "13:45",
-      "end": "14:00",
+      "start": "14:00",
+      "end": "14:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12055,8 +11817,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:00",
-      "end": "14:15",
+      "start": "14:15",
+      "end": "14:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12078,8 +11840,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:15",
-      "end": "14:30",
+      "start": "14:30",
+      "end": "14:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12101,8 +11863,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:30",
-      "end": "14:45",
+      "start": "14:45",
+      "end": "15:00",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12129,91 +11891,22 @@
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
-        "Theseus",
-        "Backfeed"
+        "Arouca Bots"
       ],
       "divisions": [
-        "Maze",
         "Maze"
       ],
       "languages": [
-        "DE",
-        "IT"
+        "PT"
       ],
       "institutions": [
-        "Uni Kassel Workshop",
-        "IT Archimede"
+        "Agrupamento de Escolas de Arouca"
       ]
     },
     {
       "day": "Day1_Thu",
       "start": "10:45",
       "end": "11:00",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Bodensee Beavers",
-        "Orange Bots"
-      ],
-      "divisions": [
-        "Maze",
-        "Maze"
-      ],
-      "languages": [
-        "DE",
-        "PT"
-      ],
-      "institutions": [
-        "Gymnasium im Bildungszentrum Markdorf / Roboter AG",
-        "Agrupamento de Escolas de \u00c1gueda Sul"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "11:00",
-      "end": "11:15",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Arouca Bots",
-        "Aline Masters SHA"
-      ],
-      "divisions": [
-        "Maze",
-        "Maze"
-      ],
-      "languages": [
-        "PT",
-        "AR"
-      ],
-      "institutions": [
-        "Agrupamento de Escolas de Arouca",
-        "Shorouk Academy"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "13:45",
-      "end": "14:00",
-      "resource_kind": "interview",
-      "resource_name": "Interview",
-      "teams": [
-        "Neues Line Team"
-      ],
-      "divisions": [
-        "Maze"
-      ],
-      "languages": [
-        "DE"
-      ],
-      "institutions": [
-        "Arndt-Gymnasium Dahlem"
-      ]
-    },
-    {
-      "day": "Day1_Thu",
-      "start": "15:15",
-      "end": "15:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12235,8 +11928,8 @@
     },
     {
       "day": "Day1_Thu",
-      "start": "15:30",
-      "end": "15:45",
+      "start": "11:00",
+      "end": "11:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12257,9 +11950,9 @@
       ]
     },
     {
-      "day": "Day2_Fri",
-      "start": "11:30",
-      "end": "11:45",
+      "day": "Day1_Thu",
+      "start": "15:00",
+      "end": "15:15",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12280,9 +11973,9 @@
       ]
     },
     {
-      "day": "Day2_Fri",
-      "start": "11:45",
-      "end": "12:00",
+      "day": "Day1_Thu",
+      "start": "15:15",
+      "end": "15:30",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12304,8 +11997,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "12:00",
-      "end": "12:15",
+      "start": "11:30",
+      "end": "11:45",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12327,8 +12020,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:45",
-      "end": "15:00",
+      "start": "11:45",
+      "end": "12:00",
       "resource_kind": "interview",
       "resource_name": "Interview",
       "teams": [
@@ -12435,6 +12128,992 @@
       "institutions": [
         "Excelence school Ron Vardi"
       ]
-    }
+    },
+      {
+    "day": "Day1_Thu",
+    "start": "09:00",
+    "end": "09:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "Level Up Split"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "09:00",
+    "end": "09:20",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "GOLDEN"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "09:20",
+    "end": "09:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "MechaMove"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "09:20",
+    "end": "09:40",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "Tecnoshow"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "09:40",
+    "end": "10:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "Painting ciglice"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "09:40",
+    "end": "10:00",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "BARBIE GIRLS"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:00",
+    "end": "10:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "Sortilèges Mécaniques"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:00",
+    "end": "10:20",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "Dreamers"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:20",
+    "end": "10:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "Vienna Magic Show"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:20",
+    "end": "10:40",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "Level Up Split"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:40",
+    "end": "11:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "rtc gransee - junior"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "10:40",
+    "end": "11:00",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "MechaMove"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:00",
+    "end": "11:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "OZRIT3"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:00",
+    "end": "11:20",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "Painting ciglice"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:20",
+    "end": "11:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "GOLDEN"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:20",
+    "end": "11:40",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "Sortilèges Mécaniques"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:40",
+    "end": "12:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "Tecnoshow"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "11:40",
+    "end": "12:00",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "Vienna Magic Show"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:00",
+    "end": "12:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "BARBIE GIRLS"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:00",
+    "end": "12:20",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "rtc gransee - junior"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:20",
+    "end": "12:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "training": true,
+    "teams": [
+      "Dreamers"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "12:20",
+    "end": "12:40",
+    "resource_kind": "interview",
+    "resource_name": "Onstage \u2013 Interview",
+    "teams": [
+      "OZRIT3"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "14:00",
+    "end": "14:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Dino Robotics"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "14:10",
+    "end": "14:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "rtc gransee - goofy tech"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "14:20",
+    "end": "14:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Skejtborďaci"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "14:30",
+    "end": "14:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Argg Group"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "14:40",
+    "end": "14:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Oganesón"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "14:50",
+    "end": "15:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "ROBOSHOW"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "15:00",
+    "end": "15:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SPACEDANCE"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "15:10",
+    "end": "15:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "TITANSBOT"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "15:20",
+    "end": "15:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "R.A.M."
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "15:30",
+    "end": "15:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Metal Minds"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day1_Thu",
+    "start": "15:40",
+    "end": "15:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Eine kleine Nachtmaschine"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "09:30",
+    "end": "09:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Level Up Split"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "09:40",
+    "end": "09:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "MechaMove"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "09:50",
+    "end": "10:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Painting ciglice"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "10:00",
+    "end": "10:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Sortilèges Mécaniques"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "10:10",
+    "end": "10:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Vienna Magic Show"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "10:20",
+    "end": "10:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "rtc gransee - junior"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "10:30",
+    "end": "10:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "OZRIT3"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "10:40",
+    "end": "10:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "GOLDEN"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "10:50",
+    "end": "11:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Tecnoshow"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "11:00",
+    "end": "11:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "BARBIE GIRLS"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "11:10",
+    "end": "11:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Dreamers"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "12:20",
+    "end": "12:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Dino Robotics"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "12:30",
+    "end": "12:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "rtc gransee - goofy tech"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "12:40",
+    "end": "12:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Skejtborďaci"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "12:50",
+    "end": "13:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Argg Group"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:00",
+    "end": "13:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Oganesón"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:10",
+    "end": "13:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "ROBOSHOW"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:20",
+    "end": "13:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SPACEDANCE"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:30",
+    "end": "13:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "TITANSBOT"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:40",
+    "end": "13:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "R.A.M."
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "13:50",
+    "end": "14:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Metal Minds"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "14:00",
+    "end": "14:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Eine kleine Nachtmaschine"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "15:00",
+    "end": "15:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Level Up Split"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "15:10",
+    "end": "15:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "MechaMove"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "15:20",
+    "end": "15:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Painting ciglice"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "15:30",
+    "end": "15:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Sortilèges Mécaniques"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "15:40",
+    "end": "15:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Vienna Magic Show"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "15:50",
+    "end": "16:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "rtc gransee - junior"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "16:00",
+    "end": "16:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "OZRIT3"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "16:10",
+    "end": "16:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "GOLDEN"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "16:20",
+    "end": "16:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Tecnoshow"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "16:30",
+    "end": "16:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "BARBIE GIRLS"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day2_Fri",
+    "start": "16:40",
+    "end": "16:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "Dreamers"
+    ],
+    "divisions": [
+      "OnStage"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "09:00",
+    "end": "09:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "09:10",
+    "end": "09:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "09:20",
+    "end": "09:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "09:30",
+    "end": "09:40",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "09:40",
+    "end": "09:50",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "09:50",
+    "end": "10:00",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "10:00",
+    "end": "10:10",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "10:10",
+    "end": "10:20",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  },
+  {
+    "day": "Day3_Sat",
+    "start": "10:20",
+    "end": "10:30",
+    "resource_kind": "arena",
+    "resource_name": "Onstage \u2013 Main Stage",
+    "teams": [
+      "SuperTeam TBD"
+    ],
+    "divisions": [
+      "OnStage SuperTeam"
+    ]
+  }
   ]
 }
