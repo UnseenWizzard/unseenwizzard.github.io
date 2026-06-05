@@ -1,5 +1,5 @@
 {
-  "info": "Soccer: see schedule at https://catigoal.com/RCJE26/matches\nRescue:\n - Line Entry TURN LEFT\n  - TeamCaptains meeting for Technical and SuperTeam Challenges at Interview area at 12:30!\n OnStage: Interviews opposite the OnStage traning area\nlast schedule change 2026-06-03 20:42 CEST",
+  "info": "Soccer: see schedule at https://catigoal.com/RCJE26/matches\nRescue:\n - SuperTeam assignments online!\n - Challenge rules: https://drive.google.com/drive/folders/16YNZ1BR9bxmKO6lrLPqf7d_wZQXWeOXL\n OnStage: Interviews opposite the OnStage traning area\nlast schedule update 2026-06-05 13:38 CEST",
   "meta": {
     "divisions": {
       "Line": {
@@ -10772,7 +10772,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "B.Robots Junior,DinA4"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10791,7 +10791,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "STRUCA BOTONI,Die Haftelmacher"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10810,7 +10810,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Skarlax,Spe\u0161are"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10829,7 +10829,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "photon,RoboCassano26"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10848,7 +10848,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "B.Robots,ISIS VALDARNO - AGEM"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10867,7 +10867,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "WvSG_Wall\u00b7E,Billy"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10886,7 +10886,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "MezaMaze,DinA4"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10905,7 +10905,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Theseus,TVOFF"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10924,7 +10924,26 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Bodensee Beavers,Checkmate"
+      ],
+      "divisions": [
+        "Rescue SuperTeam"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:30",
+      "end": "10:40",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
+      "teams": [
+        "NLO Rescue,MezaMaze"
       ],
       "divisions": [
         "Rescue SuperTeam"
@@ -10943,7 +10962,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Capybara!,Die Steine"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -10962,7 +10981,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Circuit Breakers,Team G\u00fcnther 7"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -10981,7 +11000,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Bioter Botsi,Leerzeichen"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -11000,7 +11019,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Pixel Pirates,Goblin Gang"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -11019,7 +11038,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "MazeRunner,BoraForce"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -11038,7 +11057,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Gebruder Weiss CRO,Balmazrobot"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -11057,7 +11076,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Cyber Knights,JADROLINKE"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -11076,7 +11095,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "CI Varazdin,Brain"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -11095,7 +11114,178 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 1",
       "teams": [
-        "TBD"
+        "Bratnudeln,Ninja Turtles"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:00",
+      "end": "09:10",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "WvSG_Mann'n'Maus","Discovery Brika","Discovery Hrissa"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:10",
+      "end": "09:20",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "Die Bugs","Pinky and the pinkies","The Springrolls"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:20",
+      "end": "09:30",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "LOMBARDI","Eurobot","Library","Discovery Torchi"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:30",
+      "end": "09:40",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "Die Grafen","Burger Kong","HTL Trieben Engineering"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:40",
+      "end": "09:50",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "Nexus","ANDROIDI","Discovery Baklouti"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "09:50",
+      "end": "10:00",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "M-I-E","Pharaohs","Rapatac Sandviken"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:00",
+      "end": "10:10",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "MAS","Gacka Robotics","Les Météors"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:10",
+      "end": "10:20",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "Kreep's","Mc Qeen 95 - IcTn3","Discovery Mraweh"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:20",
+      "end": "10:30",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "Bratnudeln,Ninja Turtles"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -13137,7 +13327,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 1"
+      "Rescue SuperTeam TDB 1"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13151,7 +13341,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 2"
+      "Rescue SuperTeam TDB 2"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13165,7 +13355,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 3"
+      "Rescue SuperTeam TDB 3"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13179,7 +13369,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 4"
+      "Rescue SuperTeam TDB 4"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13193,7 +13383,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 5"
+      "Rescue SuperTeam TDB 5"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13207,7 +13397,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 6"
+      "Rescue SuperTeam TDB 6"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13221,7 +13411,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 7"
+      "Rescue SuperTeam TDB 7"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13235,7 +13425,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 8"
+      "Rescue SuperTeam TDB 8"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13249,7 +13439,7 @@
     "resource_name": "OnStage \u2013 Training Stage",
     "training": true,
     "teams": [
-      "SuperTeam TDB 9"
+      "Rescue SuperTeam TDB 9"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13262,7 +13452,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 1"
+      "Rescue SuperTeam TBD 1"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13275,7 +13465,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 2"
+      "Rescue SuperTeam TBD 2"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13288,7 +13478,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 3"
+      "Rescue SuperTeam TBD 3"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13301,7 +13491,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 4"
+      "Rescue SuperTeam TBD 4"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13314,7 +13504,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 5"
+      "Rescue SuperTeam TBD 5"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13327,7 +13517,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 6"
+      "Rescue SuperTeam TBD 6"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13340,7 +13530,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 7"
+      "Rescue SuperTeam TBD 7"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13353,7 +13543,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 8"
+      "Rescue SuperTeam TBD 8"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13366,7 +13556,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 9"
+      "Rescue SuperTeam TBD 9"
     ],
     "divisions": [
       "OnStage SuperTeam"
