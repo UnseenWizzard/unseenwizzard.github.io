@@ -13471,7 +13471,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 1"
+      "Dark Magic"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13484,7 +13484,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 2"
+      "Mystical World"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13497,7 +13497,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 3"
+      "RoboCycle"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13510,7 +13510,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 4"
+      "Krusty Dance"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13523,7 +13523,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 5"
+      "Emotional Pacchio"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13536,7 +13536,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 6"
+      "Talent Show"
     ],
     "divisions": [
       "OnStage SuperTeam"
@@ -13549,33 +13549,7 @@
     "resource_kind": "arena",
     "resource_name": "OnStage \u2013 Main Stage",
     "teams": [
-      "SuperTeam TBD 7"
-    ],
-    "divisions": [
-      "OnStage SuperTeam"
-    ]
-  },
-  {
-    "day": "Day3_Sat",
-    "start": "10:10",
-    "end": "10:20",
-    "resource_kind": "arena",
-    "resource_name": "OnStage \u2013 Main Stage",
-    "teams": [
-      "SuperTeam TBD 8"
-    ],
-    "divisions": [
-      "OnStage SuperTeam"
-    ]
-  },
-  {
-    "day": "Day3_Sat",
-    "start": "10:20",
-    "end": "10:30",
-    "resource_kind": "arena",
-    "resource_name": "OnStage \u2013 Main Stage",
-    "teams": [
-      "SuperTeam TBD 9"
+      "Fire Rescue"
     ],
     "divisions": [
       "OnStage SuperTeam"
