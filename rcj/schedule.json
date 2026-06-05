@@ -8981,8 +8981,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:00",
-      "end": "14:10",
+      "start": "14:30",
+      "end": "14:40",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9000,8 +9000,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:10",
-      "end": "14:20",
+      "start": "14:30",
+      "end": "15:00",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9019,8 +9019,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:30",
-      "end": "14:40",
+      "start": "15:00",
+      "end": "15:10",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9038,8 +9038,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:40",
-      "end": "14:50",
+      "start": "15:10",
+      "end": "15:20",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9057,8 +9057,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:50",
-      "end": "15:00",
+      "start": "15:20",
+      "end": "15:30",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9076,8 +9076,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:00",
-      "end": "15:10",
+      "start": "15:30",
+      "end": "15:40",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9095,8 +9095,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:10",
-      "end": "15:20",
+      "start": "15:40",
+      "end": "15:50",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9114,8 +9114,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:20",
-      "end": "15:30",
+      "start": "15:50",
+      "end": "16:00",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9133,8 +9133,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:30",
-      "end": "15:40",
+      "start": "16:00",
+      "end": "16:10",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9152,8 +9152,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:40",
-      "end": "15:50",
+      "start": "16:10",
+      "end": "16:20",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9171,8 +9171,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:50",
-      "end": "16:00",
+      "start": "16:20",
+      "end": "16:30",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9190,8 +9190,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:00",
-      "end": "16:10",
+      "start": "16:30",
+      "end": "16:40",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9209,8 +9209,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:10",
-      "end": "16:20",
+      "start": "16:40",
+      "end": "16:50",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9228,8 +9228,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:20",
-      "end": "16:30",
+      "start": "16:50",
+      "end": "17:00",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 1",
       "teams": [
@@ -9247,8 +9247,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:00",
-      "end": "14:10",
+      "start": "14:30",
+      "end": "14:40",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9266,8 +9266,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:10",
-      "end": "14:20",
+      "start": "14:40",
+      "end": "14:50",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9285,8 +9285,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:20",
-      "end": "14:30",
+      "start": "14:50",
+      "end": "15:00",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9304,8 +9304,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:30",
-      "end": "14:40",
+      "start": "15:00",
+      "end": "15:10",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9323,8 +9323,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:40",
-      "end": "14:50",
+      "start": "15:10",
+      "end": "15:20",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9342,8 +9342,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:50",
-      "end": "15:00",
+      "start": "15:20",
+      "end": "15:30",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9361,8 +9361,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:00",
-      "end": "15:10",
+      "start": "15:30",
+      "end": "15:40",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9380,8 +9380,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:10",
-      "end": "15:20",
+      "start": "15:40",
+      "end": "15:50",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9399,8 +9399,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:20",
-      "end": "15:30",
+      "start": "15:50",
+      "end": "16:00",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9418,8 +9418,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:30",
-      "end": "15:40",
+      "start": "16:00",
+      "end": "16:10",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9437,8 +9437,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:40",
-      "end": "15:50",
+      "start": "16:10",
+      "end": "16:20",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9456,8 +9456,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "15:50",
-      "end": "16:00",
+      "start": "16:20",
+      "end": "16:30",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9475,8 +9475,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:00",
-      "end": "16:10",
+      "start": "16:30",
+      "end": "16:40",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9494,8 +9494,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:10",
-      "end": "16:20",
+      "start": "16:40",
+      "end": "16:50",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9513,8 +9513,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "16:20",
-      "end": "16:30",
+      "start": "16:50",
+      "end": "17:00",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 1",
       "teams": [
@@ -9532,8 +9532,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:00",
-      "end": "14:10",
+      "start": "14:30",
+      "end": "14:40",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
@@ -9551,8 +9551,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:10",
-      "end": "14:20",
+      "start": "14:40",
+      "end": "14:50",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
@@ -9570,8 +9570,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:20",
-      "end": "14:30",
+      "start": "14:50",
+      "end": "15:00",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
@@ -9589,8 +9589,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:30",
-      "end": "14:40",
+      "start": "15:00",
+      "end": "15:10",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
@@ -9608,8 +9608,8 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:40",
-      "end": "14:50",
+      "start": "15:10",
+      "end": "15:20",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
@@ -9627,69 +9627,12 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:50",
-      "end": "15:00",
-      "resource_kind": "arena",
-      "resource_name": "Line - TC \u2013 Arena 2",
-      "teams": [
-        "The Springrolls"
-      ],
-      "divisions": [
-        "Line - TC"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "15:00",
-      "end": "15:10",
-      "resource_kind": "arena",
-      "resource_name": "Line - TC \u2013 Arena 2",
-      "teams": [
-        "Team Jup Line"
-      ],
-      "divisions": [
-        "Line - TC"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
-      "day": "Day2_Fri",
-      "start": "15:10",
-      "end": "15:20",
-      "resource_kind": "arena",
-      "resource_name": "Line - TC \u2013 Arena 2",
-      "teams": [
-        "BMO"
-      ],
-      "divisions": [
-        "Line - TC"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
-      "day": "Day2_Fri",
       "start": "15:20",
       "end": "15:30",
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "RoboCassano26"
+        "The Springrolls"
       ],
       "divisions": [
         "Line - TC"
@@ -9708,7 +9651,7 @@
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "Axiom"
+        "Team Jup Line"
       ],
       "divisions": [
         "Line - TC"
@@ -9727,7 +9670,7 @@
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "KING JULIAN"
+        "BMO"
       ],
       "divisions": [
         "Line - TC"
@@ -9746,7 +9689,7 @@
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "Hermes"
+        "RoboCassano26"
       ],
       "divisions": [
         "Line - TC"
@@ -9765,7 +9708,7 @@
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "RC Tech"
+        "Axiom"
       ],
       "divisions": [
         "Line - TC"
@@ -9784,7 +9727,7 @@
       "resource_kind": "arena",
       "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "ISIS VALDARNO - AGEM"
+        "KING JULIAN"
       ],
       "divisions": [
         "Line - TC"
@@ -9798,15 +9741,15 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:00",
-      "end": "14:10",
+      "start": "16:20",
+      "end": "16:30",
       "resource_kind": "arena",
-      "resource_name": "Line Entry - TC \u2013 Arena 2",
+      "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "Leerzeichen"
+        "Hermes"
       ],
       "divisions": [
-        "Line Entry - TC"
+        "Line - TC"
       ],
       "languages": [
         ""
@@ -9817,15 +9760,15 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:10",
-      "end": "14:20",
+      "start": "16:30",
+      "end": "16:40",
       "resource_kind": "arena",
-      "resource_name": "Line Entry - TC \u2013 Arena 2",
+      "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "Mc Qeen 95 - IcTn3"
+        "RC Tech"
       ],
       "divisions": [
-        "Line Entry - TC"
+        "Line - TC"
       ],
       "languages": [
         ""
@@ -9836,15 +9779,15 @@
     },
     {
       "day": "Day2_Fri",
-      "start": "14:20",
-      "end": "14:30",
+      "start": "16:40",
+      "end": "16:50",
       "resource_kind": "arena",
-      "resource_name": "Line Entry - TC \u2013 Arena 2",
+      "resource_name": "Line - TC \u2013 Arena 2",
       "teams": [
-        "PG_bern964"
+        "ISIS VALDARNO - AGEM"
       ],
       "divisions": [
-        "Line Entry - TC"
+        "Line - TC"
       ],
       "languages": [
         ""
@@ -9860,7 +9803,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "VK964"
+        "Leerzeichen"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -9879,7 +9822,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Jeuf"
+        "Mc Qeen 95 - IcTn3"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -9898,7 +9841,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "ANDROIDI"
+        "PG_bern964"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -9917,7 +9860,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Ninja Turtles"
+        "VK964"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -9936,7 +9879,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Les M\u00e9t\u00e9ors"
+        "Jeuf"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -9955,7 +9898,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Balmazrobot"
+        "ANDROIDI"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -9974,7 +9917,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Die Grafen"
+        "Ninja Turtles"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -9993,7 +9936,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Team G\u00fcnther 7"
+        "Les M\u00e9t\u00e9ors"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -10012,7 +9955,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Burger Kong"
+        "Balmazrobot"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -10031,7 +9974,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "Pinky and the pinkies"
+        "Die Grafen"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -10050,7 +9993,7 @@
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
-        "The bobbers"
+        "Team G\u00fcnther 7"
       ],
       "divisions": [
         "Line Entry - TC"
@@ -10066,6 +10009,63 @@
       "day": "Day2_Fri",
       "start": "16:20",
       "end": "16:30",
+      "resource_kind": "arena",
+      "resource_name": "Line Entry - TC \u2013 Arena 2",
+      "teams": [
+        "Burger Kong"
+      ],
+      "divisions": [
+        "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "16:30",
+      "end": "16:40",
+      "resource_kind": "arena",
+      "resource_name": "Line Entry - TC \u2013 Arena 2",
+      "teams": [
+        "Pinky and the pinkies"
+      ],
+      "divisions": [
+        "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "16:40",
+      "end": "16:50",
+      "resource_kind": "arena",
+      "resource_name": "Line Entry - TC \u2013 Arena 2",
+      "teams": [
+        "The bobbers"
+      ],
+      "divisions": [
+        "Line Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day2_Fri",
+      "start": "16:50",
+      "end": "17:00",
       "resource_kind": "arena",
       "resource_name": "Line Entry - TC \u2013 Arena 2",
       "teams": [
@@ -10943,7 +10943,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam \u2013 Arena 1",
       "teams": [
-        "NLO Rescue,MezaMaze"
+        "NLO Rescue,Team Jup Maze"
       ],
       "divisions": [
         "Rescue SuperTeam"
