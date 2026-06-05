@@ -11279,25 +11279,6 @@
       ]
     },
     {
-      "day": "Day3_Sat",
-      "start": "10:20",
-      "end": "10:30",
-      "resource_kind": "arena",
-      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
-      "teams": [
-        "Bratnudeln,Ninja Turtles"
-      ],
-      "divisions": [
-        "Rescue SuperTeam Entry"
-      ],
-      "languages": [
-        ""
-      ],
-      "institutions": [
-        ""
-      ]
-    },
-    {
       "day": "Day1_Thu",
       "start": "11:15",
       "end": "11:30",
