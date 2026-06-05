@@ -1,5 +1,5 @@
 {
-  "info": "Soccer: see schedule at https://catigoal.com/RCJE26/matches\nRescue:\n - SuperTeam assignments corrected.\n - Challenge rules: https://drive.google.com/drive/folders/16YNZ1BR9bxmKO6lrLPqf7d_wZQXWeOXL\n OnStage: Interviews opposite the OnStage traning area\nlast schedule update 2026-06-05 15:16 CEST",
+  "info": "Soccer: see schedule at https://catigoal.com/RCJE26/matches\nRescue:\n - SuperTeam assignments corrected. Signup temporarily reopened till 16:00: https://forms.gle/GcBbnRfDLQ4gRfZk7\n - Challenge rules: https://drive.google.com/drive/folders/16YNZ1BR9bxmKO6lrLPqf7d_wZQXWeOXL\n OnStage: Interviews opposite the OnStage traning area\nlast schedule update 2026-06-05 15:16 CEST",
   "meta": {
     "divisions": {
       "Line": {
@@ -10757,6 +10757,25 @@
       ],
       "divisions": [
         "Maze Entry - TC"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "08:50",
+      "end": "09:00",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam \u2013 Arena 1",
+      "teams": [
+        "\u0160kolska Knjiga CRO,Backfeed"
+      ],
+      "divisions": [
+        "Rescue SuperTeam"
       ],
       "languages": [
         ""
