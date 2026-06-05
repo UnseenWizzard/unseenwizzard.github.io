@@ -1,5 +1,5 @@
 {
-  "info": "Soccer: see schedule at https://catigoal.com/RCJE26/matches\nRescue:\n - SuperTeam assignments corrected. Signup temporarily reopened till 16:00: https://forms.gle/GcBbnRfDLQ4gRfZk7\n - Challenge rules: https://drive.google.com/drive/folders/16YNZ1BR9bxmKO6lrLPqf7d_wZQXWeOXL\n OnStage: Interviews opposite the OnStage traning area\nlast schedule update 2026-06-05 15:16 CEST",
+  "info": "Soccer: see schedule at https://catigoal.com/RCJE26/matches\nRescue:\n - SuperTeam assignments updated!\n - Challenge rules: https://drive.google.com/drive/folders/16YNZ1BR9bxmKO6lrLPqf7d_wZQXWeOXL\n OnStage: Interviews opposite the OnStage traning area\nlast schedule update 2026-06-05 17:03 CEST",
   "meta": {
     "divisions": {
       "Line": {
@@ -11247,7 +11247,7 @@
       "resource_kind": "arena",
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
       "teams": [
-        "M-I-E","Pharaohs","Rapatac Sandviken"
+        "M-I-E","Pharaohs","Rapatac Sandviken","Jeuf"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
@@ -11286,6 +11286,25 @@
       "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
       "teams": [
         "Kreep's","Mc Qeen 95 - IcTn3","Discovery Mraweh"
+      ],
+      "divisions": [
+        "Rescue SuperTeam Entry"
+      ],
+      "languages": [
+        ""
+      ],
+      "institutions": [
+        ""
+      ]
+    },
+    {
+      "day": "Day3_Sat",
+      "start": "10:20",
+      "end": "10:30",
+      "resource_kind": "arena",
+      "resource_name": "Rescue SuperTeam Entry \u2013 Arena 2",
+      "teams": [
+        "Mazetrix Vienna", "RC Tech"
       ],
       "divisions": [
         "Rescue SuperTeam Entry"
